@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/eco-project-front%20/static/css/main.099ce735.chunk.css",
-    "main.js": "/eco-project-front%20/static/js/main.f87da716.chunk.js",
-    "main.js.map": "/eco-project-front%20/static/js/main.f87da716.chunk.js.map",
-    "runtime-main.js": "/eco-project-front%20/static/js/runtime-main.61eb15ef.js",
-    "runtime-main.js.map": "/eco-project-front%20/static/js/runtime-main.61eb15ef.js.map",
-    "static/css/2.11829350.chunk.css": "/eco-project-front%20/static/css/2.11829350.chunk.css",
-    "static/js/2.dca8de7f.chunk.js": "/eco-project-front%20/static/js/2.dca8de7f.chunk.js",
-    "static/js/2.dca8de7f.chunk.js.map": "/eco-project-front%20/static/js/2.dca8de7f.chunk.js.map",
-    "index.html": "/eco-project-front%20/index.html",
-    "precache-manifest.47ce561c404477620f0a02b3555235c0.js": "/eco-project-front%20/precache-manifest.47ce561c404477620f0a02b3555235c0.js",
-    "service-worker.js": "/eco-project-front%20/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/eco-project-front%20/static/css/2.11829350.chunk.css.map",
-    "static/css/main.099ce735.chunk.css.map": "/eco-project-front%20/static/css/main.099ce735.chunk.css.map",
-    "static/js/2.dca8de7f.chunk.js.LICENSE.txt": "/eco-project-front%20/static/js/2.dca8de7f.chunk.js.LICENSE.txt"
+    "main.css": "/eco-project-front/static/css/main.099ce735.chunk.css",
+    "main.js": "/eco-project-front/static/js/main.280706ad.chunk.js",
+    "main.js.map": "/eco-project-front/static/js/main.280706ad.chunk.js.map",
+    "runtime-main.js": "/eco-project-front/static/js/runtime-main.035ceb54.js",
+    "runtime-main.js.map": "/eco-project-front/static/js/runtime-main.035ceb54.js.map",
+    "static/css/2.11829350.chunk.css": "/eco-project-front/static/css/2.11829350.chunk.css",
+    "static/js/2.dca8de7f.chunk.js": "/eco-project-front/static/js/2.dca8de7f.chunk.js",
+    "static/js/2.dca8de7f.chunk.js.map": "/eco-project-front/static/js/2.dca8de7f.chunk.js.map",
+    "index.html": "/eco-project-front/index.html",
+    "precache-manifest.a18e2fb7f7e978c3a0902715eec1f19f.js": "/eco-project-front/precache-manifest.a18e2fb7f7e978c3a0902715eec1f19f.js",
+    "service-worker.js": "/eco-project-front/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/eco-project-front/static/css/2.11829350.chunk.css.map",
+    "static/css/main.099ce735.chunk.css.map": "/eco-project-front/static/css/main.099ce735.chunk.css.map",
+    "static/js/2.dca8de7f.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.dca8de7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.61eb15ef.js",
+    "static/js/runtime-main.035ceb54.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.dca8de7f.chunk.js",
     "static/css/main.099ce735.chunk.css",
-    "static/js/main.f87da716.chunk.js"
+    "static/js/main.280706ad.chunk.js"
   ]
 }
