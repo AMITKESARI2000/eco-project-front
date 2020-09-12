@@ -29,7 +29,7 @@ const PhotoCarousel = () => {
           <img
             className="imageFeatured-PhotoCarousel"
             src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
-            alt="Third slide"
+            alt="Second slide"
           />
 
           <Carousel.Caption>
