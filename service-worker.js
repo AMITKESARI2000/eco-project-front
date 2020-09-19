@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eco-project-front/precache-manifest.a18e2fb7f7e978c3a0902715eec1f19f.js"
+  "/eco-project-front/precache-manifest.4c9e27fb5d31f80b59c1dcc9f6a8cf2e.js"
 );
 
 self.addEventListener('message', (event) => {
