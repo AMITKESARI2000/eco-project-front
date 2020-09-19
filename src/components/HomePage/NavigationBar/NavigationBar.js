@@ -1,33 +1,41 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import "./NavigationBar.css"
+import { Link, NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
   return (
-    <div>
+    <div className="nav-container-NavigationBar underline-NavigationBar">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">WASTE MANAGEMENT</Navbar.Brand>
+        <Navbar.Brand className="main-web-name-NavigationBar">
+          <NavLink to="/home">WASTE MANAGEMENT IIT Tirupati</NavLink>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">About Us</Nav.Link>
-            <Nav.Link href="#pricing">Games</Nav.Link>
-            <NavDropdown title="Post" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <NavLink className="nav-link-NavigationBar " to="/home">
+              Home
+            </NavLink>
+            <NavLink className="nav-link-NavigationBar " to="/polpredict">
+              Polution Predictor
+            </NavLink>
+            <NavLink className="nav-link-NavigationBar " to="/aboutus">
+              About Us
+            </NavLink>
+            <NavLink className="nav-link-NavigationBar " to="/games">
+              Games
+            </NavLink>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+            <NavLink className="nav-link-NavigationBar " to="/blogs">
+              Blogs
+            </NavLink>
+            <NavLink className="nav-link-NavigationBar " to="/funfacts">
+              Fun Facts
+            </NavLink>
+            <NavLink className="nav-link-NavigationBar " to="/memes">
+              Memes
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

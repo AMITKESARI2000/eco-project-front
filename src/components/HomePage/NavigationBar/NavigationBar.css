@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+/* ==== NAVIGATION CONTAINER ==== */
+.nav-container-NavigationBar {
+  background-color: #201f1e;
+  opacity: 0.97;
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  position: sticky;
+  z-index: 100;
+  margin-bottom: 3%;
+  padding: 0 2em;
+}
+
+/* ==== Waste Management IIT Tirupati BRAND NAME ==== */
+
+.main-web-name-NavigationBar {
+  font-size: 190%;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 185, 214),
+    rgb(3, 167, 177),
+    rgb(3, 163, 137)
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* ==== NAVIGATION LINKS ==== */
+
+.navigation {
+  box-sizing: border-box;
+}
+/* NavLink Styling */
+a.nav-link-Navigation,
+.nav-dropdown-Navigation {
+  display: inline-block;
+  position: relative;
+  font-size: 120%;
+  margin: 0 0.8em;
+  white-space: nowrap;
+}
+
+a.nav-link-Navigation {
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  margin: 0 0.8em;
+}
+a.nav-link-Navigation:hover,
+a.nav-link-Navigation.active {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+/* ==== MEDIA QUERIES ==== */
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1080px) {
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 358px) {
+}
+
+@media only screen and (max-width: 480px) and (min-width: 360px) {
+}
+@media (min-width: 992px) {
+}
