@@ -1,0 +1,64 @@
+.game-area {
+  position: relative;
+  margin: 50px auto;
+  width: 1000px;
+  height: 800px;
+  background-color: greenyellow;
+  border: 5px solid #000000;
+}
+.game-content {
+  position: relative;
+  margin: 50px auto;
+  background-color: gold;
+  text-align: center;
+  width: 900px;
+  height: auto;
+  font-size: 30px;
+}
+.snake-pos {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: brown;
+  border: 1px solid white;
+}
+.buttons {
+  text-align: center;
+  margin: 10px;
+}
+
+.button1 {
+  background-color: #27d810;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 30px;
+} /* Green */
+.button2 {
+  background-color: #2d40e7;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 30px;
+} /* Blue */
+.button3 {
+  background-color: #f51000;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 30px;
+}
+.Worm {
+  position: relative;
+  margin: 50px 450px;
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+}
+.snake-food {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: black;
+  border: 1px solid white;
+}
