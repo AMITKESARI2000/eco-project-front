@@ -162,6 +162,8 @@ class SnakeGame extends Component {
         </div>
 
         <p className="game-content">
+
+          jai hind decomposition
           Vermicompost (vermi-compost) is the product of the decomposition process using various species of worms, usually red wigglers, white worms, and other earthworms, to create a mixture of decomposing vegetable or food waste, bedding materials, and vermicast. This process is called vermicompost, while the rearing of worms for this purpose is called vermiculture.
 
           Vermicast (also called worm castings, worm humus, worm manure, or worm faeces) is the end-product of the breakdown of organic matter by earthworms.[1] These castings have been shown to contain reduced levels of contaminants and a higher saturation of nutrients than the organic materials before vermicomposting.[2]
