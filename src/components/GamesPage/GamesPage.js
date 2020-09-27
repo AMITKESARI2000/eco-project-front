@@ -6,6 +6,7 @@ const GamesPage = () => {
   return (
     <div>
       <NavigationBar />
+    <p>Hi</p>
       <SnakeGame />
     </div>
   );
