@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/eco-project-front/static/css/main.e3d63f9d.chunk.css",
-    "main.js": "/eco-project-front/static/js/main.8b8dffe8.chunk.js",
-    "main.js.map": "/eco-project-front/static/js/main.8b8dffe8.chunk.js.map",
+    "main.css": "/eco-project-front/static/css/main.e0654e54.chunk.css",
+    "main.js": "/eco-project-front/static/js/main.c8b9ff6c.chunk.js",
+    "main.js.map": "/eco-project-front/static/js/main.c8b9ff6c.chunk.js.map",
     "runtime-main.js": "/eco-project-front/static/js/runtime-main.035ceb54.js",
     "runtime-main.js.map": "/eco-project-front/static/js/runtime-main.035ceb54.js.map",
     "static/css/2.3f1f1bc9.chunk.css": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.ad2f94de.chunk.js": "/eco-project-front/static/js/2.ad2f94de.chunk.js",
-    "static/js/2.ad2f94de.chunk.js.map": "/eco-project-front/static/js/2.ad2f94de.chunk.js.map",
+    "static/js/2.c8e18d38.chunk.js": "/eco-project-front/static/js/2.c8e18d38.chunk.js",
+    "static/js/2.c8e18d38.chunk.js.map": "/eco-project-front/static/js/2.c8e18d38.chunk.js.map",
     "index.html": "/eco-project-front/index.html",
-    "precache-manifest.149ba650ffcd2c329af067db5af070f7.js": "/eco-project-front/precache-manifest.149ba650ffcd2c329af067db5af070f7.js",
+    "precache-manifest.a84cbdf9e477858004872af40ea3ed37.js": "/eco-project-front/precache-manifest.a84cbdf9e477858004872af40ea3ed37.js",
     "service-worker.js": "/eco-project-front/service-worker.js",
     "static/css/2.3f1f1bc9.chunk.css.map": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css.map",
-    "static/css/main.e3d63f9d.chunk.css.map": "/eco-project-front/static/css/main.e3d63f9d.chunk.css.map",
-    "static/js/2.ad2f94de.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.ad2f94de.chunk.js.LICENSE.txt"
+    "static/css/main.e0654e54.chunk.css.map": "/eco-project-front/static/css/main.e0654e54.chunk.css.map",
+    "static/js/2.c8e18d38.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.c8e18d38.chunk.js.LICENSE.txt",
+    "static/media/earthworm_image.jpg": "/eco-project-front/static/media/earthworm_image.95b64810.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.035ceb54.js",
     "static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.ad2f94de.chunk.js",
-    "static/css/main.e3d63f9d.chunk.css",
-    "static/js/main.8b8dffe8.chunk.js"
+    "static/js/2.c8e18d38.chunk.js",
+    "static/css/main.e0654e54.chunk.css",
+    "static/js/main.c8b9ff6c.chunk.js"
   ]
 }
