@@ -1,0 +1,26 @@
+.container-PredictPol {
+  margin-top: 3em;
+  position: relative;
+  width: 100%;
+}
+.header-PredictPol {
+  font-size: 5rem;
+  text-decoration: underline;
+}
+.sideBySide-PredictPol {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.image-PredictPol {
+  width: 55%;
+
+  padding: 1em;
+}
+.text-PredictPol {
+  padding: 2em 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

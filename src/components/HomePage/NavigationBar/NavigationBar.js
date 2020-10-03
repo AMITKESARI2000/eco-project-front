@@ -1,18 +1,19 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import "./NavigationBar.css"
+import './NavigationBar.css';
 import { Link, NavLink } from 'react-router-dom';
 
 const NavigationBar = () => {
   return (
     <div className="nav-container-NavigationBar underline-NavigationBar">
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" variant="dark">
         <Navbar.Brand className="main-web-name-NavigationBar">
-          <NavLink to="/home">WASTE MANAGEMENT IIT Tirupati</NavLink>
+          <NavLink to="/home">WASTE MANAGEMENT IIT TIRUPATI</NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto"></Nav>
+          <Nav>
             <NavLink className="nav-link-NavigationBar " to="/home">
               Home
             </NavLink>
@@ -25,8 +26,6 @@ const NavigationBar = () => {
             <NavLink className="nav-link-NavigationBar " to="/games">
               Games
             </NavLink>
-          </Nav>
-          <Nav>
             <NavLink className="nav-link-NavigationBar " to="/blogs">
               Blogs
             </NavLink>

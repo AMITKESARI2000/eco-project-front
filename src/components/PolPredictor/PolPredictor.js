@@ -1,13 +1,13 @@
 import React from 'react';
 import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
-
+import "./PolPredictor.css"
 
 const PolPredictor = () => {
   return (
     <div>
       <NavigationBar />
       
-      <p>
+      <p className="Textarea">
           PP
         dummy text ====\/ Why React-Bootstrap? React-Bootstrap is a complete
         re-implementation of the Bootstrap components using React. It has no

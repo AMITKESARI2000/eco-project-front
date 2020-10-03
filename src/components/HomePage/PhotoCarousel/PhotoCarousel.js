@@ -12,8 +12,9 @@ const PhotoCarousel = () => {
     data: [],
   });
   return (
-    <div>
-      <Carousel {...state} className="container-PhotoCarousel">
+    <div className="container-PhotoCarousel">
+      <h2 className="header-PhotoCarousel">Featured</h2>
+      <Carousel {...state} className="carousal-PhotoCarousel">
         <Carousel.Item>
           <img
             className="imageFeatured-PhotoCarousel"
