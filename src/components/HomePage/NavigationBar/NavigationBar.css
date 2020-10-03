@@ -3,8 +3,8 @@
 /* ==== NAVIGATION CONTAINER ==== */
 .nav-container-NavigationBar,
 .navbar {
-  /* background: linear-gradient(0.9deg, #a8e6cf, #ffd3b6,#35a79c); */
-  background-color: #f172a1;
+  background: linear-gradient(-9deg, #f34998, #f172a1);
+  /* background-color: #f172a1; */
   opacity: 0.98;
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
   position: sticky;
@@ -29,6 +29,7 @@
 /* ==== Waste Management IIT Tirupati BRAND NAME ==== */
 
 .main-web-name-NavigationBar {
+  margin-bottom: 0.1em;
   height: 2.3em;
   padding: 0 0.5em;
   font-size: 200%;
