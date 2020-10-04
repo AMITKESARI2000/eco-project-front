@@ -1,0 +1,423 @@
+.ProjectFooter .wrapper {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 147, 223, 0.4) 0%,
+    rgba(218, 125, 218, 0.4) 100%
+  );
+  border-top: 1px solid #605e5c;
+
+  color: #3b3838;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  margin-top: 5%;
+}
+
+.ProjectFooter {
+  margin-top: 15%;
+}
+
+.ProjectFooter .quickLinks {
+  font-size: larger;
+  position: relative;
+  top: 5px;
+}
+
+.ProjectFooter .faq p {
+  position: relative;
+  left: 15%;
+}
+
+.ProjectFooter .infa p {
+  position: relative;
+  left: 11%;
+}
+
+.ProjectFooter .all a {
+  position: relative;
+  top: 10%;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.ProjectFooter .all a:hover {
+  font-weight: 900;
+}
+.ProjectFooter .all a {
+  position: relative;
+  display: block;
+  top: 10%;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 3px;
+  color: #3b3838;
+  font-family: Roboto, sans-serif;
+}
+.ProjectFooter .all a:hover {
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.ProjectFooter .fac p {
+  position: relative;
+  left: 5%;
+}
+
+.ProjectFooter .cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ProjectFooter .lower-two {
+  font-size: 16px;
+  text-align: center;
+}
+
+.ProjectFooter .connect {
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+}
+
+.ProjectFooter .icn {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.ProjectFooter .youtube {
+  font-size: 27px;
+  position: relative;
+  top: -2px;
+}
+
+.ProjectFooter .icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ProjectFooter .lower-three {
+  font-size: 12px;
+  text-align: left;
+}
+
+.ProjectFooter .lower-three p {
+  position: relative;
+  top: 10px;
+}
+
+@media (max-width: 890px) and (min-width: 768px) {
+  .ProjectFooter .all a {
+    font-size: 11px;
+  }
+
+  .ProjectFooter .lower-three p {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-two {
+    font-size: 14px;
+  }
+
+  .ProjectFooter .lower-two p {
+    font-size: 14px;
+  }
+
+  .ProjectFooter .lower-two strong {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 640px) {
+  .ProjectFooter .quickLinks {
+    display: none;
+  }
+
+  .ProjectFooter .youtube {
+    position: relative;
+    top: -2px;
+  }
+
+  .ProjectFooter .all a {
+    font-size: 12px;
+  }
+
+  .ProjectFooter .connect {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-three p {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .lower-two {
+    font-size: 12px;
+  }
+
+  .ProjectFooter .lower-two p {
+    font-size: 12px;
+  }
+
+  .ProjectFooter .lower-two strong {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 640px) and (min-width: 576px) {
+  .ProjectFooter .quickLinks {
+    display: none;
+  }
+
+  .ProjectFooter .all a {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .youtube {
+    font-size: 24px;
+    position: relative;
+    top: 1px;
+  }
+
+  .ProjectFooter .icn {
+    font-size: 20px;
+  }
+
+  .ProjectFooter .connect {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .lower-three p {
+    font-size: 7px;
+  }
+
+  .ProjectFooter .lower-two {
+    font-size: 11px;
+  }
+
+  .ProjectFooter .lower-two p {
+    font-size: 11px;
+  }
+
+  .ProjectFooter .lower-two strong {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 575px) and (min-width: 522px) {
+  .ProjectFooter .quickLinks {
+    display: none;
+  }
+
+  .ProjectFooter .fac {
+    display: none;
+  }
+
+  .ProjectFooter .youtube {
+    font-size: 24px;
+    position: relative;
+    top: 1px;
+  }
+
+  .ProjectFooter .icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ProjectFooter .icn {
+    margin: 5px;
+  }
+
+  .ProjectFooter .all a {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .icn {
+    font-size: 20px;
+  }
+
+  .ProjectFooter .connect {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-three p {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .lower-two {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-two p {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-two strong {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .bt {
+    margin: 5px;
+  }
+
+  .ProjectFooter .lower-three {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+  }
+}
+
+@media (max-width: 522px) and (min-width: 400px) {
+  .ProjectFooter .quickLinks {
+    display: none;
+  }
+
+  .ProjectFooter .youtube {
+    font-size: 26px;
+    position: relative;
+    top: 1px;
+  }
+
+  .ProjectFooter .fac {
+    display: none;
+  }
+
+  .ProjectFooter .icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ProjectFooter .icn {
+    margin: 5px;
+  }
+
+  .ProjectFooter .all a {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .icn {
+    font-size: 20px;
+  }
+
+  .ProjectFooter .connect {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-three p {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .lower-two {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-two p {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-two strong {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .bt {
+    margin: 5px;
+  }
+
+  .ProjectFooter .lower-three {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ProjectFooter .bt {
+    margin: 2px;
+  }
+  .desktopProjectFooter {
+    display: none;
+  }
+
+  .ProjectFooter .lower-three {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+  }
+
+  .ProjectFooter .youtube {
+    font-size: 22px;
+    position: relative;
+    top: 1px;
+  }
+
+  .ProjectFooter .icn {
+    margin: 5px;
+  }
+
+  .ProjectFooter .icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ProjectFooter .fac {
+    display: none;
+  }
+  .ProjectFooter .quickLinks {
+    display: none;
+  }
+
+  .ProjectFooter .all a {
+    font-size: 12px;
+    margin-top: 2%;
+  }
+
+  .ProjectFooter .icn {
+    font-size: 15px;
+  }
+
+  .ProjectFooter .connect {
+    font-size: 10px;
+  }
+
+  .ProjectFooter .lower-three p {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .lower-two {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .lower-two p {
+    font-size: 9px;
+  }
+
+  .ProjectFooter .lower-two strong {
+    font-size: 9px;
+  }
+  .ProjectFooter .cont {
+    flex-direction: column;
+  }
+}
+
+.ProjectFooter .lower-one {
+  text-align: center;
+}
+
+.ProjectFooter .heart {
+  display: inline-flex;
+  font-size: 20px;
+  color: red;
+}
+
+.ProjectFooter .techhub {
+  margin-top: -10px;
+}
+
+@media (max-width: 992px) {
+  .ProjectFooter .all .CalendarLink-ProjectFooter {
+    display: none;
+  }
+}

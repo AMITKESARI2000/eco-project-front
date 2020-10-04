@@ -1,0 +1,39 @@
+.container-PredictorContent {
+  top: 6em;
+  position: relative;
+}
+.header-PredictorContent {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+}
+.sideBySide-PredictorContent {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-PredictorContent {
+  position: relative;
+  width: 60%;
+  margin: auto;
+
+  padding: 1em;
+}
+.buttons-PredictorContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.text-PredictorContent {
+  margin-top: 2em;
+  background: linear-gradient(2deg, rgb(164, 196, 164), rgb(62, 103, 179));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  padding: 2em 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
