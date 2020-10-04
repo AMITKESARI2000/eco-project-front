@@ -36,17 +36,21 @@ class SnakeGame extends Component {
     e = e || window.event;
     switch (e.keyCode) {
       case 87:
-        this.setState ({direction: 'UP'});
+        if (this.state.direction !== 'DOWN') this.setState ({direction: 'UP'});
         break;
       case 83:
-        this.setState ({direction: 'DOWN'});
+        if (this.state.direction !== 'UP') this.setState ({direction: 'DOWN'});
         break;
       case 65:
-        this.setState ({direction: 'LEFT'});
+        if (this.state.direction !== 'RIGHT')
+          this.setState ({direction: 'LEFT'});
         break;
       case 68:
-        this.setState ({direction: 'RIGHT'});
+        if (this.state.direction !== 'LEFT')
+          this.setState ({direction: 'RIGHT'});
         break;
+      default:
+        console.log ('samajh jao kaha ho');
     }
   };
 
@@ -67,6 +71,8 @@ class SnakeGame extends Component {
         case 'DOWN':
           head = [head[0], head[1] + 2];
           break;
+        default:
+          console.log ('samajh jao kaha ho!!!');
       }
       sn.push (head);
       sn.shift ();
@@ -123,7 +129,7 @@ class SnakeGame extends Component {
   increaseSpeed = () => {
     if (this.state.speed < 500) {
       this.setState ({
-        speed: this.state.speed + 5,
+        speed: this.state.speed + 7,
       });
     }
   };
@@ -142,10 +148,7 @@ class SnakeGame extends Component {
           width="1000"
           height="600"
         />
-        {' '}
-
-        {' '}
-        /*<div className="buttons">
+        <div className="buttons">
           <button value="Start" className="button1" onClick={this.startGame}>
             Start Game
           </button>
@@ -162,13 +165,26 @@ class SnakeGame extends Component {
         </div>
 
         <p className="game-content">
+          Vermicompost (vermi-compost) is the product of the decomposition process using various species
+          {' '}
+          of worms, usually red wigglers, white worms,
+          and other earthworms, to create a mixture of decomposing vegetable or food waste, bedding materials,
+          {' '}
+          and vermicast. This process is called vermicompost, while the rearing of worms for this purpose
+          is called vermiculture.
 
-          jai hind decomposition
-          Vermicompost (vermi-compost) is the product of the decomposition process using various species of worms, usually red wigglers, white worms, and other earthworms, to create a mixture of decomposing vegetable or food waste, bedding materials, and vermicast. This process is called vermicompost, while the rearing of worms for this purpose is called vermiculture.
+          Vermicast (also called worm castings, worm humus, worm manure, or worm faeces) is the
+          {' '}
+          end-product of the breakdown of organic matter by earthworms.[1] These castings have been shown to contain
+          reduced levels of contaminants and a higher saturation of nutrients than
+          {' '}
+          the organic materials before vermicomposting.[2]
 
-          Vermicast (also called worm castings, worm humus, worm manure, or worm faeces) is the end-product of the breakdown of organic matter by earthworms.[1] These castings have been shown to contain reduced levels of contaminants and a higher saturation of nutrients than the organic materials before vermicomposting.[2]
-
-          Vermicompost contains water-soluble nutrients and is an excellent, nutrient-rich organic fertilizer and soil conditioner.[3] It is used in farming and small scale sustainable, organic farming.
+          Vermicompost contains water-soluble nutrients and is an excellent, nutrient-rich
+          {' '}
+          organic fertilizer and soil conditioner.[3] It is used in farming and small scale sustainable,
+          {' '}
+          organic farming.
         </p>
       </div>
     );

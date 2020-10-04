@@ -1,10 +1,13 @@
 .game-area {
   position: relative;
   margin: 50px auto;
+
   width: 1000px;
+  max-width: 100%;
   height: 800px;
   background-color: greenyellow;
   border: 5px solid #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .game-content {
   position: relative;
@@ -12,6 +15,7 @@
   background-color: gold;
   text-align: center;
   width: 900px;
+  max-width: 100%;
   height: auto;
   font-size: 30px;
 }
@@ -49,12 +53,22 @@
   margin: 30px;
 }
 .Worm {
+  transition: transform 0.2s;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
-  margin: 50px 450px;
-  display: 'flex';
-  justify-content: 'center';
-  align-items: 'center';
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
 }
+
+.Worm:hover {
+  size: 1.2em;
+}
+
 .snake-food {
   position: absolute;
   width: 2%;
