@@ -8,10 +8,11 @@
   opacity: 0.98;
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
   position: sticky;
+  top: -1px;
   z-index: 100;
   margin: 0;
   padding: 0.5em;
-  position: fixed;
+  position: sticky;
   width: 100%;
   display: flex;
   justify-content: center;

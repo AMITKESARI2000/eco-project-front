@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Exercise = ({ exercise, deleteExercise }) => {
+const Blog = ({ exercise, deleteExercise }) => {
   return (
     <tr>
       <td>{exercise.username}</td>
@@ -11,7 +11,7 @@ const Exercise = ({ exercise, deleteExercise }) => {
       <td>
         <Link to={'/edit/' + exercise._id}>edit</Link> |{' '}
         <a
-          href="#"
+          href="/"
           onClick={() => {
             deleteExercise(exercise._id);
           }}
@@ -22,4 +22,4 @@ const Exercise = ({ exercise, deleteExercise }) => {
     </tr>
   );
 };
-export default Exercise;
+export default Blog;

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Exercise from './Exercise.component';
+import Blog from './Blog.component';
+import "./BlogsList.css"
 
-class ExercisesList extends Component {
+class BlogsList extends Component {
   constructor(props) {
     super(props);
     this.state = { exercises: [] };
@@ -28,8 +29,8 @@ class ExercisesList extends Component {
 
   render() {
     return (
-      <div>
-        <h3>Logged Exercises</h3>
+      <div className="container-BlogsList">
+        <h3>Logged Blogs</h3>
         <table className="table">
           <thead className="thead-light">
             <tr>
@@ -43,7 +44,7 @@ class ExercisesList extends Component {
           <tbody>
             {this.state.exercises.map((currentexercise) => {
               return (
-                <Exercise
+                <Blog
                   exercise={currentexercise}
                   deleteExercise={this.deleteExercise}
                   key={currentexercise._id}
@@ -56,4 +57,4 @@ class ExercisesList extends Component {
     );
   }
 }
-export default ExercisesList;
+export default BlogsList;
