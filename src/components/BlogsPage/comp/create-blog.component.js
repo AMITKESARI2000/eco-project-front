@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import { createHashHistory } from 'history';
+
+const history = createHashHistory();
 
 export default class CreateBlog extends Component {
   constructor(props) {
@@ -53,7 +56,8 @@ export default class CreateBlog extends Component {
 
     axios
       .post(`${process.env.REACT_APP_BASE_URL}/exercises/add`, exercise)
-      .then(() => (window.location = '/'))
+      .then(() => this.props.history.push('/blogs'))
+      // .then(() => window.history.back())
       .catch((err) => console.log(`Error: ${err}`));
   };
 
@@ -114,7 +118,7 @@ export default class CreateBlog extends Component {
           <div className="form-group">
             <input
               type="submit"
-              value="Create Exercise Log"
+              value="Create Blog"
               className="btn btn-primary"
             />
           </div>

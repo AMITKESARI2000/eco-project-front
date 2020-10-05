@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Blog from './Blog.component';
-import "./BlogsList.css"
+import './BlogsList.css';
 
 class BlogsList extends Component {
   constructor(props) {
@@ -17,10 +17,11 @@ class BlogsList extends Component {
       .catch((err) => console.log(`Error: ${err}`));
   }
 
-  deleteExercise = (id) => {
+  deleteExercise = (id, e) => {
+    e.preventDefault();
     axios
       .delete(`${process.env.REACT_APP_BASE_URL}/exercises/${id}`)
-      .then((res) => console.log(res))
+      .then(() => this.props.history.push('/blogs'))
       .catch((err) => console.log(`Error: ${err}`));
     this.setState({
       exercises: this.state.exercises.filter((exercise) => exercise._id !== id),

@@ -12,8 +12,8 @@ const Blog = ({ exercise, deleteExercise }) => {
         <Link to={'/edit/' + exercise._id}>edit</Link> |{' '}
         <a
           href="/"
-          onClick={() => {
-            deleteExercise(exercise._id);
+          onClick={(e) => {
+            deleteExercise(exercise._id,e);
           }}
         >
           delete
