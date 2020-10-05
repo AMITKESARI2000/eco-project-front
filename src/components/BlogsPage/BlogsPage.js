@@ -11,19 +11,17 @@ import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
 
 function BlogsPage() {
   return (
-    <Router>
-      <div className="container-fluid">
-        <NavigationBar />
-        <BlogNavbar />
-        <br />
-        <Switch>
-          <Route path="/blogs" exact component={BlogsList} />
-          <Route path="/blogs/edit/:id" component={EditBlog} />
-          <Route path="/blogs/create" component={CreateBlog} />
-          <Route path="/blogs/user" component={CreateUser} />
-        </Switch>
-      </div>
-    </Router>
+    <div className="container-fluid">
+      <NavigationBar />
+      <BlogNavbar />
+      <br />
+      <Switch>
+        <Route path="/blogs" exact component={BlogsList} />
+        <Route path="/blogs/edit/:id" component={EditBlog} />
+        <Route path="/blogs/create" component={CreateBlog} />
+        <Route path="/blogs/user" component={CreateUser} />
+      </Switch>
+    </div>
   );
 }
 
