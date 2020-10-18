@@ -6,13 +6,14 @@ import PredictorContent from './Predictor Content/PredictorContent';
 import PredictorQuestion from './PredictorQuestion/PredictorQuestion';
 
 const PolPredictorMain = () => {
-  const [viewPage, setViewPage] = useState(1);
+  const [viewPage, setViewPage] = useState(0);
   function renderPage() {
+    // setViewPage(1)
     switch (viewPage) {
       case 0:
-        return <PredictorContent />;
+        return <PredictorContent setViewPage={setViewPage} />;
       case 1:
-        return <PredictorQuestion />;
+        return <PredictorQuestion setViewPage={setViewPage}/>;
       default:
         return <PredictorContent />;
     }
@@ -20,9 +21,9 @@ const PolPredictorMain = () => {
   return (
     <div>
       <NavigationBar />
+
       
       {renderPage()}
-
       <ProjectFooter />
     </div>
   );

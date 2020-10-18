@@ -2,13 +2,13 @@ import React from 'react';
 import { Button, Container, Col, Row } from 'react-bootstrap';
 import './PredictorContent.css';
 
-const PredictorContent = () => {
+const PredictorContent = ({setViewPage}) => {
   return (
     <div className="container-PredictorContent ">
       <div className="sideBySide-PredictorContent">
         <div className="header-PredictorContent">
           <h2>Predict and Detect Pollution </h2>
-          <Button variant="info">Predict Now!</Button>{' '}
+          <Button variant="info" onClick={()=>setViewPage(1)}>Predict Now!</Button>{' '}
         </div>
         <img
           className="image-PredictorContent"
