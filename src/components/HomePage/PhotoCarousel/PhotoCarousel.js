@@ -8,7 +8,7 @@ const PhotoCarousel = () => {
     // fade: true,
     touch: true,
     pause: 'hover',
-    interval: 1000,
+    interval: 500,
     data: [],
   });
   return (
@@ -29,7 +29,7 @@ const PhotoCarousel = () => {
         <Carousel.Item>
           <img
             className="imageFeatured-PhotoCarousel"
-            src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
+            src="https://images.unsplash.com/photo-1582520280765-93dea33f074f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
             alt="Second slide"
           />
 

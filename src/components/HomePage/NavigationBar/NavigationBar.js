@@ -29,9 +29,9 @@ const NavigationBar = () => {
             <NavLink className="nav-link-NavigationBar " to="/blogs/">
               Blogs
             </NavLink>
-            <NavLink className="nav-link-NavigationBar " to="/funfacts">
+            {/* <NavLink className="nav-link-NavigationBar " to="/funfacts">
               Fun Facts
-            </NavLink>
+            </NavLink> */}
             <NavLink className="nav-link-NavigationBar " to="/memes">
               Memes
             </NavLink>

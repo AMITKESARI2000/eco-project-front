@@ -1,18 +1,34 @@
-import React from 'react';
-import { Button, Container, Col, Row } from 'react-bootstrap';
+import React, { useState, useRef } from 'react';
+import { Button, Container, Popover, OverlayTrigger } from 'react-bootstrap';
 import './PredictorContent.css';
 
-const PredictorContent = ({setViewPage}) => {
+const PredictorContent = ({ setViewPage }) => {
+ 
+  const popover = (
+    <Popover id="popover-basic">
+      <Popover.Title as="h3">
+        <strong>Amazing</strong> content
+      </Popover.Title>
+      <Popover.Content>
+        Helps you predict soil pollution through a series of questions
+      </Popover.Content>
+    </Popover>
+  );
   return (
     <div className="container-PredictorContent ">
       <div className="sideBySide-PredictorContent">
         <div className="header-PredictorContent">
           <h2>Predict and Detect Pollution </h2>
-          <Button variant="info" onClick={()=>setViewPage(1)}>Predict Now!</Button>{' '}
+
+          <OverlayTrigger trigger="hover" placement="bottom" overlay={popover}>
+            <Button variant="info" onClick={() => setViewPage(1)}>
+              Predict Now!
+            </Button>
+          </OverlayTrigger>
         </div>
         <img
           className="image-PredictorContent"
-          src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
+          src="https://images.unsplash.com/photo-1568598034003-ec897abcb5f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
           alt="First slide"
         />
       </div>
@@ -33,7 +49,7 @@ const PredictorContent = ({setViewPage}) => {
         </Row>
       </Container>  */}
       <p className="text-PredictorContent">
-      <h2>How this works?</h2>
+        <h2>How this works?</h2>
         dummy text ====\/ Why React-Bootstrap? React-Bootstrap is a complete
         re-implementation of the Bootstrap components using React. It has no
         dependency on either bootstrap.js or jQuery. If you have React setup and
@@ -60,7 +76,7 @@ const PredictorContent = ({setViewPage}) => {
         components.
       </p>
       <p className="text-PredictorContent">
-      <h2>Soil Pollution due to fertilizers</h2>
+        <h2>Soil Pollution due to fertilizers</h2>
         dummy text ====\/ Why React-Bootstrap? React-Bootstrap is a complete
         re-implementation of the Bootstrap components using React. It has no
         dependency on either bootstrap.js or jQuery. If you have React setup and
