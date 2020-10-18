@@ -10,8 +10,9 @@ class BlogsList extends Component {
   }
   componentDidMount() {
     axios
-      .get(`${process.env.REACT_APP_BASE_URL}/exercises`)
+      .get(`${process.env.REACT_APP_BASE_URL}/blogs`)
       .then((res) => {
+        console.log(res.data);
         this.setState({ exercises: res.data });
       })
       .catch((err) => console.log(`Error: ${err}`));
@@ -20,7 +21,7 @@ class BlogsList extends Component {
   deleteExercise = (id, e) => {
     e.preventDefault();
     axios
-      .delete(`${process.env.REACT_APP_BASE_URL}/exercises/${id}`)
+      .delete(`${process.env.REACT_APP_BASE_URL}/blogs/${id}`)
       .then(() => this.props.history.push('/blogs'))
       .catch((err) => console.log(`Error: ${err}`));
     this.setState({
@@ -43,12 +44,12 @@ class BlogsList extends Component {
             </tr>
           </thead>
           <tbody>
-            {this.state.exercises.map((currentexercise) => {
+            {this.state.exercises.map((currentblog) => {
               return (
                 <Blog
-                  exercise={currentexercise}
+                  blog={currentblog}
                   deleteExercise={this.deleteExercise}
-                  key={currentexercise._id}
+                  key={currentblog._id}
                 />
               );
             })}

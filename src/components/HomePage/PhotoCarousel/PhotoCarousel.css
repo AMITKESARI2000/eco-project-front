@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 .container-PhotoCarousel {
-  padding-top: 7rem;
+  padding-top: 0.1rem;
   position: relative;
   display: flex;
   flex-direction: column;

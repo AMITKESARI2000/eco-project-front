@@ -9,12 +9,12 @@ import PreviewGame from './Home Games/PreviewGame';
 const HomePage = () => {
   return (
     <div>
+      
       <NavigationBar />
       <PhotoCarousel />
       <SoilPollution />
       <PredictPol />
       <PreviewGame />
-
       {/* FOOTER */}
       <ProjectFooter />
     </div>

@@ -55,7 +55,7 @@ export default class CreateBlog extends Component {
     console.log(exercise);
 
     axios
-      .post(`${process.env.REACT_APP_BASE_URL}/exercises/add`, exercise)
+      .post(`${process.env.REACT_APP_BASE_URL}/blogs/add`, exercise)
       .then(() => this.props.history.push('/blogs'))
       // .then(() => window.history.back())
       .catch((err) => console.log(`Error: ${err}`));

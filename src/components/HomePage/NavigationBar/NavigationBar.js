@@ -18,7 +18,7 @@ const NavigationBar = () => {
               Home
             </NavLink>
             <NavLink className="nav-link-NavigationBar " to="/polpredict">
-              Polution Predictor
+              Pollution Predictor
             </NavLink>
             <NavLink className="nav-link-NavigationBar " to="/aboutus">
               About Us
