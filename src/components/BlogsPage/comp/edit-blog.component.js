@@ -17,7 +17,7 @@ export default class EditBlog extends Component {
   componentDidMount() {
     axios
       .get(
-        `${process.env.REACT_APP_BASE_URL}/exercises/${this.props.match.params.id}`
+        `${process.env.REACT_APP_BASE_URL}/blogs/${this.props.match.params.id}`
       )
       .then((res) => {
         this.setState({
@@ -65,7 +65,7 @@ export default class EditBlog extends Component {
 
     axios
       .post(
-        `${process.env.REACT_APP_BASE_URL}/exercises/update/${this.props.match.params.id}`,
+        `${process.env.REACT_APP_BASE_URL}/blogs/update/${this.props.match.params.id}`,
         exercise
       )
       //   .then((res) => console.log(res.data))
