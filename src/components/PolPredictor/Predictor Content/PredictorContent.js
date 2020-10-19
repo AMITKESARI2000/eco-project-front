@@ -1,9 +1,8 @@
-import React, { useState, useRef } from 'react';
-import { Button, Container, Popover, OverlayTrigger } from 'react-bootstrap';
+import React, {useState, useRef} from 'react';
+import {Button, Container, Popover, OverlayTrigger} from 'react-bootstrap';
 import './PredictorContent.css';
 
-const PredictorContent = ({ setViewPage }) => {
- 
+const PredictorContent = ({setViewPage}) => {
   const popover = (
     <Popover id="popover-basic">
       <Popover.Title as="h3">
@@ -21,7 +20,7 @@ const PredictorContent = ({ setViewPage }) => {
           <h2>Predict and Detect Pollution </h2>
 
           <OverlayTrigger trigger="hover" placement="bottom" overlay={popover}>
-            <Button variant="info" onClick={() => setViewPage(1)}>
+            <Button variant="info" onClick={() => setViewPage (1)}>
               Predict Now!
             </Button>
           </OverlayTrigger>

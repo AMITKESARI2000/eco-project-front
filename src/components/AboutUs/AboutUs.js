@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
 import ProjectFooter from '../HomePage/ProjectFooter/ProjectFooter';
 
+<<<<<<< HEAD
+import {Card, ProgressBar, Row, Col} from 'react-bootstrap';
+=======
 import { ProgressBar, Row, Col } from 'react-bootstrap';
+>>>>>>> cba56b1e4cc6fd085a07271d33b4b65434a4dd11
 import NamePlateCard from './NamePlateCard';
 
 const AboutUS = () => {
-  const [namePlates, setNamePlates] = useState([
+  const [namePlates, setNamePlates] = useState ([
     {
       image: './aditya.jpeg',
       name: ' Aditya Sharma',
@@ -17,26 +21,26 @@ const AboutUS = () => {
       name: ' Amit Kesari',
       task: ' Backend , Frontend Dev ',
     },
-    { image: './amit.jpg', name: 'D. Ajay', task: 'Content Creation' },
-    { image: './anand.jpg', name: 'Anu Anand Annu ', task: 'Data Collection ' },
+    {image: './Ajay.jpeg', name: 'D. Ajay', task: 'Content Creation'},
+    {image: './Anand.jpeg', name: 'Anu Anand Annu ', task: 'Data Collection '},
     {
-      image: './sowmya.jpg',
+      image: './Sowmya.jpeg',
       name: 'Emani Naga Sowmya',
       task: 'Project content and design',
     },
-    { image: './teju.jpg', name: 'Tejaswini Hotkar', task: 'Website Design' },
+    {image: './404.png', name: 'Tejaswini Hotkar', task: 'Website Design'},
     {
-      image: './amit.jpg',
+      image: './Manjunath.jpeg',
       name: 'V. Manjunath',
       task: 'Frontend Dev, Game Dev',
     },
-    { image: './angki.jpg', name: 'Angki Pajing', task: 'Data collection' },
+    {image: './404.png', name: 'Angki Pajing', task: 'Data collection'},
     {
-      image: './ankit.jpg',
+      image: './404.png',
       name: 'Ankit Ghildiyal ',
       task: 'Project write up and Content',
     },
-    { image: './amit.jpg', name: ' L Sai Kritik', task: 'NONE' },
+    {image: './404.png', name: ' L Sai Kritik', task: 'NONE'},
   ]);
   return (
     <div
@@ -53,28 +57,28 @@ const AboutUS = () => {
           variant="success"
           now={51}
           animated
-          style={{ background: 'none', transform: 'rotate(180deg)' }}
+          style={{background: 'none', transform: 'rotate(180deg)'}}
         />
         <ProgressBar
           striped
           variant="info"
           now={40}
           animated
-          style={{ background: 'none', transform: 'rotate(180deg)' }}
+          style={{background: 'none', transform: 'rotate(180deg)'}}
         />
         <ProgressBar
           striped
           variant="warning"
           now={80}
           animated
-          style={{ background: 'none', transform: 'rotate(180deg)' }}
+          style={{background: 'none', transform: 'rotate(180deg)'}}
         />
         <ProgressBar
           striped
           variant="danger"
           now={70}
           animated
-          style={{ background: 'none', transform: 'rotate(180deg)' }}
+          style={{background: 'none', transform: 'rotate(180deg)'}}
         />
       </div>
       <Row
@@ -83,18 +87,16 @@ const AboutUS = () => {
           alignItems: 'center',
           justifyContent: 'center',
           margin: '0',
-          
         }}
       >
-        {namePlates.map((namePlate) => {
+        {namePlates.map (namePlate => {
           return (
             <Col
               md={3}
-              key={Math.random()}
+              key={Math.random ()}
               style={{
                 padding: '0',
                 margin: '0',
-                
               }}
             >
               <NamePlateCard memeCard={namePlate} />
