@@ -2,7 +2,11 @@ import React, {useState} from 'react';
 import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
 import ProjectFooter from '../HomePage/ProjectFooter/ProjectFooter';
 
+<<<<<<< HEAD
 import {Card, ProgressBar, Row, Col} from 'react-bootstrap';
+=======
+import { ProgressBar, Row, Col } from 'react-bootstrap';
+>>>>>>> cba56b1e4cc6fd085a07271d33b4b65434a4dd11
 import NamePlateCard from './NamePlateCard';
 
 const AboutUS = () => {
