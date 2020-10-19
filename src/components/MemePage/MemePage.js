@@ -52,7 +52,7 @@ const MemePage = () => {
     <div style={{overflow: 'hidden'}}>
       <NavigationBar />
       <h2>
-        MEMEMEMEMEMEMEMEMEMEMEMMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME
+        MEMEMEMEMEMEMEMEMEMEMEMMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME
       </h2>
       <Row>
         {cardBody.map (memeCard => {

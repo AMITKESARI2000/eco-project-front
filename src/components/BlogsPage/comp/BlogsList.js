@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Blog from './Blog.component';
 import './BlogsList.css';
+import { Accordion, Card } from 'react-bootstrap';
 
 class BlogsList extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class BlogsList extends Component {
     axios
       .get(`${process.env.REACT_APP_BASE_URL}/blogs`)
       .then((res) => {
-        console.log(res.data);
+        console.log('BLOGS', res.data);
         this.setState({ exercises: res.data });
       })
       .catch((err) => console.log(`Error: ${err}`));
@@ -33,28 +34,20 @@ class BlogsList extends Component {
     return (
       <div className="container-BlogsList">
         <h3>Logged Blogs</h3>
-        <table className="table">
-          <thead className="thead-light">
-            <tr>
-              <th>Username</th>
-              <th>Description</th>
-              <th>Duration</th>
-              <th>Date</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {this.state.exercises.map((currentblog) => {
-              return (
+
+        <div>
+          {this.state.exercises.map((currentblog) => {
+            return (
+              <Accordion defaultActiveKey={currentblog._id}>
                 <Blog
                   blog={currentblog}
                   deleteExercise={this.deleteExercise}
                   key={currentblog._id}
                 />
-              );
-            })}
-          </tbody>
-        </table>
+              </Accordion>
+            );
+          })}
+        </div>
       </div>
     );
   }
