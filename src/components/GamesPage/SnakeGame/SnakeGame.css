@@ -9,6 +9,7 @@
   border: 5px solid #000000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .game-content {
   position: relative;
   margin: 50px auto;
@@ -37,6 +38,7 @@
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 30px;
+  border-radius: 30px;
 } /* Green */
 .button2 {
   background-color: #2d40e7;
@@ -44,6 +46,7 @@
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 30px;
+  border-radius: 30px;
 } /* Blue */
 .button3 {
   background-color: #f51000;
@@ -51,9 +54,9 @@
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 30px;
+  border-radius: 30px;
 }
 .Worm {
-  transition: transform 0.2s;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
@@ -63,10 +66,23 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
+  cursor: pointer;
 }
 
+.button1:hover {
+  background-color: #36fd2f;
+  top: -4px;
+}
+.button2:hover {
+  background-color: #2ac5ec;
+  top: -4px;
+}
+.button3:hover {
+  background-color: #d12626;
+  top: -4px;
+}
 .Worm:hover {
-  size: 1.2em;
+  top: -10px;
 }
 
 .snake-food {
