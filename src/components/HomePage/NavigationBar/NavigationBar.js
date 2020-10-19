@@ -8,7 +8,7 @@ const NavigationBar = () => {
     <div className="nav-container-NavigationBar  underline-NavigationBar">
       <Navbar collapseOnSelect expand="lg" sticky="bottom" variant="dark">
         <Navbar.Brand className="main-web-name-NavigationBar">
-          <NavLink to="/home">WASTE MANAGEMENT IIT TIRUPATI</NavLink>
+          <NavLink to="/home">FERTILIZER POLLUTION, IIT TIRUPATI</NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

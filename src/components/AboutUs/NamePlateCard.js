@@ -27,7 +27,7 @@ const NamePlateCard = ({ memeCard: namePlate }) => {
 
         <Card.Body
           style={{
-            color: 'aliceblue',
+            color: 'lightblue',
           }}
         >
           <Card.Title>{namePlate.name}</Card.Title>

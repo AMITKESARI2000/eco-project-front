@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,500;0,600;0,700;0,900;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Raleway:ital,wght@0,200;0,500;0,600;0,700;0,900;1,300;1,700&display=swap');
 
 /* ==== NAVIGATION CONTAINER ==== */
 .nav-container-NavigationBar,
@@ -6,9 +8,9 @@
   background: linear-gradient(-9deg, #f34998, #f172a1);
   /* background-color: #f172a1; */
   opacity: 0.98;
-  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', 'Roboto Slab', Arial, Helvetica, sans-serif;
   position: sticky;
-  top: -1px;
+  top: -1%;
   z-index: 100;
   margin: 0;
   padding: 0.5em;
@@ -30,6 +32,7 @@
 /* ==== Waste Management IIT Tirupati BRAND NAME ==== */
 
 .main-web-name-NavigationBar {
+  font-family: 'Playfair Display', 'Roboto Slab', Arial, Helvetica, sans-serif;
   margin-bottom: 0.1em;
   height: 2.3em;
   padding: 0 0.5em;
