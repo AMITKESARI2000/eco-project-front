@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Blog from './Blog.component';
 import './BlogsList.css';
-import { Accordion, Card } from 'react-bootstrap';
 
 class BlogsList extends Component {
   constructor(props) {
@@ -38,13 +37,11 @@ class BlogsList extends Component {
         <div>
           {this.state.exercises.map((currentblog) => {
             return (
-              <Accordion defaultActiveKey={currentblog._id}>
-                <Blog
-                  blog={currentblog}
-                  deleteExercise={this.deleteExercise}
-                  key={currentblog._id}
-                />
-              </Accordion>
+              <Blog
+                blog={currentblog}
+                deleteExercise={this.deleteExercise}
+                key={currentblog._id}
+              />
             );
           })}
         </div>

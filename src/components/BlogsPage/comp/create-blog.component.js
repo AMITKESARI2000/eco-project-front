@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import { createHashHistory } from 'history';
+// import { createHashHistory } from 'history';
 
-const history = createHashHistory();
+// const history = createHashHistory();
 
 export default class CreateBlog extends Component {
   constructor(props) {
