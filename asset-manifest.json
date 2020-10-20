@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/eco-project-front/static/css/main.cdb0ff91.chunk.css",
-    "main.js": "/eco-project-front/static/js/main.aea1f8f3.chunk.js",
-    "main.js.map": "/eco-project-front/static/js/main.aea1f8f3.chunk.js.map",
+    "main.css": "/eco-project-front/static/css/main.f727f47c.chunk.css",
+    "main.js": "/eco-project-front/static/js/main.c50117c9.chunk.js",
+    "main.js.map": "/eco-project-front/static/js/main.c50117c9.chunk.js.map",
     "runtime-main.js": "/eco-project-front/static/js/runtime-main.035ceb54.js",
     "runtime-main.js.map": "/eco-project-front/static/js/runtime-main.035ceb54.js.map",
     "static/css/2.3f1f1bc9.chunk.css": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.1eba7b9d.chunk.js": "/eco-project-front/static/js/2.1eba7b9d.chunk.js",
-    "static/js/2.1eba7b9d.chunk.js.map": "/eco-project-front/static/js/2.1eba7b9d.chunk.js.map",
+    "static/js/2.778093c5.chunk.js": "/eco-project-front/static/js/2.778093c5.chunk.js",
+    "static/js/2.778093c5.chunk.js.map": "/eco-project-front/static/js/2.778093c5.chunk.js.map",
     "index.html": "/eco-project-front/index.html",
-    "precache-manifest.40fc509be6f3ddfc669ff6273cbb5db6.js": "/eco-project-front/precache-manifest.40fc509be6f3ddfc669ff6273cbb5db6.js",
+    "precache-manifest.527bde1d4e291a9bbef47dea6b714c15.js": "/eco-project-front/precache-manifest.527bde1d4e291a9bbef47dea6b714c15.js",
     "service-worker.js": "/eco-project-front/service-worker.js",
     "static/css/2.3f1f1bc9.chunk.css.map": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css.map",
-    "static/css/main.cdb0ff91.chunk.css.map": "/eco-project-front/static/css/main.cdb0ff91.chunk.css.map",
-    "static/js/2.1eba7b9d.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.1eba7b9d.chunk.js.LICENSE.txt",
+    "static/css/main.f727f47c.chunk.css.map": "/eco-project-front/static/css/main.f727f47c.chunk.css.map",
+    "static/js/2.778093c5.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.778093c5.chunk.js.LICENSE.txt",
     "static/media/Ajay.jpeg": "/eco-project-front/static/media/Ajay.24ae16b2.jpeg",
     "static/media/Anand.jpeg": "/eco-project-front/static/media/Anand.2b0bf32b.jpeg",
     "static/media/Sowmya.jpeg": "/eco-project-front/static/media/Sowmya.db48d6fc.jpeg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.035ceb54.js",
     "static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.1eba7b9d.chunk.js",
-    "static/css/main.cdb0ff91.chunk.css",
-    "static/js/main.aea1f8f3.chunk.js"
+    "static/js/2.778093c5.chunk.js",
+    "static/css/main.f727f47c.chunk.css",
+    "static/js/main.c50117c9.chunk.js"
   ]
 }
