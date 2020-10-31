@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import { Carousel } from 'react-bootstrap';
+import React, {useState} from 'react';
+import {Carousel} from 'react-bootstrap';
 import './PhotoCarousel.css';
-
 const PhotoCarousel = () => {
-  const [state, setState] = useState({
+  const [state, setState] = useState ({
     indicators: true,
     // fade: true,
     touch: true,
@@ -18,7 +17,7 @@ const PhotoCarousel = () => {
         <Carousel.Item>
           <img
             className="imageFeatured-PhotoCarousel"
-            src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
+            src="https://images.unsplash.com/photo-1567710065860-dcef8df041e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -29,7 +28,7 @@ const PhotoCarousel = () => {
         <Carousel.Item>
           <img
             className="imageFeatured-PhotoCarousel"
-            src="https://images.unsplash.com/photo-1582520280765-93dea33f074f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            src="https://images.unsplash.com/photo-1564497417229-550e312643f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             alt="Second slide"
           />
 
