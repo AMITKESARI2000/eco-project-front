@@ -59,8 +59,8 @@ export default class BlogEdit extends Component {
 
     const exercise = {
       username: this.state.username,
+      heading: this.state.heading,
       description: this.state.description,
-      duration: this.state.duration,
       date: this.state.date,
     };
     console.log(exercise);

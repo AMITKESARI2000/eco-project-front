@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
 import ProjectFooter from '../HomePage/ProjectFooter/ProjectFooter';
-
 import {ProgressBar, Row, Col} from 'react-bootstrap';
 
 import NamePlateCard from './NamePlateCard';

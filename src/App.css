@@ -1,9 +1,8 @@
-body{
-    background: linear-gradient(
+body {
+  background: linear-gradient(
     99deg,
     rgb(177, 230, 127),
     rgb(26, 146, 167),
     rgb(104, 49, 92)
   );
-  color:rosybrown
 }
