@@ -1,6 +1,6 @@
 import React from 'react';
 import DataDropDown from '../DataDropDown/DataDropDown';
-
+import Map from '../Map/SimpleMap';
 
 const PredictorQuestion = ({setViewPage}) => {
     const handleInputChange=(event)=> {
