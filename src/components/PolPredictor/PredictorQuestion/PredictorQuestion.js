@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Col, Row } from 'react-bootstrap';
+import DataDropDown from '../DataDropDown/DataDropDown';
 
 
 const PredictorQuestion = ({setViewPage}) => {
@@ -13,38 +13,26 @@ const PredictorQuestion = ({setViewPage}) => {
     
   return (
     <div className="container-PredictorContent ">
-          <a  onClick={() => setViewPage(0) } style={{textDecoration:"underline"}}>Back</a>
+      <a onClick={() => setViewPage(0)} style={{ textDecoration: 'underline' }}>
+        Back
+      </a>
       <div className="sideBySide-PredictorContent">
-        <div className="header-PredictorContent">
-          <h2>Answer the questions </h2>
-          <form>
-        <label>
-            {/* ADD ALL THE FORM FIELD ETC */}
-          Is going:
-          <input
-            name="isGoing"            type="checkbox"
-            // checked={this.state.isGoing}
-            onChange={handleInputChange} />
-        </label>
-        <br />
-        <label>
-          Number of guests:
-          <input
-            name="numberOfGuests"            type="number"
-            // value={this.state.numberOfGuests}
-            onChange={handleInputChange} />
-        </label>
-      </form>
+        <div>
+          <h2 className="header-PredictorContent">Answer the questions </h2>
+          <DataDropDown />
         </div>
-        <img
+        {/* <img
           className="image-PredictorContent"
-        //   src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
+          //   src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
           alt="pic"
+<<<<<<< HEAD
         />
         <Map/>
+=======
+        /> */}
+        MAP HERE
+>>>>>>> 3c9e93fab4db4b5b936ec0dcf65a7523421bf499
       </div>
-
-     
     </div>
   );
 };

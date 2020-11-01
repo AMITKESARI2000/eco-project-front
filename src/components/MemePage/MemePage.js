@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
-import {Card, CardColumns, Row, Col} from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import MemeCard from './MemeCard';
 import meme1 from './Meme images/meme1.jpg';
 import meme2 from './Meme images/meme2.jpg';
@@ -52,7 +52,7 @@ const MemePage = () => {
     <div style={{overflow: 'hidden'}}>
       <NavigationBar />
       <h2>
-        MEMEMEMEMEMEMEMEMEMEMEMMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME
+        MEMEMEMEMEMEMEMEMEMEMEMMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME
       </h2>
       <Row>
         {cardBody.map (memeCard => {

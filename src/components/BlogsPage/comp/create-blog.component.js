@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import { createHashHistory } from 'history';
+// import { createHashHistory } from 'history';
 
-const history = createHashHistory();
+// const history = createHashHistory();
 
 export default class CreateBlog extends Component {
   constructor(props) {
     super(props);
     this.state = {
       username: '',
+      heading: '',
       description: '',
-      duration: 0,
       date: new Date(),
       users: [],
     };
@@ -48,8 +48,8 @@ export default class CreateBlog extends Component {
 
     const exercise = {
       username: this.state.username,
+      heading: this.state.heading,
       description: this.state.description,
-      duration: this.state.duration,
       date: this.state.date,
     };
     console.log(exercise);
@@ -85,6 +85,17 @@ export default class CreateBlog extends Component {
             </select>
           </div>
           <div className="form-group">
+            <label>Heading: </label>
+            <input
+              type="text"
+              required
+              name="heading"
+              className="form-control"
+              value={this.state.heading}
+              onChange={this.onChangeHandler}
+            />
+          </div>
+          <div className="form-group">
             <label>Description: </label>
             <input
               type="text"
@@ -92,16 +103,6 @@ export default class CreateBlog extends Component {
               name="description"
               className="form-control"
               value={this.state.description}
-              onChange={this.onChangeHandler}
-            />
-          </div>
-          <div className="form-group">
-            <label>Duration (in minutes): </label>
-            <input
-              type="text"
-              name="duration"
-              className="form-control"
-              value={this.state.duration}
               onChange={this.onChangeHandler}
             />
           </div>

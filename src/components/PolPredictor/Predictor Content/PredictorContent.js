@@ -1,9 +1,8 @@
-import React, { useState, useRef } from 'react';
-import { Button, Container, Popover, OverlayTrigger } from 'react-bootstrap';
+import React from 'react';
+import { Button, Popover, OverlayTrigger } from 'react-bootstrap';
 import './PredictorContent.css';
 
 const PredictorContent = ({ setViewPage }) => {
- 
   const popover = (
     <Popover id="popover-basic">
       <Popover.Title as="h3">

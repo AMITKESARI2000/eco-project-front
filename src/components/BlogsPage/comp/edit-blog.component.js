@@ -8,8 +8,8 @@ export default class EditBlog extends Component {
     super(props);
     this.state = {
       username: '',
+      heading: '',
       description: '',
-      duration: 0,
       date: new Date(),
       users: [],
     };
@@ -17,13 +17,13 @@ export default class EditBlog extends Component {
   componentDidMount() {
     axios
       .get(
-        `${process.env.REACT_APP_BASE_URL}/exercises/${this.props.match.params.id}`
+        `${process.env.REACT_APP_BASE_URL}/blogs/${this.props.match.params.id}`
       )
       .then((res) => {
         this.setState({
           username: res.data.username,
+          heading: res.data.heading,
           description: res.data.description,
-          duration: res.data.duration,
           date: new Date(res.data.date),
         });
       });
@@ -57,15 +57,15 @@ export default class EditBlog extends Component {
 
     const exercise = {
       username: this.state.username,
+      heading: this.state.heading,
       description: this.state.description,
-      duration: this.state.duration,
       date: this.state.date,
     };
     console.log(exercise);
 
     axios
       .post(
-        `${process.env.REACT_APP_BASE_URL}/exercises/update/${this.props.match.params.id}`,
+        `${process.env.REACT_APP_BASE_URL}/blogs/update/${this.props.match.params.id}`,
         exercise
       )
       //   .then((res) => console.log(res.data))
@@ -97,6 +97,16 @@ export default class EditBlog extends Component {
             </select>
           </div>
           <div className="form-group">
+            <label>heading : </label>
+            <input
+              type="text"
+              name="heading"
+              className="form-control"
+              value={this.state.heading}
+              onChange={this.onChangeHandler}
+            />
+          </div>
+          <div className="form-group">
             <label>Description: </label>
             <input
               type="text"
@@ -104,16 +114,6 @@ export default class EditBlog extends Component {
               name="description"
               className="form-control"
               value={this.state.description}
-              onChange={this.onChangeHandler}
-            />
-          </div>
-          <div className="form-group">
-            <label>Duration (in minutes): </label>
-            <input
-              type="text"
-              name="duration"
-              className="form-control"
-              value={this.state.duration}
               onChange={this.onChangeHandler}
             />
           </div>

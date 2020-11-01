@@ -9,7 +9,7 @@ import BlogsPage from './components/BlogsPage/BlogsPage';
 import AboutUs from './components/AboutUs/AboutUs';
 import PolPredictorMain from './components/PolPredictor/PolPredictorMain';
 import MemePage from './components/MemePage/MemePage';
-import BlogsList from './components/BlogsPage/comp/blogs-list.component';
+import BlogsList from './components/BlogsPage/comp/BlogsList';
 import EditBlog from './components/BlogsPage/comp/edit-blog.component';
 import CreateBlog from './components/BlogsPage/comp/create-blog.component';
 import CreateUser from './components/BlogsPage/comp/create-user.component';
