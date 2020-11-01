@@ -4,6 +4,7 @@ import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
 import ProjectFooter from '../HomePage/ProjectFooter/ProjectFooter';
 import PredictorContent from './Predictor Content/PredictorContent';
 import PredictorQuestion from './PredictorQuestion/PredictorQuestion';
+
 //import DataDropDown from './DataDropDown/DataDropDown';
 
 const PolPredictorMain = () => {
@@ -24,6 +25,7 @@ const PolPredictorMain = () => {
       <NavigationBar />
 
       {renderPage()}
+
       <ProjectFooter />
     </div>
   );

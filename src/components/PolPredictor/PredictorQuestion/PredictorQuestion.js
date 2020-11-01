@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Container, Col, Row } from 'react-bootstrap';
 
+
 const PredictorQuestion = ({setViewPage}) => {
     const handleInputChange=(event)=> {
         const target = event.target;
@@ -40,7 +41,7 @@ const PredictorQuestion = ({setViewPage}) => {
         //   src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
           alt="pic"
         />
-        MAP HERE
+        <Map/>
       </div>
 
      
