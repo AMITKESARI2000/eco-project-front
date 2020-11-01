@@ -21,17 +21,12 @@ const PredictorQuestion = ({setViewPage}) => {
           <h2 className="header-PredictorContent">Answer the questions </h2>
           <DataDropDown />
         </div>
-        {/* <img
+         <img
           className="image-PredictorContent"
           //   src="https://images.unsplash.com/photo-1599394021759-afc65fd2eaaf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1155&q=80"
           alt="pic"
-<<<<<<< HEAD
         />
         <Map/>
-=======
-        /> */}
-        MAP HERE
->>>>>>> 3c9e93fab4db4b5b936ec0dcf65a7523421bf499
       </div>
     </div>
   );
