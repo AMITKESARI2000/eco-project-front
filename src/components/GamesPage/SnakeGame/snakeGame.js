@@ -3,6 +3,7 @@ import Snake from './Snake';
 import Food from './Food';
 import Image from './Images/earthworm_image.png';
 import './SnakeGame.css';
+import FunFacts from '../../FunFacts/FunFacts';
 
 const getRandomCoordinates = () => {
   let min = 1;
@@ -165,6 +166,7 @@ class SnakeGame extends Component {
           <Snake snakeDots={this.state.snakeDots} />
           <Food dot={this.state.food} />
         </div>
+        <FunFacts />;
 
         <p className="game-content">
           Vermicompost (vermi-compost) is the product of the decomposition process using various species
@@ -187,6 +189,7 @@ class SnakeGame extends Component {
           organic fertilizer and soil conditioner.[3] It is used in farming and small scale sustainable,
           {' '}
           organic farming.
+
         </p>
       </div>
     );
