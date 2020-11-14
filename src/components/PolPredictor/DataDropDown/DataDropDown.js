@@ -1,5 +1,6 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
+import './DataDropDown.css';
 
 class DataDropDown extends React.Component {
   constructor (props) {
@@ -8,6 +9,8 @@ class DataDropDown extends React.Component {
       states: [],
       districts: [],
       nutrients: [],
+      pH: '',
+      bg: 'light',
       selectedState: '--Choose State--',
       selectedDistrict: '--Choose District--',
     };
@@ -18,6 +21,2047 @@ class DataDropDown extends React.Component {
   componentDidMount () {
     this.setState ({
       states: [
+        {
+          name: 'Andhra Pradesh',
+          districts: [
+            {
+              name: 'Anantapur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 50.00%',
+                'P : 0.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Chittoor',
+              nutrients: [
+                'N : 96.23%',
+                'OC : 36.68%',
+                'P : 11.63%',
+                'K : 49.93%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'East Godavari',
+              nutrients: [
+                'N : 70.95%',
+                'OC : 48.12%',
+                'P : 24.45%',
+                'K : 2.42%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Guntur',
+              nutrients: [
+                'N : 72.34%',
+                'OC : 74.47%',
+                'P : 8.51%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Krishna',
+              nutrients: [
+                'N : 63.70%',
+                'OC : 58.32%',
+                'P : 1.36%',
+                'K : 10.39%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Kurnool',
+              nutrients: [
+                'N : 98.18%',
+                'OC : 62.39%',
+                'P : 7.29%',
+                'K : 3.66%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Prakasam',
+              nutrients: [
+                'N : 93.43%',
+                'OC : 52.37%',
+                'P : 24.88%',
+                'K : 16.77%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Spsr Nellore',
+              nutrients: [
+                'N : 97.12%',
+                'OC : 59.94%',
+                'P : 11.75%',
+                'K : 45.01%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Srikakulam',
+              nutrients: [
+                'N : 88.52%',
+                'OC : 29.53%',
+                'P : 42.62%',
+                'K : 23.91%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Vishakhapatnam',
+              nutrients: [
+                'N : 88.98%',
+                'OC : 22.07%',
+                'P : 14.41%',
+                'K : 51.42%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Vizianagaram',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 100.00%',
+                'P : 0.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'West Godavari',
+              nutrients: [
+                'N : 87.25%',
+                'OC : 33.02%',
+                'P : 3.41%',
+                'K : 56.53%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Y.S.R.',
+              nutrients: [
+                'N : 98.59%',
+                'OC : 63.67%',
+                'P : 19.79%',
+                'K : 28.43%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+          ],
+        },
+        {
+          name: 'Chhattisgarh',
+          districts: [
+            {
+              name: 'Balod',
+              nutrients: [
+                'N : 84.05%',
+                'OC : 42.17%',
+                'P : 20.75%',
+                'K : 6.73%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Baloda Bazar',
+              nutrients: [
+                'N : 91.67%',
+                'OC : 20.84%',
+                'P : 29.17%',
+                'K : 4.17%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Balrampur',
+              nutrients: [
+                'N : 81.84%',
+                'OC : 58.93%',
+                'P : 12.11%',
+                'K : 21.37%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Bastar',
+              nutrients: [
+                'N : 30.33%',
+                'OC : 11.18%',
+                'P : 13.45%',
+                'K : 21.03%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Bemetara',
+              nutrients: ['N : 86.28%', 'OC : 4.51%', 'P : 4.34%', 'K : 1.04%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bijapur',
+              nutrients: [
+                'N : 14.05%',
+                'OC : 3.79%',
+                'P : 0.82%',
+                'K : 24.45%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Bilaspur',
+              nutrients: [
+                'N : 76.04%',
+                'OC : 57.47%',
+                'P : 21.37%',
+                'K : 0.31%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Dantewada',
+              nutrients: [
+                'N : 61.02%',
+                'OC : 55.48%',
+                'P : 36.46%',
+                'K : 26.94%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Dhamtari',
+              nutrients: [
+                'N : 91.76%',
+                'OC : 67.86%',
+                'P : 34.63%',
+                'K : 8.69%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Durg',
+              nutrients: ['N : 21.18%', 'OC : 4.27%', 'P : 6.83%', 'K : 7.68%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Gariyaband',
+              nutrients: [
+                'N : 91.52%',
+                'OC : 91.52%',
+                'P : 30.41%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Janjgir-Champa',
+              nutrients: [
+                'N : 84.36%',
+                'OC : 60.49%',
+                'P : 18.69%',
+                'K : 3.05%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Jashpur',
+              nutrients: [
+                'N : 71.34%',
+                'OC : 42.48%',
+                'P : 40.53%',
+                'K : 39.44%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Kabirdham',
+              nutrients: [
+                'N : 72.60%',
+                'OC : 51.14%',
+                'P : 86.30%',
+                'K : 4.71%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Kanker',
+              nutrients: [
+                'N : 38.55%',
+                'OC : 59.58%',
+                'P : 43.48%',
+                'K : 39.10%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Kondagaon',
+              nutrients: [
+                'N : 76.67%',
+                'OC : 50.69%',
+                'P : 19.50%',
+                'K : 31.27%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Korba',
+              nutrients: [
+                'N : 63.67%',
+                'OC : 43.90%',
+                'P : 28.71%',
+                'K : 22.96%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Korea',
+              nutrients: [
+                'N : 92.04%',
+                'OC : 84.34%',
+                'P : 25.97%',
+                'K : 23.80%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Mahasamund',
+              nutrients: [
+                'N : 65.86%',
+                'OC : 52.37%',
+                'P : 18.53%',
+                'K : 20.85%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Mungeli',
+              nutrients: [
+                'N : 42.19%',
+                'OC : 39.40%',
+                'P : 58.22%',
+                'K : 0.10%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Narayanpur',
+              nutrients: [
+                'N : 96.61%',
+                'OC : 58.87%',
+                'P : 1.05%',
+                'K : 18.00%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Raigarh',
+              nutrients: [
+                'N : 93.01%',
+                'OC : 96.31%',
+                'P : 53.37%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Raipur',
+              nutrients: [
+                'N : 82.36%',
+                'OC : 56.89%',
+                'P : 38.13%',
+                'K : 15.20%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Rajnandgaon',
+              nutrients: [
+                'N : 84.51%',
+                'OC : 71.83%',
+                'P : 39.44%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Sukma',
+              nutrients: [
+                'N : 72.82%',
+                'OC : 42.48%',
+                'P : 13.90%',
+                'K : 48.77%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Surajpur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 50.00%',
+                'P : 0.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Surguja',
+              nutrients: [
+                'N : 88.89%',
+                'OC : 0.00%',
+                'P : 0.00%',
+                'K : 11.11%',
+              ],
+              pH: 'Moderately acidic',
+            },
+          ],
+        },
+        {
+          name: 'Goa',
+          districts: [
+            {
+              name: 'North Goa',
+              nutrients: [
+                'N : 47.47%',
+                'OC : 31.81%',
+                'P : 66.40%',
+                'K : 31.71%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'South Goa',
+              nutrients: [
+                'N : 21.77%',
+                'OC : 9.43%',
+                'P : 76.46%',
+                'K : 52.21%',
+              ],
+              pH: 'Moderately acidic',
+            },
+          ],
+        },
+        {
+          name: 'Jammu and Kashmir',
+          districts: [
+            {
+              name: 'Anantnag',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 0.00%',
+                'P : 100.00%',
+                'K : 50.00%',
+              ],
+              pH: 'Slightly acidic',
+            },
+            {
+              name: 'Badgam',
+              nutrients: [
+                'N : 28.67%',
+                'OC : 5.78%',
+                'P : 37.94%',
+                'K : 9.97%',
+              ],
+              pH: 'Slightly acidic',
+            },
+            {
+              name: 'Bandipora',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 19.72%',
+                'P : 1.42%',
+                'K : 1.63%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Baramulla',
+              nutrients: [
+                'N : 21.82%',
+                'OC : 5.32%',
+                'P : 16.58%',
+                'K : 24.37%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Doda',
+              nutrients: [
+                'N : 27.50%',
+                'OC : 34.17%',
+                'P : 71.67%',
+                'K : 25.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Ganderbal',
+              nutrients: ['N : 0.61%', 'OC : 1.95%', 'P : 56.95%', 'K : 3.05%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Jammu',
+              nutrients: [
+                'N : 58.36%',
+                'OC : 66.80%',
+                'P : 75.90%',
+                'K : 21.68%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Kathua',
+              nutrients: [
+                'N : 14.03%',
+                'OC : 15.47%',
+                'P : 70.86%',
+                'K : 58.27%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Kishtwar',
+              nutrients: [
+                'N : 14.47%',
+                'OC : 7.89%',
+                'P : 52.63%',
+                'K : 6.58%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Kulgam',
+              nutrients: [
+                'N : 33.12%',
+                'OC : 14.23%',
+                'P : 49.12%',
+                'K : 38.91%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Kupwara',
+              nutrients: [
+                'N : 37.92%',
+                'OC : 4.52%',
+                'P : 94.09%',
+                'K : 13.74%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Poonch',
+              nutrients: [
+                'N : 34.92%',
+                'OC : 26.99%',
+                'P : 22.22%',
+                'K : 15.87%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Pulwana',
+              nutrients: [
+                'N : 19.45%',
+                'OC : 11.50%',
+                'P : 8.05%',
+                'K : 32.19%',
+              ],
+              pH: 'Slightly acidic',
+            },
+            {
+              name: 'Rajauri',
+              nutrients: [
+                'N : 57.51%',
+                'OC : 61.44%',
+                'P : 86.27%',
+                'K : 6.54%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Ramban',
+              nutrients: [
+                'N : 42.29%',
+                'OC : 47.73%',
+                'P : 48.09%',
+                'K : 50.45%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Reasi',
+              nutrients: [
+                'N : 47.62%',
+                'OC : 45.24%',
+                'P : 66.67%',
+                'K : 20.63%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Samba',
+              nutrients: [
+                'N : 58.35%',
+                'OC : 72.23%',
+                'P : 83.49%',
+                'K : 31.89%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Shopian',
+              nutrients: [
+                'N : 33.33%',
+                'OC : 0.75%',
+                'P : 1.61%',
+                'K : 19.42%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Srinagar',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 0.00%',
+                'P : 10.11%',
+                'K : 0.56%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Udhampur',
+              nutrients: [
+                'N : 3.49%',
+                'OC : 4.37%',
+                'P : 41.78%',
+                'K : 16.95%',
+              ],
+              pH: 'Slightly acidic',
+            },
+          ],
+        },
+        {
+          name: 'Ladakh',
+          districts: [
+            {
+              name: 'Kargil',
+              nutrients: [
+                'N : 2.10%',
+                'OC : 12.33%',
+                'P : 35.44%',
+                'K : 30.68%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Leh Ladakh',
+              nutrients: [
+                'N : 8.68%',
+                'OC : 2.79%',
+                'P : 16.82%',
+                'K : 57.30%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+          ],
+        },
+        {
+          name: 'The Dadra and Nagar Haveli and Daman and Diu',
+          districts: [
+            {
+              name: 'Dadra and Nagar Haveli',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 38.35%',
+                'P : 69.95%',
+                'K : 0.72%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Daman',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 25.80%',
+                'P : 99.08%',
+                'K : 32.72%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Diu',
+              nutrients: [
+                'N : 98.67%',
+                'OC : 34.67%',
+                'P : 20.00%',
+                'K : 13.33%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+          ],
+        },
+
+        {
+          name: 'Rajasthan',
+          districts: [
+            {
+              name: 'Ajmer',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 86.82%',
+                'P : 31.30%',
+                'K : 8.57%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Alwar',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 98.20%',
+                'P : 12.86%',
+                'K : 19.30%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Banswara',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 84.96%',
+                'P : 30.10%',
+                'K : 15.85%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Baran',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 47.65%',
+                'P : 19.24%',
+                'K : 19.93%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Barmer',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 84.11%',
+                'P : 27.59%',
+                'K : 15.19%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bharatpur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 77.19%',
+                'P : 38.19%',
+                'K : 10.36%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bhilwara',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 75.00%',
+                'P : 25.00%',
+                'K : 25.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bikaner',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 92.79%',
+                'P : 45.48%',
+                'K : 2.12%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bundi',
+              nutrients: ['N : 0.00%', 'OC : 43.62%', 'P : 6.53%', 'K : 3.23%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Chittorgarh',
+              nutrients: ['N : 0.00%', 'OC : 42.95%', 'P : 6.13%', 'K : 1.48%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Churu',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 99.36%',
+                'P : 96.03%',
+                'K : 1.61%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Dausa',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 95.07%',
+                'P : 21.56%',
+                'K : 3.55%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Dholpur',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 98.10%',
+                'P : 11.93%',
+                'K : 9.72%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Dungarpur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 45.44%',
+                'P : 12.03%',
+                'K : 7.67%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Ganganagar',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 95.78%',
+                'P : 40.86%',
+                'K : 5.44%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Hanumangarh',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 96.92%',
+                'P : 31.83%',
+                'K : 6.95%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Jaipur',
+              nutrients: [
+                'N : 83.34%',
+                'OC : 85.78%',
+                'P : 29.27%',
+                'K : 26.09%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Jaisalmer',
+              nutrients: ['N : 0.00%', 'OC : 99.77%', 'P : 0.51%', 'K : 1.03%'],
+              pH: 'Strongly alkaline',
+            },
+            {
+              name: 'Jalore',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 91.55%',
+                'P : 10.96%',
+                'K : 11.55%',
+              ],
+              pH: 'Moderately alkaline and strongly alkaline',
+            },
+            {
+              name: 'Jhalawar',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 65.10%',
+                'P : 15.45%',
+                'K : 5.02%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Jhunjhunu',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 99.55%',
+                'P : 23.40%',
+                'K : 11.80%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Jodhpur',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 97.46%',
+                'P : 13.75%',
+                'K : 13.62%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Karauli',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 56.11%',
+                'P : 20.03%',
+                'K : 6.33%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Kota',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 39.07%',
+                'P : 19.07%',
+                'K : 3.68%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Nagaur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 94.00%',
+                'P : 30.92%',
+                'K : 12.83%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Pali',
+              nutrients: [
+                'N : 88.89%',
+                'OC : 91.36%',
+                'P : 16.82%',
+                'K : 1.28%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Pratapgarh',
+              nutrients: ['N : 0.00%', 'OC : 64.72%', 'P : 4.91%', 'K : 2.94%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Rajsamand',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 55.97%',
+                'P : 19.52%',
+                'K : 4.01%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Sawai Madhopur',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 94.07%',
+                'P : 20.18%',
+                'K : 13.31%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Sikar',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 100.00%',
+                'P : 0.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Sirohi',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 74.47%',
+                'P : 4.32%',
+                'K : 1.37%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Tonk',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 94.56%',
+                'P : 18.26%',
+                'K : 12.42%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Udaipur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 100.00%',
+                'P : 0.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+          ],
+        },
+        {
+          name: 'Karnataka',
+          districts: [
+            {
+              name: 'Bagalkot',
+              nutrients: [
+                'N : 39.11%',
+                'OC : 51.32%',
+                'P : 41.25%',
+                'K : 7.13%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bangalore Rural',
+              nutrients: [
+                'N : 96.70%',
+                'OC : 72.26%',
+                'P : 14.88%',
+                'K : 14.89%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Belgaum',
+              nutrients: [
+                'N : 79.05%',
+                'OC :90.87%',
+                'P : 95.33%',
+                'K : 36.65%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bellary',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 47.33%',
+                'P : 53.08%',
+                'K : 48.13%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bengaluru Urban',
+              nutrients: [
+                'N : 93.97%',
+                'OC : 67.57%',
+                'P : 29.57%',
+                'K : 28.60%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bidar',
+              nutrients: [
+                'N : 86.13%',
+                'OC : 47.16%',
+                'P : 68.60%',
+                'K : 0.30%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bijapur',
+              nutrients: [
+                'N : 96.80%',
+                'OC : 89.18%',
+                'P : 23.29%',
+                'K : 3.07%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Chamarajanagar',
+              nutrients: [
+                'N : 55.87%',
+                'OC : 83.65%',
+                'P : 10.52%',
+                'K : 11.42%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Chikballapur',
+              nutrients: [
+                'N : 95.75%',
+                'OC : 49.49%',
+                'P : 28.78%',
+                'K : 9.91%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Chikmagalur',
+              nutrients: [
+                'N : 75.00%',
+                'OC : 35.91%',
+                'P : 20.03%',
+                'K : 12.71%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Chitradurga',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 33.33%',
+                'P : 50.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Dakshin Kannad',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 4.00%',
+                'P : 64.96%',
+                'K : 94.50%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Davangere',
+              nutrients: [
+                'N : 31.08%',
+                'OC : 46.68%',
+                'P : 9.19%',
+                'K : 26.04%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Dharwad',
+              nutrients: [
+                'N : 86.67%',
+                'OC : 92.16%',
+                'P : 100.00%',
+                'K : 13.82%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Gadag',
+              nutrients: [
+                'N : 83.25%',
+                'OC : 54.19%',
+                'P : 62.42%',
+                'K : 2.26%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Gulbarga',
+              nutrients: [
+                'N : 71.42%',
+                'OC : 39.88%',
+                'P : 14.83%',
+                'K : 1.87%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Hassan',
+              nutrients: [
+                'N : 19.82%',
+                'OC : 27.42%',
+                'P : 19.89%',
+                'K : 5.86%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Haveri',
+              nutrients: [
+                'N : 44.69%',
+                'OC : 77.99%',
+                'P : 60.16%',
+                'K : 13.06%',
+              ],
+              pH: 'Strongly alkaline',
+            },
+            {
+              name: 'Kodagu',
+              nutrients: [
+                'N : 5.90%',
+                'OC : 13.75%',
+                'P : 47.53%',
+                'K : 29.57%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Kolar',
+              nutrients: [
+                'N : 98.18%',
+                'OC : 99.37%',
+                'P : 32.28%',
+                'K : 27.48%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Koppal',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 98.34%',
+                'P : 0.00%',
+                'K : 0.41%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Mandya',
+              nutrients: [
+                'N : 41.85%',
+                'OC : 26.78%',
+                'P : 14.31%',
+                'K : 8.02%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Mysore',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 54.74%',
+                'P : 10.57%',
+                'K : 0.96%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Raichur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 1.55%',
+                'P : 0.39%',
+                'K : 97.22%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Ramanagara',
+              nutrients: [
+                'N : 31.89%',
+                'OC : 71.57%',
+                'P : 17.14%',
+                'K : 87.12%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Shimoga',
+              nutrients: [
+                'N : 97.03%',
+                'OC : 41.48%',
+                'P : 19.76%',
+                'K : 41.42%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Tumkur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 77.14%',
+                'P : 38.40%',
+                'K : 19.48%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Udupi',
+              nutrients: [
+                'N : 99.86%',
+                'OC : 9.27%',
+                'P : 33.95%',
+                'K : 43.42%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Uttar Kannad',
+              nutrients: [
+                'N : 76.19%',
+                'OC : 5.72%',
+                'P : 43.29%',
+                'K : 54.89%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Yadgir',
+              nutrients: [
+                'N : 94.21%',
+                'OC : 60.32%',
+                'P : 49.11%',
+                'K : 4.95%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+          ],
+        },
+        {
+          name: 'Mizoram',
+          districts: [
+            {
+              name: 'Aizawl',
+              nutrients: [
+                'N : 1.08%',
+                'OC : 61.51%',
+                'P : 99.68%',
+                'K : 20.40%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Champhai',
+              nutrients: [
+                'N : 0.89%',
+                'OC : 51.30%',
+                'P : 99.62%',
+                'K : 9.37%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Kolasib',
+              nutrients: [
+                'N : 16.90%',
+                'OC : 38.78%',
+                'P : 97.24%',
+                'K : 12.25%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Lawngtlai',
+              nutrients: [
+                'N : 28.21%',
+                'OC : 39.64%',
+                'P : 88.23%',
+                'K : 27.95%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Lunglei',
+              nutrients: [
+                'N : 27.68%',
+                'OC : 47.73%',
+                'P : 89.10%',
+                'K : 23.97%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Mamit',
+              nutrients: [
+                'N : 59.47%',
+                'OC : 6.32%',
+                'P : 95.26%',
+                'K : 13.15%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Saiha',
+              nutrients: [
+                'N : 43.34%',
+                'OC : 37.53%',
+                'P : 87.89%',
+                'K : 30.51%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Serchhip',
+              nutrients: [
+                'N : 50.00%',
+                'OC : 50.00%',
+                'P : 0.00%',
+                'K : 100.00%',
+              ],
+              pH: 'Highly acidic',
+            },
+          ],
+        },
+        {
+          name: 'Odisha',
+          districts: [
+            {
+              name: 'Anugul',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 40.00%',
+                'P : 100.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Balangir',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 20.73%',
+                'P : 87.53%',
+                'K : 29.06%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Baleshwar',
+              nutrients: [
+                'N : 100.00%',
+                'OC :97.20%',
+                'P : 87.12%',
+                'K : 93.48%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Bargarh',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 9.31%',
+                'P : 33.72%',
+                'K : 44.19%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Bhadrak',
+              nutrients: [
+                'N : 89.23%',
+                'OC : 32.61%',
+                'P : 87.18%',
+                'K : 80.24%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Boudh',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 34.70%',
+                'P : 54.31%',
+                'K : 7.50%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Cuttack',
+              nutrients: [
+                'N : 54.70%',
+                'OC : 71.71%',
+                'P : 73.02%',
+                'K : 62.88%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Deogarh',
+              nutrients: [
+                'N : 68.75%',
+                'OC : 81.93%',
+                'P : 55.40%',
+                'K : 10.97%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Dhenkanal',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 78.24%',
+                'P : 44.15%',
+                'K : 12.26%',
+              ],
+              pH: 'Strongly acidic',
+            },
+            {
+              name: 'Gajapati',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 40.00%',
+                'P : 100.00%',
+                'K : 18.00%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Ganjam',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 64.16%',
+                'P : 87.96%',
+                'K : 27.83%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Jagatsinghapur',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 77.83%',
+                'P : 71.78%',
+                'K : 39.19%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Jajapur',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 75.67%',
+                'P : 94.59%',
+                'K : 56.76%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Jharsuguda',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 65.22%',
+                'P : 68.73%',
+                'K : 67.48%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Kalahandi',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 88.73%',
+                'P : 93.70%',
+                'K : 6.50%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Kandhamai',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 91.64%',
+                'P : 97.66%',
+                'K : 11.76%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Kendrapara',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 54.22%',
+                'P : 68.14%',
+                'K : 29.13%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Kendujhar',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 71.64%',
+                'P : 91.18%',
+                'K : 80.71%',
+              ],
+              pH: 'Strongly acidic',
+            },
+            {
+              name: 'Khordha',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 33.49%',
+                'P : 64.09%',
+                'K : 40.59%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Koraput',
+              nutrients: [
+                'N : 62.45%',
+                'OC : 56.38%',
+                'P : 86.60%',
+                'K : 15.63%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Malkangiri',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 68.63%',
+                'P : 10.29%',
+                'K : 40.59%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Mayurbhang',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 47.24%',
+                'P : 98.24%',
+                'K : 61.63%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Navarangpur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 84.38%',
+                'P : 71.91%',
+                'K : 24.01%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Nayagarh',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 81.59%',
+                'P : 92.02%',
+                'K : 30.20%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Nuapada',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 76.94%',
+                'P : 91.76%',
+                'K : 3.47%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Puri',
+              nutrients: [
+                'N : 87.50%',
+                'OC : 39.65%',
+                'P : 87.70%',
+                'K : 52.43%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Rayagada',
+              nutrients: [
+                'N : 48.99%',
+                'OC : 67.67%',
+                'P : 66.49%',
+                'K : 16.40%',
+              ],
+              pH: 'Highly acidic',
+            },
+            {
+              name: 'Sambalpur',
+              nutrients: [
+                'N : 81.48%',
+                'OC : 63.01%',
+                'P : 73.65%',
+                'K : 22.57%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Sonepur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 99.96%',
+                'P : 8.37%',
+                'K : 26.21%',
+              ],
+              pH: 'Moderately acidic',
+            },
+            {
+              name: 'Sundargarh',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 55.59%',
+                'P : 65.64%',
+                'K : 44.13%',
+              ],
+              pH: 'Moderately acidic',
+            },
+          ],
+        },
+        {
+          name: 'Telangana',
+          districts: [
+            {
+              name: 'Adilabad',
+              nutrients: [
+                'N : 81.39%',
+                'OC : 93.29%',
+                'P : 96.50%',
+                'K : 37.11%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bhadradri Kothagudem',
+              nutrients: [
+                'N : 92.96%',
+                'OC : 88.05%',
+                'P : 26.34%',
+                'K : 57.17%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Hyderabad',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 100.00%',
+                'P : 100.00%',
+                'K : 100.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Karimnagar',
+              nutrients: [
+                'N : 63.48%',
+                'OC : 73.36%',
+                'P : 5.65%',
+                'K : 3.41%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Khammam',
+              nutrients: [
+                'N : 99.67%',
+                'OC : 91.95%',
+                'P : 24.17%',
+                'K : 2.69%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Mahbubnagar',
+              nutrients: [
+                'N : 71.90%',
+                'OC : 46.58%',
+                'P : 9.07%',
+                'K : 26.71%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Medak',
+              nutrients: [
+                'N : 96.90%',
+                'OC : 23.58%',
+                'P : 7.58%',
+                'K : 0.68%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Mulugu',
+              nutrients: [
+                'N : 86.66%',
+                'OC : 86.67%',
+                'P : 26.66%',
+                'K : 13.33%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Nalgonda',
+              nutrients: [
+                'N : 96.55%',
+                'OC : 18.97%',
+                'P : 79.31%',
+                'K : 94.83%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Narayanapet',
+              nutrients: [
+                'N : 72.35%',
+                'OC : 53.58%',
+                'P : 13.83%',
+                'K : 7.82%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Nizamabad',
+              nutrients: [
+                'N : 81.69%',
+                'OC : 85.02%',
+                'P : 4.67%',
+                'K : 17.92%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Rangareddi',
+              nutrients: [
+                'N : 96.55%',
+                'OC : 60.52%',
+                'P : 3.88%',
+                'K : 43.04%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Warangal',
+              nutrients: [
+                'N : 97.54%',
+                'OC : 81.96%',
+                'P : 21.62%',
+                'K : 15.05%',
+              ],
+              pH: 'Moderately acidic',
+            },
+          ],
+        },
+        {
+          name: 'Punjab',
+          districts: [
+            {
+              name: 'Amritsar',
+              nutrients: [
+                'N : 91.67%',
+                'OC : 84.87%',
+                'P : 61.93%',
+                'K : 23.83%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Barnala',
+              nutrients: [
+                'N : 55.53%',
+                'OC : 61.3%',
+                'P : 83.69%',
+                'K : 75.32%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Bathinda',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 22.22%',
+                'P : 90.60%',
+                'K : 42.96%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Faridkot',
+              nutrients: ['N : 0.00%', 'OC : 0.00%', 'P : 0.00%', 'K : 0.00%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Fatehgarh Sahib',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 81.25%',
+                'P : 54.99%',
+                'K : 31.53%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Fazilka',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 12.23%',
+                'P : 23.85%',
+                'K : 13.79%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Firozepur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 90.66%',
+                'P : 57.64%',
+                'K : 11.09%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Gurdaspur',
+              nutrients: [
+                'N : 48.38%',
+                'OC : 97.90%',
+                'P : 58.55%',
+                'K : 37.75%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Hoshiarpur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 0.00%',
+                'P : 100.00%',
+                'K : 0.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Jalandhar',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 51.08%',
+                'P : 38.41%',
+                'K : 41.01%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Kapurthala',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 78.53%',
+                'P : 64.30%',
+                'K : 13.44%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Ludiana',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 90.06%',
+                'P : 80.99%',
+                'K : 79.29%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Mansa',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 0.00%',
+                'P : 100.00%',
+                'K : 100.00%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Moga',
+              nutrients: [
+                'N : 0.00%',
+                'OC : 73.03%',
+                'P : 52.44%',
+                'K : 20.07%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Muktsar',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 64.02%',
+                'P : 68.02%',
+                'K : 18.93%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Nawanshahr',
+              nutrients: ['N : 0.00%', 'OC : 41.38%', 'P : 0.00%', 'K : 0.00%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Pathankot',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 97.53%',
+                'P : 60.77%',
+                'K : 22.04%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Patiala',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 92.64%',
+                'P : 58.72%',
+                'K : 34.35%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Rupnagar',
+              nutrients: ['N : 0.00%', 'OC : 7.14%', 'P : 0.00%', 'K : 14.29%'],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'S.A.S Nagar',
+              nutrients: [
+                'N : 7.97%',
+                'OC : 92.82%',
+                'P : 32.47%',
+                'K : 36.46%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Sangrur',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 95.28%',
+                'P : 54.97%',
+                'K : 6.16%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+            {
+              name: 'Tarn Taran',
+              nutrients: [
+                'N : 100.00%',
+                'OC : 92.91%',
+                'P : 58.77%',
+                'K : 29.85%',
+              ],
+              pH: 'Moderately alkaline',
+            },
+          ],
+        },
         {
           name: 'BIHAR',
           districts: [
@@ -1962,7 +4006,7 @@ class DataDropDown extends React.Component {
             {
               name: 'Anantapur',
               nutrients: ['N : 100.00%', 'OC : 50.00%', 'P : 0%', 'K : 0%'],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Chittoor',
@@ -1972,7 +4016,7 @@ class DataDropDown extends React.Component {
                 'P : 11.63%',
                 'K : 49.93%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'East Godavari',
@@ -1982,12 +4026,12 @@ class DataDropDown extends React.Component {
                 'P : 24.45%',
                 'K : 2.42%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Guntur',
               nutrients: ['N : 72.34%', 'OC : 74.47%', 'P : 8.51%', 'K : 0%'],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Krishna',
@@ -1997,7 +4041,7 @@ class DataDropDown extends React.Component {
                 'P : 1.36%',
                 'K : 10.39%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Kurnool',
@@ -2007,7 +4051,7 @@ class DataDropDown extends React.Component {
                 'P : 7.29%',
                 'K : 3.66%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Prakasam',
@@ -2017,7 +4061,7 @@ class DataDropDown extends React.Component {
                 'P : 24.88%',
                 'K : 16.77%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Spsr Nellore',
@@ -2027,7 +4071,7 @@ class DataDropDown extends React.Component {
                 'P : 11.75%',
                 'K : 45.01%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Srikakulam',
@@ -2037,7 +4081,7 @@ class DataDropDown extends React.Component {
                 'P : 42.62%',
                 'K : 23.91%',
               ],
-              ph: 'Moderately acidic',
+              pH: 'Moderately acidic',
             },
             {
               name: 'Vishakhapatnam',
@@ -2047,12 +4091,12 @@ class DataDropDown extends React.Component {
                 'P : 14.41%',
                 'K : 51.42%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Vizianagaram',
               nutrients: ['N : 100.00%', 'OC : 100.00%', 'P : 0%', 'K : 0%'],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'West Godavari',
@@ -2062,7 +4106,7 @@ class DataDropDown extends React.Component {
                 'P : 3.41%',
                 'K : 56.53%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
             {
               name: 'Y.S.R.',
@@ -2072,7 +4116,7 @@ class DataDropDown extends React.Component {
                 'P : 19.79%',
                 'K : 28.43%',
               ],
-              ph: 'Moderately alkaline',
+              pH: 'Moderately alkaline',
             },
           ],
         },
@@ -2294,7 +4338,7 @@ class DataDropDown extends React.Component {
               nutrients: [
                 'N : 61.90%',
                 'OC : 28.57%',
-                'P : 333.93%',
+                'P : 33.93%',
                 'K : 23.35%',
               ],
               pH: 'Moderately alkaline',
@@ -2538,20 +4582,51 @@ class DataDropDown extends React.Component {
   changeState (event) {
     this.setState ({selectedState: event.target.value});
     this.setState ({
-      districts: this.state.states.find (dis => dis.name === event.target.value)
-        .districts,
+      districts: this.state.states.find (
+        dis => dis.name === event.target.value
+      ) === undefined
+        ? ['select']
+        : this.state.states.find (dis => dis.name === event.target.value)
+            .districts,
     });
+  }
+  backgroundBro (n) {
+    var sum = 0;
+    n.map ((e, key) => {
+      var num = 0;
+      for (var i = 0; i < e.length; i++) {
+        if (e[i] >= '0' && e[i] <= '9') {
+          num = num * 10 + (e[i] - '0');
+        }
+      }
+      sum += num / 100.00;
+    });
+    console.log (sum);
+    if (sum > 300) return 'danger';
+    else if (sum > 200) return 'warning';
+    else if (sum > 100) return 'info';
+    else return 'success';
   }
 
   changeDistrict (event) {
     this.setState ({selectedDistrict: event.target.value});
     const stats = this.state.states.find (
       state => state.name === this.state.selectedState
-    ).districts;
-    this.setState ({
-      nutrients: stats.find (stat => stat.name === event.target.value)
-        .nutrients,
-    });
+    ) === undefined
+      ? ''
+      : this.state.states.find (
+          state => state.name === this.state.selectedState
+        ).districts;
+    stats === ''
+      ? console.log ()
+      : this.setState ({
+          pH: stats.find (stat => stat.name === event.target.value).pH,
+          nutrients: stats.find (stat => stat.name === event.target.value)
+            .nutrients,
+          bg: this.backgroundBro (
+            stats.find (stat => stat.name === event.target.value).nutrients
+          ),
+        });
   }
 
   render () {
@@ -2589,8 +4664,9 @@ class DataDropDown extends React.Component {
         {/* <label>
             Soil Deficiency in terms of Nutrients in :
           </label> */}
+
         <div placeholder="Nutrients" style={{}}>
-          <Card border="info" style={{}}>
+          <Card border="info" bg={this.state.bg} className="card-of-result">
             <Card.Header>
               Soil <strong>Deficiency</strong> in terms of Nutrients in :
             </Card.Header>
@@ -2614,18 +4690,21 @@ class DataDropDown extends React.Component {
                     </div>
                   );
                 })}
-
+                <br />
+                {this.state.nutrients.length === 0
+                  ? ''
+                  : this.state.pH === ''
+                      ? 'pH data not avaible'
+                      : 'pH is -> ' + this.state.pH}
+                <br />
+                {this.state.bg === 'light'
+                  ? 'your results will come here '
+                  : this.state.bg}
               </Card.Text>
             </Card.Body>
           </Card>
           <br />
-          {/* {this.state.nutrients.map ((e, key) => {
-              return (
-                <div key={key}>
-                  {e}
-                </div>
-              );
-            })} */}
+
         </div>
       </div>
     );
