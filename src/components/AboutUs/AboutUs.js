@@ -15,22 +15,34 @@ const AboutUS = () => {
     {
       image: './amit.jpg',
       name: ' Amit Kesari',
-      task: ' Backend , Frontend Dev ',
+      task: ' Backend Dev, Frontend Dev ',
     },
-    {image: './Ajay.jpeg', name: 'D. Ajay', task: 'Content Creation'},
-    {image: './Anand.jpeg', name: 'Anu Anand Annu ', task: 'Data Collection '},
+    {
+      image: './Ajay.jpeg',
+      name: 'D. Ajay',
+      task: 'Content Creation, Data Collection ',
+    },
+    {
+      image: './Anand.jpeg',
+      name: 'Anu Anand Annu ',
+      task: 'Content Creation , Data Collection ',
+    },
     {
       image: './Sowmya.jpeg',
       name: 'Emani Naga Sowmya',
-      task: 'Project content and design',
+      task: 'Project data and design',
     },
-    {image: './404.png', name: 'Tejaswini Hotkar', task: 'Website Design'},
+    {
+      image: './Teju.jpeg',
+      name: 'Tejaswini Hotkar',
+      task: 'Project data and Design',
+    },
     {
       image: './Manjunath.jpeg',
       name: 'V. Manjunath',
       task: 'Frontend Dev, Game Dev',
     },
-    {image: './404.png', name: 'Angki Pajing', task: 'Data collection'},
+    {image: './404.png', name: 'Angki Pajing', task: 'Project Data and Design'},
     {
       image: './404.png',
       name: 'Ankit Ghildiyal ',
