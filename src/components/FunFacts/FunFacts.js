@@ -221,7 +221,7 @@ class FunFacts extends Component {
           overlay={this.renderSwitch (Math.floor (Math.random () * 6))}
         >
           <Button variant="danger" onClick={() => this.setViewPage (1)}>
-            Wanna Know A Fun Fact. (Click me)
+            Wanna Know A Fun Fact!!!!
           </Button>
         </OverlayTrigger>
 
