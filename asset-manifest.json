@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/eco-project-front/static/css/main.f727f47c.chunk.css",
-    "main.js": "/eco-project-front/static/js/main.c50117c9.chunk.js",
-    "main.js.map": "/eco-project-front/static/js/main.c50117c9.chunk.js.map",
+    "main.css": "/eco-project-front/static/css/main.6f8da799.chunk.css",
+    "main.js": "/eco-project-front/static/js/main.0f146da0.chunk.js",
+    "main.js.map": "/eco-project-front/static/js/main.0f146da0.chunk.js.map",
     "runtime-main.js": "/eco-project-front/static/js/runtime-main.035ceb54.js",
     "runtime-main.js.map": "/eco-project-front/static/js/runtime-main.035ceb54.js.map",
     "static/css/2.3f1f1bc9.chunk.css": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.778093c5.chunk.js": "/eco-project-front/static/js/2.778093c5.chunk.js",
-    "static/js/2.778093c5.chunk.js.map": "/eco-project-front/static/js/2.778093c5.chunk.js.map",
+    "static/js/2.8e2d5479.chunk.js": "/eco-project-front/static/js/2.8e2d5479.chunk.js",
+    "static/js/2.8e2d5479.chunk.js.map": "/eco-project-front/static/js/2.8e2d5479.chunk.js.map",
     "index.html": "/eco-project-front/index.html",
-    "precache-manifest.527bde1d4e291a9bbef47dea6b714c15.js": "/eco-project-front/precache-manifest.527bde1d4e291a9bbef47dea6b714c15.js",
+    "precache-manifest.78664158724a013ee163b9445d8c80ab.js": "/eco-project-front/precache-manifest.78664158724a013ee163b9445d8c80ab.js",
     "service-worker.js": "/eco-project-front/service-worker.js",
     "static/css/2.3f1f1bc9.chunk.css.map": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css.map",
-    "static/css/main.f727f47c.chunk.css.map": "/eco-project-front/static/css/main.f727f47c.chunk.css.map",
-    "static/js/2.778093c5.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.778093c5.chunk.js.LICENSE.txt",
+    "static/css/main.6f8da799.chunk.css.map": "/eco-project-front/static/css/main.6f8da799.chunk.css.map",
+    "static/js/2.8e2d5479.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.8e2d5479.chunk.js.LICENSE.txt",
     "static/media/Ajay.jpeg": "/eco-project-front/static/media/Ajay.24ae16b2.jpeg",
     "static/media/Anand.jpeg": "/eco-project-front/static/media/Anand.2b0bf32b.jpeg",
     "static/media/Sowmya.jpeg": "/eco-project-front/static/media/Sowmya.db48d6fc.jpeg",
+    "static/media/Teju.jpeg": "/eco-project-front/static/media/Teju.1b49fae1.jpeg",
     "static/media/aditya.jpeg": "/eco-project-front/static/media/aditya.4b12617f.jpeg",
     "static/media/amit.jpg": "/eco-project-front/static/media/amit.91037662.jpg",
     "static/media/earthworm_image.png": "/eco-project-front/static/media/earthworm_image.ff11858e.png",
@@ -24,13 +25,15 @@
     "static/media/meme3.jpg": "/eco-project-front/static/media/meme3.229f682d.jpg",
     "static/media/meme4.jpg": "/eco-project-front/static/media/meme4.4c7d0614.jpg",
     "static/media/meme5.jpg": "/eco-project-front/static/media/meme5.fc837c08.jpg",
-    "static/media/meme6.jpeg": "/eco-project-front/static/media/meme6.b2ffdc14.jpeg"
+    "static/media/meme6.jpeg": "/eco-project-front/static/media/meme6.b2ffdc14.jpeg",
+    "static/media/pImage1.jpg": "/eco-project-front/static/media/pImage1.b99ea87e.jpg",
+    "static/media/pImage6.jpg": "/eco-project-front/static/media/pImage6.a8799631.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.035ceb54.js",
     "static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.778093c5.chunk.js",
-    "static/css/main.f727f47c.chunk.css",
-    "static/js/main.c50117c9.chunk.js"
+    "static/js/2.8e2d5479.chunk.js",
+    "static/css/main.6f8da799.chunk.css",
+    "static/js/main.0f146da0.chunk.js"
   ]
 }

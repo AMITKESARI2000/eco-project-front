@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d74c05552e323937cd6f22e4419a36b",
+    "revision": "d6e970c6c6d77ceeff2bbeb543f5e43d",
     "url": "/eco-project-front/index.html"
   },
   {
-    "revision": "f9aa9db4c49de21d04db",
+    "revision": "0825674c5dd74dd96579",
     "url": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css"
   },
   {
-    "revision": "b49a511f94797f89bd00",
-    "url": "/eco-project-front/static/css/main.f727f47c.chunk.css"
+    "revision": "74df8d7799c584e1bd1f",
+    "url": "/eco-project-front/static/css/main.6f8da799.chunk.css"
   },
   {
-    "revision": "f9aa9db4c49de21d04db",
-    "url": "/eco-project-front/static/js/2.778093c5.chunk.js"
+    "revision": "0825674c5dd74dd96579",
+    "url": "/eco-project-front/static/js/2.8e2d5479.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/eco-project-front/static/js/2.778093c5.chunk.js.LICENSE.txt"
+    "url": "/eco-project-front/static/js/2.8e2d5479.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b49a511f94797f89bd00",
-    "url": "/eco-project-front/static/js/main.c50117c9.chunk.js"
+    "revision": "74df8d7799c584e1bd1f",
+    "url": "/eco-project-front/static/js/main.0f146da0.chunk.js"
   },
   {
     "revision": "2f2ed7e149040fedb86a",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "db48d6fc96cd9388c1fb58b9faa74e4e",
     "url": "/eco-project-front/static/media/Sowmya.db48d6fc.jpeg"
+  },
+  {
+    "revision": "1b49fae1f196b15acc1acbfa6efd37a7",
+    "url": "/eco-project-front/static/media/Teju.1b49fae1.jpeg"
   },
   {
     "revision": "4b12617f07b0113165579d07285064ce",
@@ -70,5 +74,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b2ffdc14dd9e9328fb7e130071db8cbb",
     "url": "/eco-project-front/static/media/meme6.b2ffdc14.jpeg"
+  },
+  {
+    "revision": "b99ea87e79d5707cb63e39312576d043",
+    "url": "/eco-project-front/static/media/pImage1.b99ea87e.jpg"
+  },
+  {
+    "revision": "a87996318eb85567949a598654f4144f",
+    "url": "/eco-project-front/static/media/pImage6.a8799631.jpg"
   }
 ]);
