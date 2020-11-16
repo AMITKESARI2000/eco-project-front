@@ -1,5 +1,15 @@
 .card-of-result {
   background-color: cyan;
+  margin: 20px;
+  max-width: 300px;
+}
+.card-of-result1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result-card {
+  width: 800px;
 }
 .suggest {
   color: black;
@@ -7,19 +17,31 @@
 }
 
 .choose1 {
-  color: black;
-  font-size: large;
-  font-weight: bold;
-  text-decoration: solid;
-  margin-right: 20px;
-  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .choose2 {
-  color: black;
-  font-size: large;
-  font-weight: bold;
-  text-decoration: solid;
-  margin-right: 20px;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.choose1 label {
+  margin-right: 30px;
+}
+
+.choose2 label {
+  margin-right: 30px;
+}
+
+.fix-accordion {
+  width: 1800px;
+  margin-top: 50px;
+}
+.card-solution {
+  display: flex;
+  flex-direction: row;
 }

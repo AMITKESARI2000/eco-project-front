@@ -14,6 +14,81 @@ class DataDropDown extends React.Component {
       bg: 'light',
       selectedState: '--Choose State--',
       selectedDistrict: '--Choose District--',
+      solutions: [
+        {
+          Nitrogen: [
+            {
+              OrganicMethod: [
+                'Adding composted manure to the soil',
+                'Planting a green manure crop, such as borage',
+                'Planting nitrogen-fixing plants like peas or beans',
+                'Adding coffee grounds to the soil',
+              ],
+            },
+            {
+              NonOrganicMethod: [
+                'Nitrogen as a plant fertilizer is common when purchasing chemical fertilizers. When looking to specifically add nitrogen to your garden, ',
+                'choose a fertilizer that has a high first number in the NPK ratio.',
+                'The NPK ratio will look something like 10-10-10 and the first number tells you the amount of nitrogen.',
+                'Using a nitrogen fertilizer to fix a nitrogen deficiency in the soil will give a big, fast boost of nitrogen to the soil, but will"fade quickly"',
+              ],
+            },
+          ],
+        },
+        {
+          Potassium: [
+            {
+              OrganicMethod: [
+                'feeding with home-made comfrey liquid',
+                'adding seaweed meal',
+                'composted bracken',
+                'compost rich in decayed banana peels.',
+                'Wood ash also has high potassium content but must be used cautiously due to its effect on pH level.',
+                'Adequate moisture is necessary for effective potassium uptake',
+                'low soil water reduces K uptake by plant roots.',
+                'Liming acidic soils can increase potassium retention in some soils by reducing leaching',
+                'practices that increase soil organic matter can also increase potassium retention.',
+              ],
+            },
+            {
+              InorganicMethod: [
+                'Use The most widely used potassium fertilizer is potassium chloride.',
+                'Other inorganic potassium fertilizers include potassium nitrate, potassium sulfate, and monopotassium phosphate.',
+              ],
+            },
+          ],
+        },
+        {
+          Phosphorus: [
+            {
+              OrganicMethod: [
+                'Major organic sources of phosphorus include, again, certain manures, as well as bone meal and pulverized rock phosphate.',
+                'Manures contain some potassium as well as nitrogen and phosphorous some richer sources of potassium include seaweed, wood ashes, and the minerals greensand and granite.',
+                'Some commercially available organic fertilizers are blends of one or more individual organic fertilizers, so can offer a balance of all three major nutrients.',
+              ],
+              InorganicMethod: [''],
+            },
+          ],
+        },
+        {
+          OrganicCarbon: [
+            'Eliminate unnecessary cultivation (introduce zero or minimum tillage)',
+            'Include pasture rotations where possible and use pastures in the inter-rows for tree crops and vines. Plant perennial species where possible',
+            'Adopt appropriate grazing management strategies that minimise the impact of grazing on soil structure and maximise organic matter returns',
+            'Maintain and conserve ground cover - To maximise wind erosion control, stubble should cover a minimum of 70% of the soil surface, preferably be standing (anchored by roots)',
+            'Grow high yield, high biomass crops and pastures, and in continuous cropping systems maximise crop frequency to increase organic matter returns to the soil',
+            'Maintain soil fertility with inorganic and organic fertilisers to maximise production',
+            'If available locally, import manure/compost or other organic amendments',
+          ],
+        },
+        {
+          pH: {
+            Acidic: 'The most common way to raise the pH of the soil is to add pulverized limestone to the soil. Limestone acts as a soil acid neutralizer and consists of either calcium and magnesium carbonate or calcium carbonate. These are called dolomitic limestone and calcitic limestone respectively.',
+            Alkaline: 'Elemental sulfur, aluminium sulfate, iron sulfate, and ammonium sulfate are common amendments used to decrease the soil pH.Spaghnum peat moss is often suggested as a soil amendment to decrease soil pH.  However, most peat moss found in garden centres is neutral or slightly acidic.  Only Canadian spaghnum peat moss has a low pH of 3.0 to 4.5 and will effectively reduce soil pH',
+          },
+        },
+      ],
+      causes: [],
     };
     this.changeState = this.changeState.bind (this);
     this.changeDistrict = this.changeDistrict.bind (this);
@@ -250,7 +325,7 @@ class DataDropDown extends React.Component {
 
         {
           name: 'Tripura',
-          disrticts: [
+          districts: [
             {
               name: 'Dhalai',
               nutrients: ['N:40.46%', 'OC:23.38%', 'P:40.49%', 'K:51.99%'],
@@ -5567,14 +5642,20 @@ class DataDropDown extends React.Component {
   }
   backgroundBro (n) {
     var sum = 0;
-    n.map ((e, key) => {
-      var num = 0;
-      for (var i = 0; i < e.length; i++) {
-        if (e[i] >= '0' && e[i] <= '9') {
-          num = num * 10 + (e[i] - '0');
+    n.map ((v, key) => {
+      var num = 0, f = 0, deci = 0.1;
+      for (var i = 0; i < v.length; i++) {
+        if (v[i] <= '9' && v[i] >= '0') {
+          if (f === 1) {
+            num += deci * (v[i] - '0');
+            deci *= 0.1;
+          } else {
+            num = num * 10 + (v[i] - '0');
+          }
         }
+        if (v[i] === '.') f = 1;
       }
-      sum += num / 100.00;
+      sum += num;
     });
     console.log (sum);
     if (sum > 300) return 'danger';
@@ -5604,11 +5685,32 @@ class DataDropDown extends React.Component {
         });
   }
 
+  chooseColor (v) {
+    if (v === undefined) return 'dark';
+    var num = 0, f = 0, deci = 0.1;
+
+    for (var i = 0; i < v.length; i++) {
+      if (v[i] <= '9' && v[i] >= '0') {
+        if (f === 1) {
+          num += deci * (v[i] - '0');
+          deci *= 0.1;
+        } else {
+          num = num * 10 + (v[i] - '0');
+        }
+      }
+      if (v[i] === '.') f = 1;
+    }
+    console.log (num + ' ' + v);
+    if (num >= 98) return 'danger';
+    else if (num >= 80) return 'warning';
+    else if (num >= 40) return 'info';
+    else return 'success';
+  }
   render () {
     return (
       <div id="container">
-        <div>
-          <label className="choose2">State</label>
+        <div className="choose2">
+          <label><strong>State</strong></label>
 
           <select
             placeholder="State"
@@ -5622,8 +5724,8 @@ class DataDropDown extends React.Component {
           </select>
         </div>
 
-        <div>
-          <label className="choose1">District</label>
+        <div className="choose1">
+          <label><strong>District</strong></label>
 
           <select
             placeholder="District"
@@ -5641,8 +5743,8 @@ class DataDropDown extends React.Component {
             Soil Deficiency in terms of Nutrients in :
           </label> */}
 
-        <div placeholder="Nutrients" style={{}}>
-          <Card border="info" bg={this.state.bg} className="card-of-result">
+        <div placeholder="Nutrients" className="card-of-result1">
+          <Card border="info" bg={this.state.bg} className="result-card">
             <Card.Header>
               Soil <strong>Deficiency</strong> in terms of Nutrients in :
             </Card.Header>
@@ -5682,7 +5784,7 @@ class DataDropDown extends React.Component {
           <br />
 
         </div>
-        <Accordion>
+        <Accordion className="fix-accordion">
           <Card>
             <Card.Header>
               <Accordion.Toggle
@@ -5696,6 +5798,7 @@ class DataDropDown extends React.Component {
                 <strong>Causes</strong>
                 {' '}
                 for this condition.
+
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
@@ -5719,7 +5822,153 @@ class DataDropDown extends React.Component {
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
-              <Card.Body>---Solutions Here---</Card.Body>
+              <Card.Body>
+                <div className="card-solution">
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[0])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Nitrogen </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Title>
+                        Organic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[0].Nitrogen[0].OrganicMethod[
+                            Math.floor (
+                              this.state.solutions[0].Nitrogen[0].OrganicMethod
+                                .length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                      <Card.Title>
+                        Inorganic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[0].Nitrogen[1].NonOrganicMethod[
+                            Math.floor (
+                              this.state.solutions[0].Nitrogen[1]
+                                .NonOrganicMethod.length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[1])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Potassium </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Title>
+                        Organic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[1].Potassium[0].OrganicMethod[
+                            Math.floor (
+                              this.state.solutions[1].Potassium[0].OrganicMethod
+                                .length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                      <Card.Title>
+                        Inorganic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[1].Potassium[1].InorganicMethod[
+                            Math.floor (
+                              this.state.solutions[1].Potassium[1]
+                                .InorganicMethod.length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[2])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Phosphorus </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Title>
+                        Organic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[2].Phosphorus[0].OrganicMethod[
+                            Math.floor (
+                              this.state.solutions[2].Phosphorus[0]
+                                .OrganicMethod.length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[3])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Organic Carbon </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+
+                      <Card.Text>
+                        {
+                          this.state.solutions[3].OrganicCarbon[
+                            Math.floor (
+                              this.state.solutions[3].OrganicCarbon.length *
+                                Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="info"
+                    bg={
+                      this.state.pH.toLowerCase ().includes ('highly')
+                        ? 'secondary'
+                        : 'primary'
+                      //this.state.pH.includes ('Highly') ? 'secondary' : 'primary'
+                    }
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong> {this.state.pH} </strong> pH:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Text>
+                        {this.state.pH.includes ('alkaline')
+                          ? this.state.solutions[4].pH.Alkaline
+                          : this.state.solutions[4].pH.Acidic}
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </div>
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
