@@ -5,7 +5,7 @@
 /* ==== NAVIGATION CONTAINER ==== */
 .nav-container-NavigationBar,
 .navbar {
-  background-color: #eeeeee;
+  background-color: #333333;
   opacity: 0.98;
   font-family: 'Raleway', 'Roboto Slab', Arial, Helvetica, sans-serif;
   position: sticky;
@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  background-color: #333333;
+  background-color: #eeeeee;
   /* background: linear-gradient(
     90deg,
     rgb(26, 146, 167),
@@ -70,7 +70,7 @@ a.nav-link-NavigationBar,
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #333333;
+  color: #eeeeee;
   /* color: rgba(255, 255, 255, 0.5); */
 }
 

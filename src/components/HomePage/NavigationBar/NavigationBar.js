@@ -9,7 +9,7 @@ const NavigationBar = () => {
     <div className="nav-container-NavigationBar  underline-NavigationBar">
       <Navbar collapseOnSelect expand="lg" sticky="bottom" variant="dark">
         <Navbar.Brand className="main-web-name-NavigationBar">
-          <Logo width="130" height="130" />
+          <Logo width="140" height="90" style={{backgroundColor: 'white'}} />
           <NavLink to="/home" style={{marginLeft: '20px'}}>
             FERTILIZER POLLUTION, IIT TIRUPATI
           </NavLink>

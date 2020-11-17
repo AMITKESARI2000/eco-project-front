@@ -15,7 +15,11 @@
   color: black;
   font: oblique;
   cursor: pointer;
-  background-color: chartreuse;
+  background-color: wheat;
+}
+.suggest:hover {
+  background-color: chocolate;
+  color: #eeeeee;
 }
 
 .choose1 {
