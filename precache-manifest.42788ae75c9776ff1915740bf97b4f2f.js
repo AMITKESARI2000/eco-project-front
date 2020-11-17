@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6e970c6c6d77ceeff2bbeb543f5e43d",
+    "revision": "5a0184ab73287e61fb03da0fcc1c1b44",
     "url": "/eco-project-front/index.html"
   },
   {
-    "revision": "0825674c5dd74dd96579",
+    "revision": "f5aec32380b40be42973",
     "url": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css"
   },
   {
-    "revision": "74df8d7799c584e1bd1f",
-    "url": "/eco-project-front/static/css/main.6f8da799.chunk.css"
+    "revision": "59016e29154899047da4",
+    "url": "/eco-project-front/static/css/main.7a6cb28a.chunk.css"
   },
   {
-    "revision": "0825674c5dd74dd96579",
-    "url": "/eco-project-front/static/js/2.8e2d5479.chunk.js"
+    "revision": "f5aec32380b40be42973",
+    "url": "/eco-project-front/static/js/2.df67dbce.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/eco-project-front/static/js/2.8e2d5479.chunk.js.LICENSE.txt"
+    "url": "/eco-project-front/static/js/2.df67dbce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74df8d7799c584e1bd1f",
-    "url": "/eco-project-front/static/js/main.0f146da0.chunk.js"
+    "revision": "59016e29154899047da4",
+    "url": "/eco-project-front/static/js/main.a648dbac.chunk.js"
   },
   {
     "revision": "2f2ed7e149040fedb86a",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff11858edfef4175f27e699987141230",
     "url": "/eco-project-front/static/media/earthworm_image.ff11858e.png"
+  },
+  {
+    "revision": "fb3f222d4e534120d0d31e30eb72ab3a",
+    "url": "/eco-project-front/static/media/iittp.fb3f222d.svg"
   },
   {
     "revision": "350194ccd8f3def9b46fa2470e219717",
