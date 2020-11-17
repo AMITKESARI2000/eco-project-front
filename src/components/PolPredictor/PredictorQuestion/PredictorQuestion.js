@@ -10,7 +10,9 @@ const PredictorQuestion = ({setViewPage}) => {
       </a>
       <div className="sideBySide-PredictorContent">
         <div>
-          <h2 className="header-PredictorContent">Answer the questions </h2>
+          <h2 className="header-PredictorContent">
+            Select Your State and District
+          </h2>
 
           <DataDropDown />
         </div>

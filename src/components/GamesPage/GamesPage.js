@@ -1,14 +1,15 @@
 import React from 'react';
-import FunFacts from '../FunFacts/FunFacts';
 import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
+import ProjectFooter from '../HomePage/ProjectFooter/ProjectFooter';
 import SnakeGame from './SnakeGame/snakeGame';
+import SnakeGameStarter from './SnakeGameStarter';
 
 const GamesPage = () => {
   return (
     <div>
       <NavigationBar />
-      <FunFacts />
-      <SnakeGame />
+      <SnakeGameStarter />
+      <ProjectFooter />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './ProjectFooter.css';
+import ReactPlayer from 'react-player';
 import {FaInstagram} from 'react-icons/fa';
 import {FaYoutube} from 'react-icons/fa';
 import {FaFacebook} from 'react-icons/fa';
@@ -30,12 +31,12 @@ const ProjectFooter = () => {
               <Link to="/Blogs">Blogs</Link>
             </div>
             <div className="all ">
-              <Link to="/Challenges/all">Challenges</Link>
+              <Link to="/Blogs">Challenges</Link>
               <Link to="/Events/Competitions">Competitions</Link>
             </div>
 
             <div className="all">
-              <Link to="WebTeam">Web Team</Link>
+              <Link to="/aboutus">Team</Link>
               <Link
                 to="/Events/CalendarEvents"
                 className="CalendarLink-ProjectFooter"

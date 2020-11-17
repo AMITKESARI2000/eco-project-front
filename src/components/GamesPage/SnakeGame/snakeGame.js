@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
 import Snake from './Snake';
 import Food from './Food';
-import Image from './Images/earthworm_image.png';
+import Worm from './Images/earthworm_image.png';
 import './SnakeGame.css';
 import FunFacts from '../../FunFacts/FunFacts';
+import {Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import Image from 'react-bootstrap/Image';
+import NavigationBar from '../../HomePage/NavigationBar/NavigationBar';
+import ProjectFooter from '../../HomePage/ProjectFooter/ProjectFooter';
 
 const getRandomCoordinates = () => {
   let min = 1;
@@ -142,24 +147,44 @@ class SnakeGame extends Component {
   render () {
     return (
       <div>
-        <img
-          src={Image}
-          className="Worm"
-          alt="earthworm-pic"
-          width="1000"
-          height="600"
-        />
-
+        <NavigationBar />
+        <div class="text-center">
+          <img
+            src={Worm}
+            className="worm"
+            style={{marginTop: '50px'}}
+            alt="Responsive "
+          />
+        </div>
         <div className="buttons">
-          <button value="Start" className="button1" onClick={this.startGame}>
+
+          <Button
+            variant="success"
+            value="Start"
+            size="lg"
+            style={{margin: '30px'}}
+            onClick={this.startGame}
+          >
             Start Game
-          </button>
-          <button value="Pause" className="button2" onClick={this.startGame}>
+          </Button>
+          <Button
+            value="Pause"
+            variant="warning"
+            size="lg"
+            style={{margin: '30px'}}
+            onClick={this.startGame}
+          >
             Pause Game
-          </button>
-          <button value="Stop" className="button3" onClick={this.gameOver}>
+          </Button>
+          <Button
+            value="Stop"
+            variant="danger"
+            size="lg"
+            style={{margin: '30px'}}
+            onClick={this.gameOver}
+          >
             Stop Game
-          </button>
+          </Button>
         </div>
 
         <div className="game-area">
@@ -191,6 +216,10 @@ class SnakeGame extends Component {
           organic farming.
 
         </p>
+        <Link to="/games" className="btn btn-primary">
+          Go back
+        </Link>
+        <ProjectFooter />
       </div>
     );
   }

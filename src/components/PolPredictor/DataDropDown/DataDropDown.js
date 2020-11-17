@@ -5788,7 +5788,7 @@ class DataDropDown extends React.Component {
           <Card>
             <Card.Header>
               <Accordion.Toggle
-                as={Button}
+                as={Card.Header}
                 variant="link"
                 eventKey="1"
                 className="suggest"
@@ -5802,14 +5802,161 @@ class DataDropDown extends React.Component {
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
-              <Card.Body>---Causes Here---</Card.Body>
+              <Card.Body>
+                <div className="card-solution">
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[0])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Nitrogen </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Title>
+                        Organic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[0].Nitrogen[0].OrganicMethod[
+                            Math.floor (
+                              this.state.solutions[0].Nitrogen[0].OrganicMethod
+                                .length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                      <Card.Title>
+                        Inorganic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[0].Nitrogen[1].NonOrganicMethod[
+                            Math.floor (
+                              this.state.solutions[0].Nitrogen[1]
+                                .NonOrganicMethod.length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[1])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Potassium </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Title>
+                        Organic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[1].Potassium[0].OrganicMethod[
+                            Math.floor (
+                              this.state.solutions[1].Potassium[0].OrganicMethod
+                                .length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                      <Card.Title>
+                        Inorganic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[1].Potassium[1].InorganicMethod[
+                            Math.floor (
+                              this.state.solutions[1].Potassium[1]
+                                .InorganicMethod.length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[2])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Phosphorus </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Title>
+                        Organic Method
+                      </Card.Title>
+                      <Card.Text>
+                        {
+                          this.state.solutions[2].Phosphorus[0].OrganicMethod[
+                            Math.floor (
+                              this.state.solutions[2].Phosphorus[0]
+                                .OrganicMethod.length * Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="dark"
+                    bg={this.chooseColor (this.state.nutrients[3])}
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong>Organic Carbon </strong> Deficiency:
+                    </Card.Header>
+                    <Card.Body>
+
+                      <Card.Text>
+                        {
+                          this.state.solutions[3].OrganicCarbon[
+                            Math.floor (
+                              this.state.solutions[3].OrganicCarbon.length *
+                                Math.random ()
+                            )
+                          ]
+                        }
+                      </Card.Text>
+
+                    </Card.Body>
+                  </Card>
+                  <Card
+                    border="info"
+                    bg={
+                      this.state.pH.toLowerCase ().includes ('highly')
+                        ? 'secondary'
+                        : 'primary'
+                      //this.state.pH.includes ('Highly') ? 'secondary' : 'primary'
+                    }
+                    className="card-of-result"
+                  >
+                    <Card.Header>
+                      for <strong> {this.state.pH} </strong> pH:
+                    </Card.Header>
+                    <Card.Body>
+                      <Card.Text>
+                        {this.state.pH.includes ('alkaline')
+                          ? this.state.solutions[4].pH.Alkaline
+                          : this.state.solutions[4].pH.Acidic}
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </div>;
+
+              </Card.Body>
             </Accordion.Collapse>
           </Card>
 
           <Card>
             <Card.Header>
               <Accordion.Toggle
-                as={Button}
+                as={Card.Header}
                 variant="link"
                 eventKey="0"
                 className="suggest"
@@ -5974,7 +6121,7 @@ class DataDropDown extends React.Component {
           <Card>
             <Card.Header>
               <Accordion.Toggle
-                as={Button}
+                as={Card.Header}
                 variant="link"
                 eventKey="2"
                 className="suggest"
@@ -5990,6 +6137,39 @@ class DataDropDown extends React.Component {
               <Card.Body>
                 <Link to="/games" className="btn btn-primary">
                   Game
+                </Link>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+          <Card>
+            <Card.Header>
+              <Accordion.Toggle
+                as={Card.Header}
+                variant="link"
+                eventKey="3"
+                className="suggest"
+              >
+                Check me out for some
+                {' '}
+                <strong>more</strong>
+                {' '}
+                and
+                {' '}
+                <strong>indepth </strong>
+                {' '}
+                knowledge about
+                {' '}
+                <strong>causes </strong>
+                and
+                {' '}
+                <strong>Solutions</strong>
+                {' '}
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey="3">
+              <Card.Body>
+                <Link to="/blogs" className="btn btn-primary">
+                  Blogs
                 </Link>
               </Card.Body>
             </Accordion.Collapse>
