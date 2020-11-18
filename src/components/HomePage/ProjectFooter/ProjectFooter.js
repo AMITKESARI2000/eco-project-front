@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './ProjectFooter.css';
-import { FaInstagram } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
-import { AiFillHeart } from 'react-icons/ai';
+import ReactPlayer from 'react-player';
+import {FaInstagram} from 'react-icons/fa';
+import {FaYoutube} from 'react-icons/fa';
+import {FaFacebook} from 'react-icons/fa';
+import {AiFillHeart} from 'react-icons/ai';
 
 const ProjectFooter = () => {
   return (
@@ -16,27 +17,26 @@ const ProjectFooter = () => {
               <strong>IIT TIRUPATI</strong>
             </p>
             <div className=" lower-three bt">
-            <p>© 2020 Project Team</p>
-          </div>
+              <p>© 2020 Project Team</p>
+            </div>
           </div>
           <div className="cont col-md-10 col-12">
             <div className="all ">
               <Link to="/">Home</Link>
               <Link to="/Events">Events</Link>
             </div>
-           
 
             <div className="all ">
               <Link to="/Projects">Projects</Link>
               <Link to="/Blogs">Blogs</Link>
             </div>
             <div className="all ">
-              <Link to="/Challenges/all">Challenges</Link>
+              <Link to="/Blogs">Challenges</Link>
               <Link to="/Events/Competitions">Competitions</Link>
             </div>
 
             <div className="all">
-              <Link to="WebTeam">Web Team</Link>
+              <Link to="/aboutus">Team</Link>
               <Link
                 to="/Events/CalendarEvents"
                 className="CalendarLink-ProjectFooter"
@@ -48,7 +48,7 @@ const ProjectFooter = () => {
               <Link to="/">Support</Link>
             </div>
           </div>
- 
+
         </div>
         <br />
         <div className="row bottom">
@@ -67,14 +67,14 @@ const ProjectFooter = () => {
             </div>
           </div>
           <div className="col-sm-6 lower-two bt">
-            {/* MADE WITH{' '}
+            MADE WITH{' '}
             <p className="heart">
-              <AiFillHeart style={{ position: 'relative', top: '0.35vw' }} />
+              <AiFillHeart style={{position: 'relative', top: '0.35vw'}} />
             </p>{' '}
-            BY <strong> WEB TEAM </strong> TAC 2020-21 */}
-            
+            BY <strong> DESH KI MITTI SE JUDE LOG </strong> 2020-21
+
           </div>
-         
+
         </div>
       </div>
     </div>

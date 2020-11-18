@@ -13,7 +13,7 @@
 .game-content {
   position: relative;
   margin: 50px auto;
-  background-color: gold;
+  background-color: #eeeeee;
   text-align: center;
   width: 900px;
   max-width: 100%;
@@ -56,33 +56,16 @@
   margin: 30px;
   border-radius: 30px;
 }
-.Worm {
+.worm {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
   border-radius: 25px;
   cursor: pointer;
 }
 
-.button1:hover {
-  background-color: #36fd2f;
-  top: -4px;
-}
-.button2:hover {
-  background-color: #2ac5ec;
-  top: -4px;
-}
-.button3:hover {
-  background-color: #d12626;
-  top: -4px;
-}
 .Worm:hover {
-  top: -10px;
+  transform: scale(1.1);
 }
 
 .snake-food {

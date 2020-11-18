@@ -3,6 +3,7 @@
 
 .container-PhotoCarousel {
   padding-top: 0.1rem;
+  margin: 2rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -18,7 +19,7 @@
 
 .carousal-PhotoCarousel {
   margin: auto;
-  background: linear-gradient(to right, #e3004c, #a17310, #47b200);
+  /* background: linear-gradient(to right, #e3004c, #a17310, #47b200); */
   box-shadow: rgb(73, 71, 71) 2px 2px 10px 1px;
   padding: 0.2%;
   border-radius: 6px;

@@ -1,18 +1,22 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 import './NavigationBar.css';
-import { Link, NavLink } from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
+import {ReactComponent as Logo} from './imagesNav/iittp.svg';
 
 const NavigationBar = () => {
   return (
     <div className="nav-container-NavigationBar  underline-NavigationBar">
       <Navbar collapseOnSelect expand="lg" sticky="bottom" variant="dark">
         <Navbar.Brand className="main-web-name-NavigationBar">
-          <NavLink to="/home">FERTILIZER POLLUTION, IIT TIRUPATI</NavLink>
+          <Logo width="140" height="90" style={{backgroundColor: 'white'}} />
+          <NavLink to="/home" style={{marginLeft: '20px'}}>
+            FERTILIZER POLLUTION, IIT TIRUPATI
+          </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto"></Nav>
+          <Nav className="mr-auto" />
           <Nav>
             <NavLink className="nav-link-NavigationBar " to="/home">
               Home

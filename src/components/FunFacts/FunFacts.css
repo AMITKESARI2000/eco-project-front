@@ -1,0 +1,7 @@
+.FunFacts {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
