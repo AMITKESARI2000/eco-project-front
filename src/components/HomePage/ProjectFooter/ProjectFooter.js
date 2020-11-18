@@ -17,22 +17,22 @@ const ProjectFooter = () => {
               <strong>IIT TIRUPATI</strong>
             </p>
             <div className=" lower-three bt">
-              <p>© 2020 Project Team</p>
+              <p>© 2020 Eco Project Team</p>
             </div>
           </div>
           <div className="cont col-md-10 col-12">
             <div className="all ">
               <Link to="/">Home</Link>
-              <Link to="/Events">Events</Link>
+              <Link to="/Events">Games</Link>
             </div>
 
             <div className="all ">
-              <Link to="/Projects">Projects</Link>
-              <Link to="/Blogs">Blogs</Link>
+              <Link to="/Projects">Pollution </Link>
+              <Link to="/Blogs">Predict</Link>
             </div>
             <div className="all ">
-              <Link to="/Blogs">Challenges</Link>
-              <Link to="/Events/Competitions">Competitions</Link>
+              <Link to="/Blogs">Blogs</Link>
+              <Link to="/Events/Competitions">Memes</Link>
             </div>
 
             <div className="all">
