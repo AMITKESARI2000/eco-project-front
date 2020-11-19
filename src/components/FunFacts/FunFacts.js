@@ -88,11 +88,7 @@ class FunFacts extends Component {
       '"Benefits Of Pesticides"',
     ],
   };
-  setViewPage (f) {
-    if (f === 1) {
-      return Math.floor (Math.random () * this.state.FactsOnSoil.length);
-    }
-  }
+
   popover1 = (
     <Popover id="popover-basic">
       <Popover.Title as="h3">
@@ -220,7 +216,7 @@ class FunFacts extends Component {
           placement="bottom"
           overlay={this.renderSwitch (Math.floor (Math.random () * 6))}
         >
-          <Button variant="danger" onClick={() => this.setViewPage (1)}>
+          <Button variant="danger" style={{margin: '1rem'}}>
             Wanna Know A Fun Fact!!!!
           </Button>
         </OverlayTrigger>

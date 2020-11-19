@@ -14,6 +14,10 @@ import EditBlog from './components/BlogsPage/comp/edit-blog.component';
 import CreateBlog from './components/BlogsPage/comp/create-blog.component';
 import CreateUser from './components/BlogsPage/comp/create-user.component';
 import SnakeGame from './components/GamesPage/SnakeGame/snakeGame';
+import NitrogenGame from './components/GamesPage/NitrogenGame/NitrogenGame';
+import PhosphorusGame
+  from './components/GamesPage/PhosphorusGame/PhosphorusGame';
+import PotassiumGame from './components/GamesPage/PotassiumGame/PotassiumGame';
 
 function App () {
   return (
@@ -26,6 +30,10 @@ function App () {
           <Route path="/polpredict" component={PolPredictorMain} />
 
           <Route path="/games" component={GamesPage} />
+          <Route path="/NitrogenGame" component={NitrogenGame} />
+          <Route path="/PhosphorusGame" component={PhosphorusGame} />
+          <Route path="/Po" component={PotassiumGame} />
+
           <Route path="/SnakeGame" component={SnakeGame} />
 
           <Route path="/aboutus" component={AboutUs} />

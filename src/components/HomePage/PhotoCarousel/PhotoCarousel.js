@@ -2,7 +2,9 @@ import React, {useState} from 'react';
 import {Carousel} from 'react-bootstrap';
 import './PhotoCarousel.css';
 import image1 from '../../../ProjectImage/pImage6.jpg';
-import image2 from '../../../ProjectImage/pImage1.jpg';
+import image3 from '../../../ProjectImage/blogsImage1.jpg';
+import image4 from '../../../ProjectImage/soil logo.png';
+import image5 from '../../../ProjectImage/GameImage.jpg';
 
 const PhotoCarousel = () => {
   const [state, setState] = useState ({
@@ -16,14 +18,19 @@ const PhotoCarousel = () => {
   return (
     <div className="container-PhotoCarousel">
       <h2 className="header-PhotoCarousel">Featured</h2>
-      <Carousel {...state} className="carousal-PhotoCarousel">
+      <Carousel
+        {...state}
+        className="carousal-PhotoCarousel"
+        style={{height: '800px', width: '1800px'}}
+      >
         <Carousel.Item>
           <img
             className="imageFeatured-PhotoCarousel"
-            src="https://images.unsplash.com/photo-1567710065860-dcef8df041e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            src={image4}
+            style={{maxWidth: '80%'}}
             alt="First slide"
           />
-          <Carousel.Caption>
+          <Carousel.Caption style={{color: 'black'}}>
             <h3>Pollution Predictor.</h3>
             <p>Know and understand the condition of soil near your area.</p>
           </Carousel.Caption>
@@ -31,7 +38,7 @@ const PhotoCarousel = () => {
         <Carousel.Item>
           <img
             className="imageFeatured-PhotoCarousel"
-            src="https://images.unsplash.com/photo-1564497417229-550e312643f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            src={image3}
             alt="Second slide"
           />
 
@@ -57,7 +64,7 @@ const PhotoCarousel = () => {
         <Carousel.Item>
           <img
             className="imageFeatured-PhotoCarousel"
-            src={image2}
+            src={image5}
             alt="Third slide"
           />
 

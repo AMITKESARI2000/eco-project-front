@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Popover, OverlayTrigger} from 'react-bootstrap';
 import './PredictorContent.css';
+import image1 from '../../../ProjectImage/soil logo.png';
 
 const PredictorContent = ({setViewPage}) => {
   const popover = (
@@ -27,7 +28,8 @@ const PredictorContent = ({setViewPage}) => {
         </div>
         <img
           className="image-PredictorContent"
-          src="https://images.unsplash.com/photo-1568598034003-ec897abcb5f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+          src={image1}
+          style={{height: '600px', width: '700px'}}
           alt="First slide"
         />
       </div>

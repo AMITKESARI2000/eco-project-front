@@ -3,7 +3,7 @@
 
 .container-PhotoCarousel {
   padding-top: 0.1rem;
-  margin: 2rem;
+
   position: relative;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
 /* ==== IMAGE ==== */
 .imageFeatured-PhotoCarousel {
   /* display: inline-block; */
-  height: 100vh;
+  height: 800px;
   width: 100%;
   border-radius: 6px;
   display: flex;
