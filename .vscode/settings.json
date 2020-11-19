@@ -25,7 +25,13 @@
         "Tejaswini",
         "Teju",
         "Youtube",
+<<<<<<< HEAD
         "amit",
         "phos"
     ]
+=======
+        "amit"
+    ],
+    "cmake.configureOnOpen": false
+>>>>>>> d906a0b6e3b05a7c4f827bd0b2b2d24bd768b05a
 }
