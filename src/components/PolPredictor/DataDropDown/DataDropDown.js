@@ -88,7 +88,68 @@ class DataDropDown extends React.Component {
           },
         },
       ],
-      causes: [],
+      causes: [
+        {
+          Nitrogen: [
+            {
+              ImbalanceIsCausedBy: 'The fluctuations in nitrogen levels in soil is because of excess usage of both synthetic and organic Nitrogen fertilizers. In rural areas septic tanks contribute a major part in these fluctuations.',
+            },
+            {
+              ImbalanceCauses: 'Ground and drinking water pollution. The toxicated water causes respiratory,fertility, kidney problems. Improper growth in infants.',
+            },
+          ],
+        },
+        {
+          Potassium: [
+            {
+              ImbalanceIsCausedBy: 'Insufﬁcient fertilization, excessive ‘table salt’ (sodium) in the root environment, unfavourable soil structure (e.g. sandy soils) and formation of depletion zones around roots.',
+            },
+            {
+              ImbalanceCauses: 'Chlorosis, poor growth, reduced yield and poor ﬁbre quality with the increased susceptibility to diseases and pests,effect on photosynthesis,purple or rust brown spots. Leaves often turn or curl radially on the top and entire leaves become necrotic and eventually fall off. Inhibition of flowering and rapid shedding of leaves.',
+            },
+          ],
+        },
+        {
+          Phosphorus: [
+            {
+              ImbalanceIsCausedBy: 'Excessive mining, out of which only 10% enters the agriculture system and is utilised by plants. The remaining 90% is lost because of erosion especially on heavy textured soil.',
+            },
+            {
+              ImbalanceCauses: 'Excess phosphorus flows with rain water runoff causing widespread pollution in lakes, rivers and coastal areas, algal blooms and dead zones in the oceans killing aquatic life and producing toxins harmful to humans.',
+            },
+          ],
+        },
+        {
+          OrganicCarbon: [
+            {
+              ImbalanceIsCausedBy: 'Anaerobic (in the absence of oxygen)rotting of organic matter during flood irrigation. Decaying or burning biomass and adding manure. Livestock emissions and waste.',
+            },
+            {
+              ImbalanceCauses: 'Greenhouse gases emissions.Around 40% of methane in the global GHG emissions is contributed from agriculture.',
+            },
+          ],
+        },
+        {
+          pH: {
+            Acidic: [
+              {
+                ImbalanceIsCausedBy: 'Soil acidification is a natural process accelerated by agriculture. Ammonium based fertilisers are major contributors to soil acidification.The main cause of soil acidification is inefficient use of nitrogen, followed by the export of alkalinity in produce.',
+              },
+              {
+                ImbalanceCauses: 'Decreases availability of nutrients to plants. Acidity can degrade the favorable environment for bacteria,earthworm and other soil organisms.',
+              },
+            ],
+            Alkaline: [
+              {
+                ImbalanceIsCausedBy: 'Excess carbonates cause alkalinity in soil. Alkaline irrigation waters may cause soil alkalinity. Continuous use of irrigation water with salt content and use of basic fertilizer Calcium Ammonium Nitrate and excessive overlimiting practice regardless the soil pH.',
+              },
+              {
+                ImbalanceCauses: 'Reduction in availability of nutrients like iron,zinc,copper etc. Iron chlorosis,precipitation.',
+              },
+            ],
+          },
+        },
+      ],
     };
     this.changeState = this.changeState.bind (this);
     this.changeDistrict = this.changeDistrict.bind (this);
@@ -5710,7 +5771,7 @@ class DataDropDown extends React.Component {
     return (
       <div id="container">
         <div className="choose2">
-          <label><strong>State</strong></label>
+          <label><div className="heading"><strong>State</strong></div></label>
 
           <select
             placeholder="State"
@@ -5725,7 +5786,9 @@ class DataDropDown extends React.Component {
         </div>
 
         <div className="choose1">
-          <label><strong>District</strong></label>
+          <label>
+            <div className="heading"><strong>District</strong></div>
+          </label>
 
           <select
             placeholder="District"
@@ -5814,30 +5877,16 @@ class DataDropDown extends React.Component {
                     </Card.Header>
                     <Card.Body>
                       <Card.Title>
-                        Organic Method
+                        Imbalance Is Caused By
                       </Card.Title>
                       <Card.Text>
-                        {
-                          this.state.solutions[0].Nitrogen[0].OrganicMethod[
-                            Math.floor (
-                              this.state.solutions[0].Nitrogen[0].OrganicMethod
-                                .length * Math.random ()
-                            )
-                          ]
-                        }
+                        {this.state.causes[0].Nitrogen[0].ImbalanceIsCausedBy}
                       </Card.Text>
                       <Card.Title>
-                        Inorganic Method
+                        Imbalance Causes
                       </Card.Title>
                       <Card.Text>
-                        {
-                          this.state.solutions[0].Nitrogen[1].NonOrganicMethod[
-                            Math.floor (
-                              this.state.solutions[0].Nitrogen[1]
-                                .NonOrganicMethod.length * Math.random ()
-                            )
-                          ]
-                        }
+                        {this.state.causes[0].Nitrogen[1].ImbalanceCauses}
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -5851,30 +5900,16 @@ class DataDropDown extends React.Component {
                     </Card.Header>
                     <Card.Body>
                       <Card.Title>
-                        Organic Method
+                        Imbalance Is Caused By
                       </Card.Title>
                       <Card.Text>
-                        {
-                          this.state.solutions[1].Potassium[0].OrganicMethod[
-                            Math.floor (
-                              this.state.solutions[1].Potassium[0].OrganicMethod
-                                .length * Math.random ()
-                            )
-                          ]
-                        }
+                        {this.state.causes[1].Potassium[0].ImbalanceIsCausedBy}
                       </Card.Text>
                       <Card.Title>
-                        Inorganic Method
+                        Imbalance Causes
                       </Card.Title>
                       <Card.Text>
-                        {
-                          this.state.solutions[1].Potassium[1].InorganicMethod[
-                            Math.floor (
-                              this.state.solutions[1].Potassium[1]
-                                .InorganicMethod.length * Math.random ()
-                            )
-                          ]
-                        }
+                        {this.state.causes[1].Potassium[1].ImbalanceCauses}
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -5888,17 +5923,16 @@ class DataDropDown extends React.Component {
                     </Card.Header>
                     <Card.Body>
                       <Card.Title>
-                        Organic Method
+                        Imbalance Is Caused By
                       </Card.Title>
                       <Card.Text>
-                        {
-                          this.state.solutions[2].Phosphorus[0].OrganicMethod[
-                            Math.floor (
-                              this.state.solutions[2].Phosphorus[0]
-                                .OrganicMethod.length * Math.random ()
-                            )
-                          ]
-                        }
+                        {this.state.causes[2].Phosphorus[0].ImbalanceIsCausedBy}
+                      </Card.Text>
+                      <Card.Title>
+                        Imbalance Causes
+                      </Card.Title>
+                      <Card.Text>
+                        {this.state.causes[2].Phosphorus[1].ImbalanceCauses}
                       </Card.Text>
 
                     </Card.Body>
@@ -5913,15 +5947,20 @@ class DataDropDown extends React.Component {
                     </Card.Header>
                     <Card.Body>
 
+                      <Card.Title>
+                        Imbalance Is Caused By
+                      </Card.Title>
                       <Card.Text>
                         {
-                          this.state.solutions[3].OrganicCarbon[
-                            Math.floor (
-                              this.state.solutions[3].OrganicCarbon.length *
-                                Math.random ()
-                            )
-                          ]
+                          this.state.causes[3].OrganicCarbon[0]
+                            .ImbalanceIsCausedBy
                         }
+                      </Card.Text>
+                      <Card.Title>
+                        Imbalance Causes
+                      </Card.Title>
+                      <Card.Text>
+                        {this.state.causes[3].OrganicCarbon[1].ImbalanceCauses}
                       </Card.Text>
 
                     </Card.Body>
@@ -5942,12 +5981,52 @@ class DataDropDown extends React.Component {
                     <Card.Body>
                       <Card.Text>
                         {this.state.pH.includes ('alkaline')
-                          ? this.state.solutions[4].pH.Alkaline
-                          : this.state.solutions[4].pH.Acidic}
+                          ? <div>
+                              <Card.Title>
+                                Imbalance Is Caused By
+                              </Card.Title>
+                              <Card.Text>
+                                {
+                                  this.state.causes[4].pH.Alkaline[0]
+                                    .ImbalanceIsCausedBy
+                                }
+                              </Card.Text>
+                              <Card.Title>
+                                Imbalance Causes
+                              </Card.Title>
+                              <Card.Text>
+                                {
+                                  this.state.causes[4].pH.Alkaline[1]
+                                    .ImbalanceCauses
+                                }
+                              </Card.Text>
+                            </div>
+                          : <div>
+                              <div>
+                                <Card.Title>
+                                  Imbalance Is Caused By
+                                </Card.Title>
+                                <Card.Text>
+                                  {
+                                    this.state.causes[4].pH.Acidic[0]
+                                      .ImbalanceIsCausedBy
+                                  }
+                                </Card.Text>
+                                <Card.Title>
+                                  Imbalance Causes
+                                </Card.Title>
+                                <Card.Text>
+                                  {
+                                    this.state.causes[4].pH.Acidic[1]
+                                      .ImbalanceCauses
+                                  }
+                                </Card.Text>
+                              </div>
+                            </div>}
                       </Card.Text>
                     </Card.Body>
                   </Card>
-                </div>;
+                </div>
 
               </Card.Body>
             </Accordion.Collapse>
@@ -6135,9 +6214,37 @@ class DataDropDown extends React.Component {
             </Card.Header>
             <Accordion.Collapse eventKey="2">
               <Card.Body>
-                <Link to="/games" className="btn btn-primary">
-                  Game
+                <Link
+                  to="/NitrogenGame"
+                  className="btn btn-primary"
+                  style={{margin: '20px'}}
+                >
+                  Nitrogrn Game
                 </Link>
+                <Link
+                  to="/PhosphorusGame"
+                  className="btn btn-primary"
+                  style={{margin: '20px'}}
+                >
+                  Phosphorus Game
+                </Link>
+
+                <Link
+                  to="/Po"
+                  className="btn btn-primary"
+                  style={{margin: '20px'}}
+                >
+                  Potassium Game
+                </Link>
+
+                <Link
+                  to="/SnakeGame"
+                  className="btn btn-primary"
+                  style={{margin: '20px'}}
+                >
+                  Worm Game
+                </Link>
+
               </Card.Body>
             </Accordion.Collapse>
           </Card>

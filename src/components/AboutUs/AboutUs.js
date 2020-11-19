@@ -112,7 +112,20 @@ const AboutUS = () => {
           );
         })}
       </Row>
-
+      <p
+        style={{
+          backgroundColor: 'chocolate',
+          fontSize: 'x-large',
+          margin: '50px',
+        }}
+      >
+        <strong>“Desh ki mitti se jude log” </strong>
+        made this in hope that it will help to spread knowledge about soil pollution in much shorter time through memes, games etc.
+        {' '}
+        This is our team and we worked together to promote a good scientific way to make soil healthy for plants and also to spread
+        {' '}
+        how this plays a major role in our life cycles as every living organism is attached to the soil in some way.
+      </p>
       <ProjectFooter />
     </div>
   );

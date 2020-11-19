@@ -10,6 +10,10 @@
 }
 .result-card {
   width: 800px;
+  font-size: x-large;
+}
+.heading {
+  font-size: x-large;
 }
 .suggest {
   color: black;
@@ -46,6 +50,7 @@
 .fix-accordion {
   width: 1800px;
   margin-top: 50px;
+  font-size: large;
 }
 .card-solution {
   color: #eeeeee;
