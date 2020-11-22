@@ -68,8 +68,8 @@ export default class EditBlog extends Component {
         `${process.env.REACT_APP_BASE_URL}/blogs/update/${this.props.match.params.id}`,
         exercise
       )
-      //   .then((res) => console.log(res.data))
-      .then(() => (window.location = '/'))
+      
+      .then(() => this.props.history.push('/blogs'))
       .catch((err) => console.log(`Error: ${err}`));
   };
 
