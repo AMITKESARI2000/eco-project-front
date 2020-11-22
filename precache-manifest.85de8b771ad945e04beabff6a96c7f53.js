@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1283053612cfc7ddf783137e49ea6e2",
+    "revision": "2b044a983cd04cec59caf61d6b0c050e",
     "url": "/eco-project-front/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css"
   },
   {
-    "revision": "4238eb0acd7b5d239e66",
-    "url": "/eco-project-front/static/css/main.4da19cab.chunk.css"
+    "revision": "6e3528350e92ce36606d",
+    "url": "/eco-project-front/static/css/main.ec839ba8.chunk.css"
   },
   {
     "revision": "33006826ec8205dcaceb",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eco-project-front/static/js/2.2590e7f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4238eb0acd7b5d239e66",
-    "url": "/eco-project-front/static/js/main.cb52a937.chunk.js"
+    "revision": "6e3528350e92ce36606d",
+    "url": "/eco-project-front/static/js/main.16da6917.chunk.js"
   },
   {
     "revision": "2f2ed7e149040fedb86a",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eco-project-front/static/media/funFact.6bbc2692.jpg"
   },
   {
-    "revision": "fb3f222d4e534120d0d31e30eb72ab3a",
-    "url": "/eco-project-front/static/media/iittp.fb3f222d.svg"
+    "revision": "d6e6e98ad9801ee404fb98b7e524cfdb",
+    "url": "/eco-project-front/static/media/iittp.d6e6e98a.svg"
   },
   {
     "revision": "350194ccd8f3def9b46fa2470e219717",
