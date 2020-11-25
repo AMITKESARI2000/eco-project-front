@@ -39,7 +39,8 @@ const PredictorContent = ({setViewPage}) => {
         You will get to know about the probable deficiency of micronutrient like
         <strong> Nitrogen, Phosphorus, Potassium and Organic Carbon </strong>
         of the land in the selected area. It will also tell whether the soil is
-        <strong>acidic or alkaline.</strong>
+
+        <strong>acidic or alkaline. </strong>
         After knowing this, you can also look into the probable
         {' '}
         <strong>causes and general solutions</strong>
