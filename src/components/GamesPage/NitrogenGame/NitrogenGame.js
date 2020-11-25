@@ -8,8 +8,8 @@ class NitrogenGame extends Component {
       <div>
 
         <NavigationBar />
-        Game of nitrogen
-        <ProjectFooter />
+
+        Game of nitrogen <ProjectFooter />
       </div>
     );
   }
