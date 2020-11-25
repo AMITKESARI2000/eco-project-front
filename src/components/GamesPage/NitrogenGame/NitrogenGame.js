@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
 import NavigationBar from '../../HomePage/NavigationBar/NavigationBar';
 import ProjectFooter from '../../HomePage/ProjectFooter/ProjectFooter';
-
+import App from './App';
 class NitrogenGame extends Component {
   render () {
     return (
       <div>
-
         <NavigationBar />
-
-        Game of nitrogen <ProjectFooter />
+        <App />
+        <ProjectFooter />
       </div>
     );
   }
