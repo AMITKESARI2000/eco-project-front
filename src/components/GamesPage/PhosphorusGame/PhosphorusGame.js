@@ -6,7 +6,6 @@ class PhosphorusGame extends Component {
   render () {
     return (
       <div>
-
         <NavigationBar />
         <App />
         <ProjectFooter />

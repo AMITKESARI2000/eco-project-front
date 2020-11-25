@@ -63,14 +63,14 @@ function App(){
             done: false,
             style: pos[6].style
         },
-        {
-            buttonEnabled : false,
-            questionVisible: false,
-            index: 7,
-            key: 7,
-            done: false,
-            style: pos[7].style
-        },
+        // {
+        //     buttonEnabled : false,
+        //     questionVisible: false,
+        //     index: 7,
+        //     key: 7,
+        //     done: false,
+        //     style: pos[7].style
+        // },
         // {
         //     buttonEnabled : false,
         //     questionVisible: false,

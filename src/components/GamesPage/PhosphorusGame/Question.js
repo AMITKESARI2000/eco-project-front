@@ -73,7 +73,7 @@ function Question(props){
             ans : 4,
             marked : -1,
             correctSubmission: false
-        }
+        },
     ]);
 ////////////////////////////////////////////////////////////////////////////////////////////////
     var ID = props.id;
@@ -119,7 +119,7 @@ function Question(props){
         return <h3 className={something?"message":""}>{message}</h3>
     }
     return <div className = "question" style ={props.style}>
-                <div className="bgHead"><div className="quesionHead">{ques[props.id].q}</div></div>
+                <div className="bgHead"><div className="quesionHead">{ques[ID].q}</div></div>
                 <div className="block">
                     <div className="Option" onClick={() => mark(ID,1)} style={{backgroundColor:ques[ID].marked===1?"rgba(214, 214, 214, 0.705)":""}}>{ques[ID].o1}</div>
                     <div className="Option" onClick={() => mark(ID,2)} style={{backgroundColor:ques[ID].marked===2?"rgba(214, 214, 214, 0.705)":""}}>{ques[ID].o2}</div>                               

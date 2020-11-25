@@ -5,7 +5,6 @@ import './AppNitro.css';
 // const[Score , setScore] = useState(0);
 function App(){
     /////////////////////////////////////////////////////////////////////////////////////
-    console.log(pos);
     const [buttonList, updateButtonList] = useState([
         {
             buttonEnabled : true,
@@ -105,7 +104,6 @@ function App(){
         updateButtonList(newButtonList);
     }
     function changeScore(addition){
-        console.log("wrong ans2!!");    
         var newScore = Score + addition;
         setScore(newScore);
     }

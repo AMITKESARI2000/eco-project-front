@@ -2,25 +2,26 @@ import React from "react";
 var y1 = 370;
 var x = 380;
 var y2 = 320;
+var xspace = 200;
 var pos1 = [
     {
         style :{
             position: "absolute",
-            left: x+"px",
+            left: (x+0*xspace)+"px",
             top: y2+"px"
         }
     },
     {
        style :{
         position: "absolute",
-        left: (x+200) + "px",
+        left: (x+1*xspace) + "px",
         top: y1+"px"
        }
     },
     {
         style :{
             position: "absolute",
-            left: (x+400)+"px",
+            left: (x+2*xspace)+"px",
             top: y1+"px"
         }
 
@@ -28,7 +29,7 @@ var pos1 = [
     {
         style :{
             position: "absolute",
-            left: (x+600)+"px",
+            left: (x+3*xspace)+"px",
             top: y2+"px"
         }
 
@@ -37,11 +38,12 @@ var pos1 = [
 y1 = 150;
 y2 = 120;
 x = 480;
+xspace = 100;
 var pos2 = [
     {
         style :{
             position: "absolute",
-            left: x+"px",
+            left: (x+0*xspace)+"px",
             top: y2+"px"
         }
 
@@ -49,14 +51,14 @@ var pos2 = [
     {
        style :{
         position: "absolute",
-        left: (x+100) + "px",
+        left: (x+1*xspace) + "px",
         top: y1+"px"
        }
     },
     {
         style :{
             position: "absolute",
-            left: (x+200)+"px",
+            left: (x+2*xspace)+"px",
             top: y1+"px"
         }
 
@@ -64,7 +66,7 @@ var pos2 = [
     {
         style :{
             position: "absolute",
-            left: (x+300)+"px",
+            left: (x+3*xspace)+"px",
             top: y2+"px"
         }
 

@@ -117,7 +117,7 @@ function Question(props){
             ans: 2,
             marked : -1,
             correctSubmission: false
-        },
+        }
     ]);
 ////////////////////////////////////////////////////////////////////////////////////////////////
     var ID = props.id;
