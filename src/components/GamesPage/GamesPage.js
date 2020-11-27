@@ -8,7 +8,7 @@ import PotassiumGameStarter from './PotassiumGameStarter';
 
 const GamesPage = () => {
   return (
-    <div>
+    <div style={{justifyContent: 'flex-start'}}>
       <NavigationBar />
       <SnakeGameStarter />
       <NitrogenGameStarter />

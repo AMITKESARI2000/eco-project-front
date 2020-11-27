@@ -21,7 +21,10 @@ const PredictorContent = ({setViewPage}) => {
           <h2>Predict and Detect Pollution </h2>
 
           <OverlayTrigger trigger="hover" placement="bottom" overlay={popover}>
-            <Button variant="info" onClick={() => setViewPage (1)}>
+            <Button
+              style={{backgroundColor: 'chocolate', fontSize: '2rem'}}
+              onClick={() => setViewPage (1)}
+            >
               Predict Now!
             </Button>
           </OverlayTrigger>

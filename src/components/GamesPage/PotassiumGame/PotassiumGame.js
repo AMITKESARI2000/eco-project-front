@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavigationBar from '../../HomePage/NavigationBar/NavigationBar';
 import ProjectFooter from '../../HomePage/ProjectFooter/ProjectFooter';
+import Finish from './Finish';
 import App from './App';
 class PotassiumGame extends Component {
   render () {
@@ -9,6 +10,7 @@ class PotassiumGame extends Component {
 
         <NavigationBar />
         <App />
+        <Finish />
         <ProjectFooter />
       </div>
     );

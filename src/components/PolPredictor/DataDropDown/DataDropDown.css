@@ -53,7 +53,9 @@
   font-size: large;
 }
 .card-solution {
-  color: #eeeeee;
   display: flex;
   flex-direction: row;
+  font-size: large;
+  font-weight: bolder;
+  color: #eeeeee;
 }

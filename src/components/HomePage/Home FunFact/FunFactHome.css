@@ -6,6 +6,9 @@
 .header-FunFactHome {
   font-size: 5rem;
   text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 10vh;
+  margin-bottom: 5vh;
 }
 .sideBySide-FunFactHome {
   display: flex;

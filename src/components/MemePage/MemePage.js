@@ -8,6 +8,12 @@ import meme3 from './Meme images/meme3.jpg';
 import meme4 from './Meme images/meme4.jpg';
 import meme5 from './Meme images/meme5.jpg';
 import meme6 from './Meme images/meme6.jpeg';
+import meme7 from './Meme images/450px-Water_when_the_soil_is_porous.jpg';
+import meme8 from './Meme images/download.jpg';
+import meme9 from './Meme images/Hummus_or_Humus.jpg';
+import meme10 from './Meme images/meme6.jpg';
+import meme11 from './Meme images/meme7.jpg';
+import meme12 from './Meme images/memeBest.jpeg';
 
 const MemePage = () => {
   const [cardBody, setCardBody] = useState ([
@@ -24,7 +30,7 @@ const MemePage = () => {
       timeStamp: '20th Oct 2020',
     },
     {
-      image: meme3,
+      image: meme12,
       heading: 'meme',
       des: 'lorem20  ',
       timeStamp: '20th Oct 2020',
@@ -37,6 +43,42 @@ const MemePage = () => {
     },
     {
       image: meme6,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
+    },
+    {
+      image: meme3,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
+    },
+    {
+      image: meme7,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
+    },
+    {
+      image: meme8,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
+    },
+    {
+      image: meme9,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
+    },
+    {
+      image: meme10,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
+    },
+    {
+      image: meme11,
       heading: 'meme',
       des: 'lorem20  ',
       timeStamp: '20th Oct 2020',

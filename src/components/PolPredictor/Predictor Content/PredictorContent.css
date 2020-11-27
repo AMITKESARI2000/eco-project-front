@@ -3,10 +3,16 @@
   position: relative;
 }
 .header-PredictorContent {
-  font-size: 3rem;
+  /* font-size: 10rem; */
   text-align: center;
   text-decoration: underline;
 }
+
+.header-PredictorContent h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+}
+
 .sideBySide-PredictorContent {
   margin: auto;
   width: 90%;

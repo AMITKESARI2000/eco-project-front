@@ -11,9 +11,13 @@
   justify-content: center;
 }
 .header-PhotoCarousel {
-  font-size: 5rem;
+  font-size: 10rem;
   text-decoration: underline;
   text-transform: uppercase;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 /* ==== PHOTO CAROUSEL ==== */
 

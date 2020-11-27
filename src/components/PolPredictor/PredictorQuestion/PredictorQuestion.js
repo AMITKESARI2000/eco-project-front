@@ -10,7 +10,7 @@ const PredictorQuestion = ({setViewPage}) => {
       </a>
       <div className="sideBySide-PredictorContent">
         <div>
-          <h2 className="header-PredictorContent">
+          <h2 className="header-PredictorContent" style={{fontSize: '5rem'}}>
             Select Your State and District
           </h2>
 
