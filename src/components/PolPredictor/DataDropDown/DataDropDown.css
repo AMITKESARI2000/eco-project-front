@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card-of-result {
