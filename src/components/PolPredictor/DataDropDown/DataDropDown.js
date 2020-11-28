@@ -3,7 +3,11 @@ import {Card, Accordion} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import './DataDropDown.css';
 import indiaMap from './india.webp';
-
+import info from './Info1.jpg';
+import success from './Sucess1.jpg';
+import warning from './Warning1.jpg';
+import danger from './Danger1.jpg';
+import default1 from './MainImg.jpg';
 class DataDropDown extends React.Component {
   constructor (props) {
     super (props);
@@ -15,6 +19,7 @@ class DataDropDown extends React.Component {
       bg: 'light',
       selectedState: '--Choose State--',
       selectedDistrict: '--Choose District--',
+      sorce: default1,
       solutions: [
         {
           Nitrogen: [
@@ -5720,6 +5725,11 @@ class DataDropDown extends React.Component {
       sum += num;
     });
     console.log (sum);
+
+    this.state.sorce = sum > 300
+      ? danger
+      : sum > 200 ? warning : sum > 100 ? info : success;
+
     if (sum > 300) return 'danger';
     else if (sum > 200) return 'warning';
     else if (sum > 100) return 'info';
@@ -5846,6 +5856,12 @@ class DataDropDown extends React.Component {
               </Card.Text>
             </Card.Body>
           </Card>
+
+          <img
+            src={this.state.sorce}
+            alt="kuchBhi"
+            style={{width: '640px', margin: '2%'}}
+          />
           <br />
         </div>
         <Accordion className="fix-accordion">
@@ -5859,6 +5875,15 @@ class DataDropDown extends React.Component {
               >
                 Click me out for some basic{' '}
                 <strong>Causes</strong> for this condition.
+                <span
+                  style={{
+                    position: 'absolute',
+                    right: '40px',
+                  }}
+                >
+                  &#10010;
+                </span>
+
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
@@ -6043,6 +6068,15 @@ class DataDropDown extends React.Component {
               >
                 Check me out for some <strong>Solutions</strong>{' '}
                 to improve this condition.
+                <span
+                  style={{
+                    position: 'absolute',
+                    right: '40px',
+                  }}
+                >
+                  &#10010;
+                </span>
+
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
@@ -6208,6 +6242,15 @@ class DataDropDown extends React.Component {
               >
                 Check me out for some <strong>Games</strong> to
                 learn many things.
+                <span
+                  style={{
+                    position: 'absolute',
+                    right: '40px',
+                  }}
+                >
+                  &#10010;
+                </span>
+
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="2">
@@ -6257,6 +6300,14 @@ class DataDropDown extends React.Component {
                 <strong>indepth </strong> knowledge about{' '}
                 <strong>causes </strong>
                 and <strong>Solutions</strong>{' '}
+                <span
+                  style={{
+                    position: 'absolute',
+                    right: '40px',
+                  }}
+                >
+                  &#10010;
+                </span>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="3">
