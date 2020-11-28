@@ -6217,7 +6217,7 @@ class DataDropDown extends React.Component {
                   className="btn btn-primary"
                   style={{margin: '20px'}}
                 >
-                  Nitrogrn Game
+                  Nitrogen Game
                 </Link>
                 <Link
                   to="/PhosphorusGame"
