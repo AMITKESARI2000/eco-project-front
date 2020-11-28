@@ -1,0 +1,174 @@
+self.__precacheManifest = (self.__precacheManifest || []).concat([
+  {
+    "revision": "18c07ead7aaed0a4673ea7569aa560fa",
+    "url": "/eco-project-front/index.html"
+  },
+  {
+    "revision": "4159627e6a25db0ce9b0",
+    "url": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css"
+  },
+  {
+    "revision": "f17a4893059e35ad4870",
+    "url": "/eco-project-front/static/css/main.ea5a2da3.chunk.css"
+  },
+  {
+    "revision": "4159627e6a25db0ce9b0",
+    "url": "/eco-project-front/static/js/2.3837ecdb.chunk.js"
+  },
+  {
+    "revision": "d2966845b94a3318bf32eecc7af8015d",
+    "url": "/eco-project-front/static/js/2.3837ecdb.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "f17a4893059e35ad4870",
+    "url": "/eco-project-front/static/js/main.d79ed360.chunk.js"
+  },
+  {
+    "revision": "2f2ed7e149040fedb86a",
+    "url": "/eco-project-front/static/js/runtime-main.035ceb54.js"
+  },
+  {
+    "revision": "52ce87dedeacea8614ae55b4e967a21a",
+    "url": "/eco-project-front/static/media/450px-Water_when_the_soil_is_porous.52ce87de.jpg"
+  },
+  {
+    "revision": "24ae16b265be0bd56b36082d91a26058",
+    "url": "/eco-project-front/static/media/Ajay.24ae16b2.jpeg"
+  },
+  {
+    "revision": "2b0bf32be6ce5765ba3a19aca256cf2c",
+    "url": "/eco-project-front/static/media/Anand.2b0bf32b.jpeg"
+  },
+  {
+    "revision": "723a137b5c9d1b0500d22d142c8e2d2f",
+    "url": "/eco-project-front/static/media/Danger1.723a137b.jpg"
+  },
+  {
+    "revision": "9a1265cdf785ed6d686045739a723716",
+    "url": "/eco-project-front/static/media/GameImage.9a1265cd.jpg"
+  },
+  {
+    "revision": "aec9fd07d63fbf00e25ecf4e6f55f56b",
+    "url": "/eco-project-front/static/media/GameImage.aec9fd07.jpg"
+  },
+  {
+    "revision": "8a238b92d9ef9fc37f2bd4db8610ee19",
+    "url": "/eco-project-front/static/media/Hummus_or_Humus.8a238b92.jpg"
+  },
+  {
+    "revision": "2456cfb41d6083c215aa9e03965d7647",
+    "url": "/eco-project-front/static/media/Info1.2456cfb4.jpg"
+  },
+  {
+    "revision": "0ae660a39e925cad853c4092edc1dc78",
+    "url": "/eco-project-front/static/media/MainImg.0ae660a3.jpg"
+  },
+  {
+    "revision": "83a4230898d6ae44f712a77071d05e26",
+    "url": "/eco-project-front/static/media/NitrogenImage.83a42308.png"
+  },
+  {
+    "revision": "e1e66954dc338125f8abcf746a4b2766",
+    "url": "/eco-project-front/static/media/PhosphorusImage.e1e66954.png"
+  },
+  {
+    "revision": "47644d55b81b382605c049a4263a9132",
+    "url": "/eco-project-front/static/media/PotassiumImage.47644d55.png"
+  },
+  {
+    "revision": "d494bd24a4dc1ef15aeb18e60fcfe103",
+    "url": "/eco-project-front/static/media/RealWrong.d494bd24.png"
+  },
+  {
+    "revision": "db48d6fc96cd9388c1fb58b9faa74e4e",
+    "url": "/eco-project-front/static/media/Sowmya.db48d6fc.jpeg"
+  },
+  {
+    "revision": "5f501b978e2e367d33a7313ad2c2e9c0",
+    "url": "/eco-project-front/static/media/Sucess1.5f501b97.jpg"
+  },
+  {
+    "revision": "1b49fae1f196b15acc1acbfa6efd37a7",
+    "url": "/eco-project-front/static/media/Teju.1b49fae1.jpeg"
+  },
+  {
+    "revision": "2017d3a39b3d84552375393aa09b61f3",
+    "url": "/eco-project-front/static/media/Warning1.2017d3a3.jpg"
+  },
+  {
+    "revision": "4b12617f07b0113165579d07285064ce",
+    "url": "/eco-project-front/static/media/aditya.4b12617f.jpeg"
+  },
+  {
+    "revision": "910376625bbfd8a028b7b0d33120d0f7",
+    "url": "/eco-project-front/static/media/amit.91037662.jpg"
+  },
+  {
+    "revision": "41e582cf30162e764a527bfdd5aea49d",
+    "url": "/eco-project-front/static/media/blogsImage1.41e582cf.jpg"
+  },
+  {
+    "revision": "ff11858edfef4175f27e699987141230",
+    "url": "/eco-project-front/static/media/earthworm_image.ff11858e.png"
+  },
+  {
+    "revision": "6bbc2692dad737871851e0e671fdfafa",
+    "url": "/eco-project-front/static/media/funFact.6bbc2692.jpg"
+  },
+  {
+    "revision": "fb3f222d4e534120d0d31e30eb72ab3a",
+    "url": "/eco-project-front/static/media/iittp.fb3f222d.svg"
+  },
+  {
+    "revision": "bbf8158810a1d2fcf8ac881b85fe7ee0",
+    "url": "/eco-project-front/static/media/india.bbf81588.webp"
+  },
+  {
+    "revision": "350194ccd8f3def9b46fa2470e219717",
+    "url": "/eco-project-front/static/media/meme2.350194cc.jpg"
+  },
+  {
+    "revision": "229f682dcac9e0f456e33ac659a96f9f",
+    "url": "/eco-project-front/static/media/meme3.229f682d.jpg"
+  },
+  {
+    "revision": "4c7d0614981f9429a2040c046d8fc6fb",
+    "url": "/eco-project-front/static/media/meme4.4c7d0614.jpg"
+  },
+  {
+    "revision": "fc837c0833f62ddfcd24f905dd5a0b21",
+    "url": "/eco-project-front/static/media/meme5.fc837c08.jpg"
+  },
+  {
+    "revision": "0c22e7eb9a46748d0d1affc9cf7d6edd",
+    "url": "/eco-project-front/static/media/meme6.0c22e7eb.jpg"
+  },
+  {
+    "revision": "b2ffdc14dd9e9328fb7e130071db8cbb",
+    "url": "/eco-project-front/static/media/meme6.b2ffdc14.jpeg"
+  },
+  {
+    "revision": "a9a244d6a615ff4bb8547eaacd1fb2c9",
+    "url": "/eco-project-front/static/media/meme7.a9a244d6.jpg"
+  },
+  {
+    "revision": "b7526cebfbccd86a5643aad8e523eb1b",
+    "url": "/eco-project-front/static/media/memeBest.b7526ceb.jpeg"
+  },
+  {
+    "revision": "1ea8de7aee336fb3e69cc694a4184054",
+    "url": "/eco-project-front/static/media/pImage2.1ea8de7a.jpg"
+  },
+  {
+    "revision": "b8b95d12cf037f36da01d4bc1b718525",
+    "url": "/eco-project-front/static/media/pImage3.b8b95d12.jpg"
+  },
+  {
+    "revision": "a87996318eb85567949a598654f4144f",
+    "url": "/eco-project-front/static/media/pImage6.a8799631.jpg"
+  },
+  {
+    "revision": "9e240202b44e72ced714db448e985690",
+    "url": "/eco-project-front/static/media/soil logo.9e240202.png"
+  }
+]);
