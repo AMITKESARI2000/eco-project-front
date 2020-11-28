@@ -20,75 +20,75 @@ const MemePage = () => {
   const [cardBody, setCardBody] = useState ([
     {
       image: meme5,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
       timeStamp: '20th Oct 2020',
     },
     {
       image: meme2,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
-      timeStamp: '20th Oct 2020',
+      timeStamp: '10th Nov 2020',
     },
     {
       image: meme12,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
-      timeStamp: '20th Oct 2020',
+      timeStamp: '15th Oct 2020',
     },
     {
       image: meme4,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
       timeStamp: '20th Oct 2020',
     },
     {
       image: meme6,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
-      timeStamp: '20th Oct 2020',
+      timeStamp: '30th Sept 2020',
     },
     {
       image: meme3,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
       timeStamp: '20th Oct 2020',
     },
     {
       image: meme7,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
-      timeStamp: '20th Oct 2020',
+      timeStamp: '2nd Oct 2020',
     },
     {
       image: meme8,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
       timeStamp: '20th Oct 2020',
     },
     {
       image: meme9,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
       timeStamp: '20th Oct 2020',
     },
     {
       image: meme10,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
-      timeStamp: '20th Oct 2020',
+      timeStamp: '21st Sept 2020',
     },
     {
       image: meme11,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
-      timeStamp: '20th Oct 2020',
+      timeStamp: '25th Oct 2020',
     },
     {
       image: meme1,
-      heading: 'meme',
+      heading: 'Fertilzer Meme',
       des: 'lorem20  ',
-      timeStamp: '20th Oct 2020',
+      timeStamp: '19th Nov 2020',
     },
   ]);
   return (
@@ -96,6 +96,7 @@ const MemePage = () => {
       <NavigationBar />
       <h2>
         MEMEMEMEMEMEMEMEMEMEMEMMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME
+        
       </h2>
       <Row>
         {cardBody.map (memeCard => {
