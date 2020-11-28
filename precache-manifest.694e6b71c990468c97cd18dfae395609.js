@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18c07ead7aaed0a4673ea7569aa560fa",
+    "revision": "1d201dbee866d7a8e1274ccc727f8286",
     "url": "/eco-project-front/index.html"
   },
   {
-    "revision": "4159627e6a25db0ce9b0",
+    "revision": "cd10ef683e4ebff98228",
     "url": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css"
   },
   {
-    "revision": "f17a4893059e35ad4870",
-    "url": "/eco-project-front/static/css/main.ea5a2da3.chunk.css"
+    "revision": "42a752d91af589e90f03",
+    "url": "/eco-project-front/static/css/main.0c276cc0.chunk.css"
   },
   {
-    "revision": "4159627e6a25db0ce9b0",
-    "url": "/eco-project-front/static/js/2.3837ecdb.chunk.js"
+    "revision": "cd10ef683e4ebff98228",
+    "url": "/eco-project-front/static/js/2.46fc6647.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/eco-project-front/static/js/2.3837ecdb.chunk.js.LICENSE.txt"
+    "url": "/eco-project-front/static/js/2.46fc6647.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f17a4893059e35ad4870",
-    "url": "/eco-project-front/static/js/main.d79ed360.chunk.js"
+    "revision": "42a752d91af589e90f03",
+    "url": "/eco-project-front/static/js/main.e381c369.chunk.js"
   },
   {
     "revision": "2f2ed7e149040fedb86a",
@@ -38,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b0bf32be6ce5765ba3a19aca256cf2c",
     "url": "/eco-project-front/static/media/Anand.2b0bf32b.jpeg"
+  },
+  {
+    "revision": "95788c5779ac43b29521cbda14d0f21f",
+    "url": "/eco-project-front/static/media/Angki.95788c57.jpeg"
+  },
+  {
+    "revision": "30a02760391ed29e1299cf90c74cf316",
+    "url": "/eco-project-front/static/media/Ankit.30a02760.jpeg"
   },
   {
     "revision": "723a137b5c9d1b0500d22d142c8e2d2f",
