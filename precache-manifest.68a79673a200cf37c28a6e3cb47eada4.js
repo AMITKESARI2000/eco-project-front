@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f0e486516f13ef3aba6232a45851b3e",
+    "revision": "beba2849fc11836cb25cd6b2b0104c81",
     "url": "/eco-project-front/index.html"
   },
   {
-    "revision": "78b1dcad18329896ec14",
+    "revision": "cc93a0947c46cfef4bfc",
     "url": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css"
   },
   {
-    "revision": "3a87eb6895bdd3f8cf32",
+    "revision": "0587d816f01ba770b9e8",
     "url": "/eco-project-front/static/css/main.853a45df.chunk.css"
   },
   {
-    "revision": "78b1dcad18329896ec14",
-    "url": "/eco-project-front/static/js/2.d8049d36.chunk.js"
+    "revision": "cc93a0947c46cfef4bfc",
+    "url": "/eco-project-front/static/js/2.557d9c6f.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/eco-project-front/static/js/2.d8049d36.chunk.js.LICENSE.txt"
+    "url": "/eco-project-front/static/js/2.557d9c6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a87eb6895bdd3f8cf32",
-    "url": "/eco-project-front/static/js/main.65d66308.chunk.js"
+    "revision": "0587d816f01ba770b9e8",
+    "url": "/eco-project-front/static/js/main.ae2b5140.chunk.js"
   },
   {
     "revision": "2f2ed7e149040fedb86a",
@@ -130,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bbf8158810a1d2fcf8ac881b85fe7ee0",
     "url": "/eco-project-front/static/media/india.bbf81588.webp"
+  },
+  {
+    "revision": "275d4c83d78c1895ee64f7c2a7381d64",
+    "url": "/eco-project-front/static/media/meme15.275d4c83.jpeg"
   },
   {
     "revision": "350194ccd8f3def9b46fa2470e219717",
