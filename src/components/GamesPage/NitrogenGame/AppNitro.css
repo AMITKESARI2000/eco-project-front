@@ -32,7 +32,7 @@ button {
 }
 
 .question1 {
-  background-color: #333333;
+  background-image: linear-gradient(315deg, #0c0009, #2b111d, rgb(95, 27, 27));
   color: white;
   font-size: smaller;
   font-weight: 200;
@@ -48,7 +48,8 @@ button {
 }
 
 .Option1 {
-  background-color: #f5deb3;
+  background-image: linear-gradient(315deg, #f5deb3, chocolate);
+  background-color: aquamarine;
   width: 50%;
   text-align: center;
   padding: 5px;
@@ -62,7 +63,8 @@ button {
 }
 
 .Option1:hover {
-  background-color: chocolate;
+  background-image: linear-gradient(315deg, chocolate, #f5deb3);
+  /* background-color: chocolate; */
 }
 
 .block {
@@ -87,7 +89,8 @@ button {
 }
 
 .bgHead {
-  background-color: wheat;
+  background-image: linear-gradient(315deg, #f5deb3, chocolate);
+  /* background-color: wheat; */
   width: auto;
   padding: 0.3em;
   margin: 3%;

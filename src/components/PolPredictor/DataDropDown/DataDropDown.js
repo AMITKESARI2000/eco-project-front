@@ -5915,7 +5915,7 @@ class DataDropDown extends React.Component {
                   </Card>
                   <Card
                     border="dark"
-                    bg={this.chooseColor (this.state.nutrients[1])}
+                    bg={this.chooseColor (this.state.nutrients[3])}
                     className="card-of-result"
                   >
                     <Card.Header>
@@ -5963,7 +5963,7 @@ class DataDropDown extends React.Component {
                   </Card>
                   <Card
                     border="dark"
-                    bg={this.chooseColor (this.state.nutrients[3])}
+                    bg={this.chooseColor (this.state.nutrients[1])}
                     className="card-of-result"
                   >
                     <Card.Header>
@@ -6122,7 +6122,7 @@ class DataDropDown extends React.Component {
                   </Card>
                   <Card
                     border="dark"
-                    bg={this.chooseColor (this.state.nutrients[1])}
+                    bg={this.chooseColor (this.state.nutrients[3])}
                     className="card-of-result"
                   >
                     <Card.Header>
@@ -6185,7 +6185,7 @@ class DataDropDown extends React.Component {
                   </Card>
                   <Card
                     border="dark"
-                    bg={this.chooseColor (this.state.nutrients[3])}
+                    bg={this.chooseColor (this.state.nutrients[1])}
                     className="card-of-result"
                   >
                     <Card.Header>
