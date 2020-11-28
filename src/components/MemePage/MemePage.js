@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import NavigationBar from '../HomePage/NavigationBar/NavigationBar';
-import { Row, Col } from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import MemeCard from './MemeCard';
+import ProjectFooter from '../HomePage/ProjectFooter/ProjectFooter';
 import meme1 from './Meme images/meme1.jpg';
 import meme2 from './Meme images/meme2.jpg';
 import meme3 from './Meme images/meme3.jpg';
@@ -105,6 +106,7 @@ const MemePage = () => {
           );
         })}
       </Row>
+      <ProjectFooter />
     </div>
   );
 };
