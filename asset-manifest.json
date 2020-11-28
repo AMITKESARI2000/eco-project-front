@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/eco-project-front/static/css/main.0849fc05.chunk.css",
-    "main.js": "/eco-project-front/static/js/main.fc55eb12.chunk.js",
-    "main.js.map": "/eco-project-front/static/js/main.fc55eb12.chunk.js.map",
+    "main.css": "/eco-project-front/static/css/main.28bf5e9e.chunk.css",
+    "main.js": "/eco-project-front/static/js/main.e3bbc456.chunk.js",
+    "main.js.map": "/eco-project-front/static/js/main.e3bbc456.chunk.js.map",
     "runtime-main.js": "/eco-project-front/static/js/runtime-main.035ceb54.js",
     "runtime-main.js.map": "/eco-project-front/static/js/runtime-main.035ceb54.js.map",
     "static/css/2.3f1f1bc9.chunk.css": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.c9a41ae8.chunk.js": "/eco-project-front/static/js/2.c9a41ae8.chunk.js",
-    "static/js/2.c9a41ae8.chunk.js.map": "/eco-project-front/static/js/2.c9a41ae8.chunk.js.map",
+    "static/js/2.d8049d36.chunk.js": "/eco-project-front/static/js/2.d8049d36.chunk.js",
+    "static/js/2.d8049d36.chunk.js.map": "/eco-project-front/static/js/2.d8049d36.chunk.js.map",
     "index.html": "/eco-project-front/index.html",
-    "precache-manifest.7b5d75c701b241417a09dbf0ac205217.js": "/eco-project-front/precache-manifest.7b5d75c701b241417a09dbf0ac205217.js",
+    "precache-manifest.510d0eb9f4d3c1935b4d5407d3d9c231.js": "/eco-project-front/precache-manifest.510d0eb9f4d3c1935b4d5407d3d9c231.js",
     "service-worker.js": "/eco-project-front/service-worker.js",
     "static/css/2.3f1f1bc9.chunk.css.map": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css.map",
-    "static/css/main.0849fc05.chunk.css.map": "/eco-project-front/static/css/main.0849fc05.chunk.css.map",
-    "static/js/2.c9a41ae8.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.c9a41ae8.chunk.js.LICENSE.txt",
+    "static/css/main.28bf5e9e.chunk.css.map": "/eco-project-front/static/css/main.28bf5e9e.chunk.css.map",
+    "static/js/2.d8049d36.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.d8049d36.chunk.js.LICENSE.txt",
     "static/media/450px-Water_when_the_soil_is_porous.jpg": "/eco-project-front/static/media/450px-Water_when_the_soil_is_porous.52ce87de.jpg",
     "static/media/Ajay.jpeg": "/eco-project-front/static/media/Ajay.24ae16b2.jpeg",
     "static/media/Anand.jpeg": "/eco-project-front/static/media/Anand.2b0bf32b.jpeg",
@@ -38,7 +38,7 @@
     "static/media/blogsImage1.jpg": "/eco-project-front/static/media/blogsImage1.41e582cf.jpg",
     "static/media/earthworm_image.png": "/eco-project-front/static/media/earthworm_image.ff11858e.png",
     "static/media/funFact.jpg": "/eco-project-front/static/media/funFact.6bbc2692.jpg",
-    "static/media/iittp.d6e6e98a.svg": "/eco-project-front/static/media/iittp.d6e6e98a.svg",
+    "static/media/iittp.fb3f222d.svg": "/eco-project-front/static/media/iittp.fb3f222d.svg",
     "static/media/india.webp": "/eco-project-front/static/media/india.bbf81588.webp",
     "static/media/meme2.jpg": "/eco-project-front/static/media/meme2.350194cc.jpg",
     "static/media/meme3.jpg": "/eco-project-front/static/media/meme3.229f682d.jpg",
@@ -47,6 +47,8 @@
     "static/media/meme6.jpg": "/eco-project-front/static/media/meme6.0c22e7eb.jpg",
     "static/media/meme6.jpeg": "/eco-project-front/static/media/meme6.b2ffdc14.jpeg",
     "static/media/meme7.jpg": "/eco-project-front/static/media/meme7.a9a244d6.jpg",
+    "static/media/meme8.jpeg": "/eco-project-front/static/media/meme8.ca6b1ea2.jpeg",
+    "static/media/meme9.jpeg": "/eco-project-front/static/media/meme9.3e3aaa99.jpeg",
     "static/media/memeBest.jpeg": "/eco-project-front/static/media/memeBest.b7526ceb.jpeg",
     "static/media/pImage2.jpg": "/eco-project-front/static/media/pImage2.1ea8de7a.jpg",
     "static/media/pImage3.jpg": "/eco-project-front/static/media/pImage3.b8b95d12.jpg",
@@ -56,8 +58,8 @@
   "entrypoints": [
     "static/js/runtime-main.035ceb54.js",
     "static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.c9a41ae8.chunk.js",
-    "static/css/main.0849fc05.chunk.css",
-    "static/js/main.fc55eb12.chunk.js"
+    "static/js/2.d8049d36.chunk.js",
+    "static/css/main.28bf5e9e.chunk.css",
+    "static/js/main.e3bbc456.chunk.js"
   ]
 }

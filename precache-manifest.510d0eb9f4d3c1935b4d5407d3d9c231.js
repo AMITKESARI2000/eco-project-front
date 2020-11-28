@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8fce20e63fcc0d161348d8e43b6bd3b",
+    "revision": "ca73d2ffaca2d8fdad96ee0b0e424d26",
     "url": "/eco-project-front/index.html"
   },
   {
-    "revision": "3c8b112bd86f236afb49",
+    "revision": "78b1dcad18329896ec14",
     "url": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css"
   },
   {
-    "revision": "b3939b2bf67082a2329a",
-    "url": "/eco-project-front/static/css/main.0849fc05.chunk.css"
+    "revision": "96690b564b43562b6772",
+    "url": "/eco-project-front/static/css/main.28bf5e9e.chunk.css"
   },
   {
-    "revision": "3c8b112bd86f236afb49",
-    "url": "/eco-project-front/static/js/2.c9a41ae8.chunk.js"
+    "revision": "78b1dcad18329896ec14",
+    "url": "/eco-project-front/static/js/2.d8049d36.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/eco-project-front/static/js/2.c9a41ae8.chunk.js.LICENSE.txt"
+    "url": "/eco-project-front/static/js/2.d8049d36.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3939b2bf67082a2329a",
-    "url": "/eco-project-front/static/js/main.fc55eb12.chunk.js"
+    "revision": "96690b564b43562b6772",
+    "url": "/eco-project-front/static/js/main.e3bbc456.chunk.js"
   },
   {
     "revision": "2f2ed7e149040fedb86a",
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/eco-project-front/static/media/funFact.6bbc2692.jpg"
   },
   {
-    "revision": "d6e6e98ad9801ee404fb98b7e524cfdb",
-    "url": "/eco-project-front/static/media/iittp.d6e6e98a.svg"
+    "revision": "fb3f222d4e534120d0d31e30eb72ab3a",
+    "url": "/eco-project-front/static/media/iittp.fb3f222d.svg"
   },
   {
     "revision": "bbf8158810a1d2fcf8ac881b85fe7ee0",
@@ -158,6 +158,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a9a244d6a615ff4bb8547eaacd1fb2c9",
     "url": "/eco-project-front/static/media/meme7.a9a244d6.jpg"
+  },
+  {
+    "revision": "ca6b1ea2d990799d5965d04d7fe8ce7e",
+    "url": "/eco-project-front/static/media/meme8.ca6b1ea2.jpeg"
+  },
+  {
+    "revision": "3e3aaa99606fef33a8cc650867d1d8e4",
+    "url": "/eco-project-front/static/media/meme9.3e3aaa99.jpeg"
   },
   {
     "revision": "b7526cebfbccd86a5643aad8e523eb1b",
