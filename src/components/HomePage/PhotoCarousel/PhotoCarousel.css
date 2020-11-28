@@ -3,21 +3,44 @@
 
 .container-PhotoCarousel {
   padding-top: 0.1rem;
-
+  margin-top: 4rem;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.header-PhotoCarousel {
-  font-size: 10rem;
-  text-decoration: underline;
-  text-transform: uppercase;
-
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+.Caption1 {
+  background-color: wheat;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: chocolate;
+}
+.Caption2 {
+  background-color: wheat;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: chocolate;
+}
+.Caption3 {
+  background-color: wheat;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: chocolate;
+}
+.Caption4 {
+  background-color: wheat;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  color: chocolate;
 }
 /* ==== PHOTO CAROUSEL ==== */
 

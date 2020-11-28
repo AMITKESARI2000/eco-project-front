@@ -5,21 +5,24 @@ import NitrogenGameStarter from './NitrogenGameStarter';
 import SnakeGameStarter from './SnakeGameStarter';
 import PhosphorusGameStarter from './PhosphorusGameStarter';
 import PotassiumGameStarter from './PotassiumGameStarter';
+import FunFacts from '../FunFacts/FunFacts';
 
 const GamesPage = () => {
   return (
-    <div style={{justifyContent: 'flex-start'}}>
+    <div>
       <NavigationBar />
-      <SnakeGameStarter />
-      <NitrogenGameStarter />
-      <PhosphorusGameStarter />
-      <PotassiumGameStarter />
-      <div style={{margin: '50px'}}>
-        Image Credits :
-        {' '}
-        <strong>
-          https://jobescompany.com/blog/knowing-npk-your-soil-made-better/
-        </strong>
+
+      <div
+        style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}
+      >
+        <SnakeGameStarter />
+        <FunFacts />
+        <NitrogenGameStarter />
+        {/* <FunFacts /> */}
+        <PhosphorusGameStarter />
+        {/* <FunFacts /> */}
+        <PotassiumGameStarter />
+        {/* <FunFacts /> */}
       </div>
       <ProjectFooter />
     </div>
