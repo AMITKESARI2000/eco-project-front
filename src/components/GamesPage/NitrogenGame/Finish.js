@@ -6,6 +6,7 @@ class Finish extends Component {
   render () {
     return (
       <div style={{marginTop: '120px', marginLeft: '20rem'}}>
+
         <img src={nitrogen} alt="nitrogen" />
 
         <Link
