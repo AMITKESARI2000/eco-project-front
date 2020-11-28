@@ -125,7 +125,7 @@ function Question (props) {
           className="Option3"
           onClick={() => mark (ID, 1)}
           style={{
-            backgroundColor: ques[ID].marked === 1 ? 'brown' : '',
+            backgroundImage: ques[ID].marked === 1 ? 'none' : '',
           }}
         >
           {ques[ID].o1}
@@ -134,7 +134,7 @@ function Question (props) {
           className="Option3"
           onClick={() => mark (ID, 2)}
           style={{
-            backgroundColor: ques[ID].marked === 2 ? 'brown' : '',
+            backgroundImage: ques[ID].marked === 2 ? 'none' : '',
           }}
         >
           {ques[ID].o2}
@@ -145,7 +145,7 @@ function Question (props) {
           className="Option3"
           onClick={() => mark (ID, 3)}
           style={{
-            backgroundColor: ques[ID].marked === 3 ? 'brown' : '',
+            backgroundImage: ques[ID].marked === 3 ? 'none' : '',
           }}
         >
           {ques[ID].o3}
@@ -154,7 +154,7 @@ function Question (props) {
           className="Option3"
           onClick={() => mark (ID, 4)}
           style={{
-            backgroundColor: ques[ID].marked === 4 ? 'brown' : '',
+            backgroundImage: ques[ID].marked === 4 ? 'none' : '',
           }}
         >
           {ques[ID].o4}

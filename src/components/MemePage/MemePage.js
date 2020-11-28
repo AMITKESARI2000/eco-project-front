@@ -15,6 +15,8 @@ import meme9 from './Meme images/Hummus_or_Humus.jpg';
 import meme10 from './Meme images/meme6.jpg';
 import meme11 from './Meme images/meme7.jpg';
 import meme12 from './Meme images/memeBest.jpeg';
+import meme13 from './Meme images/meme8.jpeg';
+import meme14 from './Meme images/meme9.jpeg';
 
 const MemePage = () => {
   const [cardBody, setCardBody] = useState ([
@@ -89,6 +91,18 @@ const MemePage = () => {
       heading: 'Fertilzer Meme',
       des: 'lorem20  ',
       timeStamp: '19th Nov 2020',
+    },
+    {
+      image: meme13,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
+    },
+    {
+      image: meme14,
+      heading: 'meme',
+      des: 'lorem20  ',
+      timeStamp: '20th Oct 2020',
     },
   ]);
   return (
