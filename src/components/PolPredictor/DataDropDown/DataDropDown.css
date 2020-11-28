@@ -65,14 +65,14 @@
   font-size: large;
   font-weight: bolder;
   color: #eeeeee;
-    color: #eeeeee;
-    display: flex;
-    flex-direction: row;
+  color: #eeeeee;
+  display: flex;
+  flex-direction: row;
 }
 
 .IndiaMap {
-    width: 70vw;
-    padding: 1%;
-    margin: auto;
-    margin-top: 2%;
+  width: 70vw;
+  padding: 1%;
+  margin: auto;
+  margin-top: 2%;
 }
