@@ -110,7 +110,6 @@ const MemePage = () => {
       <NavigationBar />
       <h2>
         MEMEMEMEMEMEMEMEMEMEMEMMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEMEME
-        
       </h2>
       <Row>
         {cardBody.map (memeCard => {

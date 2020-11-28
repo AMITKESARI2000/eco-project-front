@@ -118,9 +118,11 @@ const AboutUS = () => {
             </Row>
             <p
                 style={{
-                    backgroundColor: 'chocolate',
-                    fontSize: 'x-large',
-                    margin: '50px',
+                    // backgroundColor: 'chocolate',
+                    border:"0.3rem dotted chocolate",
+                    opacity: '0.9',
+                    fontSize: '1.7rem',
+                    margin: '1%',
                 }}
             >
                 <strong>“Desh ki mitti se jude log” </strong>

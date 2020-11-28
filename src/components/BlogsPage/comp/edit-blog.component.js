@@ -76,7 +76,7 @@ export default class EditBlog extends Component {
   render() {
     return (
       <div>
-        <h3>Edit Exercise Log</h3>
+        <h3>Edit Blog </h3>
         <form onSubmit={this.onSubmitHandler}>
           <div className="form-group">
             <label>Username: </label>
