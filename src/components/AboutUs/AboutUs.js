@@ -42,9 +42,13 @@ const AboutUS = () => {
       name: 'V. Manjunath',
       task: 'Frontend Dev, Game Dev',
     },
-    {image: './404.png', name: 'Angki Pajing', task: 'Project Data and Design'},
     {
-      image: './404.png',
+      image: './Angki.jpeg',
+      name: 'Angki Pajing',
+      task: 'Project Data and Design',
+    },
+    {
+      image: './Ankit.jpeg',
       name: 'Ankit Ghildiyal ',
       task: 'Project write up and Content',
     },
