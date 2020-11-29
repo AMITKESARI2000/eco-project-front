@@ -11,7 +11,7 @@ const NavigationBar = () => {
         <Navbar.Brand className="main-web-name-NavigationBar">
           <Logo width="140" height="90" style={{backgroundColor: 'white'}} />
           <NavLink to="/home" style={{marginLeft: '20px'}}>
-            SOIL POLLUTION, IIT TIRUPATI
+            AGRICULTURAL SOIL POLLUTION
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
