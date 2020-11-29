@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eco-project-front/static/css/main.73ac1bfc.chunk.css",
-    "main.js": "/eco-project-front/static/js/main.b14dcfde.chunk.js",
-    "main.js.map": "/eco-project-front/static/js/main.b14dcfde.chunk.js.map",
+    "main.js": "/eco-project-front/static/js/main.5e06568e.chunk.js",
+    "main.js.map": "/eco-project-front/static/js/main.5e06568e.chunk.js.map",
     "runtime-main.js": "/eco-project-front/static/js/runtime-main.035ceb54.js",
     "runtime-main.js.map": "/eco-project-front/static/js/runtime-main.035ceb54.js.map",
     "static/css/2.3f1f1bc9.chunk.css": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css",
     "static/js/2.29c284c4.chunk.js": "/eco-project-front/static/js/2.29c284c4.chunk.js",
     "static/js/2.29c284c4.chunk.js.map": "/eco-project-front/static/js/2.29c284c4.chunk.js.map",
     "index.html": "/eco-project-front/index.html",
-    "precache-manifest.e2a69ff15a9a76b605191e261e4ad6cc.js": "/eco-project-front/precache-manifest.e2a69ff15a9a76b605191e261e4ad6cc.js",
+    "precache-manifest.68a6ca5db50c41232b46e9a34e6eed70.js": "/eco-project-front/precache-manifest.68a6ca5db50c41232b46e9a34e6eed70.js",
     "service-worker.js": "/eco-project-front/service-worker.js",
     "static/css/2.3f1f1bc9.chunk.css.map": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css.map",
     "static/css/main.73ac1bfc.chunk.css.map": "/eco-project-front/static/css/main.73ac1bfc.chunk.css.map",
@@ -61,6 +61,6 @@
     "static/css/2.3f1f1bc9.chunk.css",
     "static/js/2.29c284c4.chunk.js",
     "static/css/main.73ac1bfc.chunk.css",
-    "static/js/main.b14dcfde.chunk.js"
+    "static/js/main.5e06568e.chunk.js"
   ]
 }
