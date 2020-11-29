@@ -204,14 +204,14 @@ class SnakeGame extends Component {
 
           Vermicast (also called worm castings, worm humus, worm manure, or worm faeces) is the
           {' '}
-          end-product of the breakdown of organic matter by earthworms.[1] These castings have been shown to contain
+          end-product of the breakdown of organic matter by earthworms. These castings have been shown to contain
           reduced levels of contaminants and a higher saturation of nutrients than
           {' '}
-          the organic materials before vermicomposting.[2]
+          the organic materials before vermicomposting.
 
           Vermicompost contains water-soluble nutrients and is an excellent, nutrient-rich
           {' '}
-          organic fertilizer and soil conditioner.[3] It is used in farming and small scale sustainable,
+          organic fertilizer and soil conditioner. It is used in farming and small scale sustainable,
           {' '}
           organic farming.
 

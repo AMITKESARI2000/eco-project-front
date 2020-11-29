@@ -5,7 +5,10 @@
 /* ==== NAVIGATION CONTAINER ==== */
 .nav-container-NavigationBar,
 .navbar {
-  background-color: #333333;
+  /* background-color: #645056; */
+  background-image: linear-gradient(315deg, #0c0009, #2b111d,rgb(95, 27, 27) );
+  /* background-image: linear-gradient(315deg, #2b111d,rgb(95, 27, 27) ); */
+  
   opacity: 0.98;
   font-family: 'Raleway', 'Roboto Slab', Arial, Helvetica, sans-serif;
   position: sticky;

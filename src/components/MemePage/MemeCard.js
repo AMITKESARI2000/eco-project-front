@@ -24,7 +24,7 @@ const MemeCard = ({ memeCard }) => {
                     }}
                 />
                 <Card.Body>
-                    <Card.Title>{memeCard.heading}</Card.Title>
+                    {/* <Card.Title>{memeCard.heading}</Card.Title> */}
                     {/* <Card.Text>{memeCard.des}</Card.Text> */}
                     <Card.Text>
                         <small className="text-muted">

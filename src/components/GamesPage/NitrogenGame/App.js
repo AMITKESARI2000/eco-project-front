@@ -108,11 +108,16 @@ function App () {
     var newScore = Score + addition;
     setScore (newScore);
   }
+  function gameOver () {
+    alert (
+      `Game Over Your Final Score Was ${Score}, Click on Finish button below to go back `
+    );
+  }
+
   return (
     <div className="main-body">
       <div className="score">
-        Score:
-        {' '}
+        Score:{' '}
         <div
           style={{
             color: Score >= 0 ? 'lightGreen' : 'red',
@@ -124,19 +129,22 @@ function App () {
         </div>
       </div>
       {buttonList.map (element => {
-        return (
-          <Button
-            key={element.key}
-            updateQuestion={setQuestionList}
-            updateNextQuestion={setButtonList}
-            updateScore={changeScore}
-            index={element.index}
-            style={element.style}
-            done={element.done}
-            questionVisible={element.questionVisible}
-            buttonEnabled={element.buttonEnabled}
-          />
-        );
+        if (element.index === 7 && element.done === true)
+          return <div>{gameOver ()} </div>;
+        else
+          return (
+            <Button
+              key={element.key}
+              updateQuestion={setQuestionList}
+              updateNextQuestion={setButtonList}
+              updateScore={changeScore}
+              index={element.index}
+              style={element.style}
+              done={element.done}
+              questionVisible={element.questionVisible}
+              buttonEnabled={element.buttonEnabled}
+            />
+          );
       })}
     </div>
   );

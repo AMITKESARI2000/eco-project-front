@@ -9,9 +9,7 @@ class PhosphorusGameStarter extends Component {
       <div
         class="text-center"
         style={{
-          marginTop: '90px',
-          justifyContent: 'center',
-          display: 'flex',
+          margin: '20px',
         }}
       >
 
