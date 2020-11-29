@@ -16,9 +16,9 @@ class NitrogenGameStarter extends Component {
         <Card style={{width: '50rem'}}>
           <Card.Img variant="top" src={nitrogen} />
           <Card.Body>
-            <Card.Title>Tom-And-Nitrogen</Card.Title>
+            <Card.Title>Nitrogen</Card.Title>
             <Card.Text>
-              Help Tom to grow his field which lacks nitrogen.
+              grow field which lacks nitrogen.
             </Card.Text>
             <Link to="/NitrogenGame" className="btn btn-danger">
               Nitrogen Game
