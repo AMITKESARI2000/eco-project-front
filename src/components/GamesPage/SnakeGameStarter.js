@@ -18,7 +18,7 @@ class SnakeGameStarter extends Component {
           <Card.Body>
             <Card.Title>Worm-The-Saviour</Card.Title>
             <Card.Text>
-              Play The Old Snake game with a classic twist of worms. and learn about Vermicompost.
+              Play The Classic Snake game with a twist of worms and learn about Vermicompost.
             </Card.Text>
             <Link to="/SnakeGame" className="btn btn-danger">
               Snake Game

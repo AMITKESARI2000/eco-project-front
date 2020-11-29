@@ -1,3 +1,31 @@
+.game-keyboard{
+  display: grid;
+  grid-template-columns: 22% 78%;
+}
+.keyboard{
+  margin-top: 50%;
+  margin-left: 10%;
+  justify-self: center;
+  
+}
+.keybottom{
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  background-color: bisque;
+}
+.move-button{
+   padding:15px;
+   font-size: 2rem;
+   border-radius: 5px;
+   box-shadow: #000000;
+   background-color: white;
+   border: solid 1px green;
+}
+.top{
+  margin-left: 38%;
+
+}
 .game-area {
   position: relative;
   margin: 50px auto;
