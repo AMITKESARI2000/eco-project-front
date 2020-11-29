@@ -16,9 +16,9 @@ class PhosphorusGameStarter extends Component {
         <Card style={{width: '50rem'}}>
           <Card.Img variant="top" src={phos} />
           <Card.Body>
-            <Card.Title>RamKishor-And-Phosphorus</Card.Title>
+            <Card.Title>Phosphorus</Card.Title>
             <Card.Text>
-              Help RamKishor to grow his field which lacks Phosphorus.
+              Help to grow field which lacks Phosphorus.
             </Card.Text>
             <Link to="/PhosphorusGame" className="btn btn-danger">
               Phosphorus Game

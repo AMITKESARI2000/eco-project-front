@@ -11,7 +11,7 @@ const NavigationBar = () => {
         <Navbar.Brand className="main-web-name-NavigationBar">
           <Logo width="140" height="90" style={{backgroundColor: 'white'}} />
           <NavLink to="/home" style={{marginLeft: '20px'}}>
-            FERTILIZER POLLUTION, IIT TIRUPATI
+            SOIL POLLUTION, IIT TIRUPATI
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -24,9 +24,7 @@ const NavigationBar = () => {
             <NavLink className="nav-link-NavigationBar " to="/polpredict">
               Pollution Predictor
             </NavLink>
-            <NavLink className="nav-link-NavigationBar " to="/aboutus">
-              About Us
-            </NavLink>
+
             <NavLink className="nav-link-NavigationBar " to="/games">
               Games
             </NavLink>
@@ -38,6 +36,9 @@ const NavigationBar = () => {
             </NavLink> */}
             <NavLink className="nav-link-NavigationBar " to="/memes">
               Memes
+            </NavLink>
+            <NavLink className="nav-link-NavigationBar " to="/aboutus">
+              About Us
             </NavLink>
           </Nav>
         </Navbar.Collapse>

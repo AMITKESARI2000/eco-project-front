@@ -16,9 +16,9 @@ class PotassimuGameStarter extends Component {
         <Card style={{width: '50rem'}}>
           <Card.Img variant="top" src={phos} />
           <Card.Body>
-            <Card.Title>Raghu-And-Potassium</Card.Title>
+            <Card.Title>Potassium</Card.Title>
             <Card.Text>
-              Help Raghu to grow his field which lacks Potassium.
+              Help to grow field which lacks Potassium.
             </Card.Text>
             <Link to="/Po" className="btn btn-danger">
               Potassium Game

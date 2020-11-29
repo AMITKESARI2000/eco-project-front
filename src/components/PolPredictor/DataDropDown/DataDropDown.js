@@ -5852,7 +5852,7 @@ class DataDropDown extends React.Component {
                 <br />
                 {this.state.bg === 'light'
                   ? 'your results will come here '
-                  : 'This is a ' + this.state.bg + ' to you'}
+                  : ''}
               </Card.Text>
             </Card.Body>
           </Card>
