@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/eco-project-front/static/css/main.73ac1bfc.chunk.css",
-    "main.js": "/eco-project-front/static/js/main.5e06568e.chunk.js",
-    "main.js.map": "/eco-project-front/static/js/main.5e06568e.chunk.js.map",
+    "main.css": "/eco-project-front/static/css/main.63c1b30b.chunk.css",
+    "main.js": "/eco-project-front/static/js/main.861614d8.chunk.js",
+    "main.js.map": "/eco-project-front/static/js/main.861614d8.chunk.js.map",
     "runtime-main.js": "/eco-project-front/static/js/runtime-main.035ceb54.js",
     "runtime-main.js.map": "/eco-project-front/static/js/runtime-main.035ceb54.js.map",
     "static/css/2.3f1f1bc9.chunk.css": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.29c284c4.chunk.js": "/eco-project-front/static/js/2.29c284c4.chunk.js",
-    "static/js/2.29c284c4.chunk.js.map": "/eco-project-front/static/js/2.29c284c4.chunk.js.map",
+    "static/js/2.3a6cc438.chunk.js": "/eco-project-front/static/js/2.3a6cc438.chunk.js",
+    "static/js/2.3a6cc438.chunk.js.map": "/eco-project-front/static/js/2.3a6cc438.chunk.js.map",
     "index.html": "/eco-project-front/index.html",
-    "precache-manifest.68a6ca5db50c41232b46e9a34e6eed70.js": "/eco-project-front/precache-manifest.68a6ca5db50c41232b46e9a34e6eed70.js",
+    "precache-manifest.c5b898aec62f4d62629738509abc6809.js": "/eco-project-front/precache-manifest.c5b898aec62f4d62629738509abc6809.js",
     "service-worker.js": "/eco-project-front/service-worker.js",
     "static/css/2.3f1f1bc9.chunk.css.map": "/eco-project-front/static/css/2.3f1f1bc9.chunk.css.map",
-    "static/css/main.73ac1bfc.chunk.css.map": "/eco-project-front/static/css/main.73ac1bfc.chunk.css.map",
-    "static/js/2.29c284c4.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.29c284c4.chunk.js.LICENSE.txt",
+    "static/css/main.63c1b30b.chunk.css.map": "/eco-project-front/static/css/main.63c1b30b.chunk.css.map",
+    "static/js/2.3a6cc438.chunk.js.LICENSE.txt": "/eco-project-front/static/js/2.3a6cc438.chunk.js.LICENSE.txt",
     "static/media/450px-Water_when_the_soil_is_porous.jpg": "/eco-project-front/static/media/450px-Water_when_the_soil_is_porous.52ce87de.jpg",
     "static/media/Ajay.jpeg": "/eco-project-front/static/media/Ajay.24ae16b2.jpeg",
     "static/media/Anand.jpeg": "/eco-project-front/static/media/Anand.2b0bf32b.jpeg",
@@ -59,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.035ceb54.js",
     "static/css/2.3f1f1bc9.chunk.css",
-    "static/js/2.29c284c4.chunk.js",
-    "static/css/main.73ac1bfc.chunk.css",
-    "static/js/main.5e06568e.chunk.js"
+    "static/js/2.3a6cc438.chunk.js",
+    "static/css/main.63c1b30b.chunk.css",
+    "static/js/main.861614d8.chunk.js"
   ]
 }
