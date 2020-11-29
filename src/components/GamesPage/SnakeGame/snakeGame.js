@@ -186,10 +186,19 @@ class SnakeGame extends Component {
             Stop Game
           </Button>
         </div>
-
-        <div className="game-area">
-          <Snake snakeDots={this.state.snakeDots} />
-          <Food dot={this.state.food} />
+        <div className="game-keyboard">
+          <div className="keyboard">
+          <button className="move-button top">W&#8679;</button>
+          <div className="keybottom">
+            <button className="move-button ">A&#8678;</button>
+            <button className="move-button">S &#8681;</button>
+            <button className="move-button">D&#8680;</button>
+          </div>
+          </div>
+          <div className="game-area">
+            <Snake snakeDots={this.state.snakeDots} />
+            <Food dot={this.state.food} />
+          </div>
         </div>
         <FunFacts />;
 

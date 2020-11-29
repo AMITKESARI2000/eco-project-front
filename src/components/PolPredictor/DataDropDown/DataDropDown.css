@@ -62,17 +62,11 @@
   font-size: large;
 }
 .card-solution {
-<<<<<<< HEAD
-
-=======
->>>>>>> 368654da39a3671852688b5ff32c4f2acd739db0
   display: flex;
   flex-direction: row;
   font-size: large;
   font-weight: bolder;
   color: #eeeeee;
-<<<<<<< HEAD
-
     color: #eeeeee;
     display: flex;
     flex-direction: row;
@@ -84,7 +78,6 @@
     margin: auto;
     margin-top: 2%;
 
-=======
   color: #eeeeee;
   display: flex;
   flex-direction: row;
@@ -95,5 +88,4 @@
   padding: 1%;
   margin: auto;
   margin-top: 2%;
->>>>>>> 368654da39a3671852688b5ff32c4f2acd739db0
 }
