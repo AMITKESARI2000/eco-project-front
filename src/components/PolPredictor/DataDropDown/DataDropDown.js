@@ -5873,7 +5873,7 @@ class DataDropDown extends React.Component {
                 eventKey="1"
                 className="suggest"
               >
-                Click me out for some basic{' '}
+                Check me out for some basic{' '}
                 <strong>Causes</strong> for this condition.
                 <span
                   style={{

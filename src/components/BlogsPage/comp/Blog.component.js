@@ -4,7 +4,7 @@ import { Jumbotron, Row, Col } from 'react-bootstrap';
 
 const Blog = ({ blog, deleteExercise }) => {
     return (
-        <div>
+        <div >
             <Jumbotron
                 style={{
                     padding: '1%',
@@ -62,14 +62,14 @@ const Blog = ({ blog, deleteExercise }) => {
                                 )}
                                 <div
                                     style={{
-                                        display: 'inline-block',
+                                        // display: 'inline-block',
                                         position: 'absolute',
                                         textAlign: 'right',
                                         right: '1%',
                                     }}
                                 >
                                     <Link to={'/blogs/edit/' + blog._id}>
-                                        edit
+                                        Edit
                                     </Link>{' '}
                                     |{' '}
                                     <a
@@ -78,7 +78,7 @@ const Blog = ({ blog, deleteExercise }) => {
                                             deleteExercise(blog._id, e);
                                         }}
                                     >
-                                        delete
+                                        Delete
                                     </a>
                                 </div>
                             </p>
