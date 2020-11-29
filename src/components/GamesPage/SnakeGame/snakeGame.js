@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
 import NavigationBar from '../../HomePage/NavigationBar/NavigationBar';
 import ProjectFooter from '../../HomePage/ProjectFooter/ProjectFooter';
+import Particles from 'react-particles-js';
 
 const getRandomCoordinates = () => {
   let min = 1;
@@ -148,6 +149,29 @@ class SnakeGame extends Component {
     return (
       <div>
         <NavigationBar />
+        <Particles
+          height="140em"
+          params={{
+            particles: {
+              color: 'black',
+              line_linked: {
+                color: 'lime',
+              },
+              number: {
+                value: 150,
+                density: {
+                  enable: true,
+                  value_area: 1000,
+                },
+              },
+            },
+          }}
+          style={{
+            position: 'absolute',
+            zIndex: '-1',
+          }}
+        />;
+
         <div class="text-center">
           <img
             src={Worm}
@@ -204,14 +228,14 @@ class SnakeGame extends Component {
 
           Vermicast (also called worm castings, worm humus, worm manure, or worm faeces) is the
           {' '}
-          end-product of the breakdown of organic matter by earthworms.[1] These castings have been shown to contain
+          end-product of the breakdown of organic matter by earthworms. These castings have been shown to contain
           reduced levels of contaminants and a higher saturation of nutrients than
           {' '}
-          the organic materials before vermicomposting.[2]
+          the organic materials before vermicomposting.
 
           Vermicompost contains water-soluble nutrients and is an excellent, nutrient-rich
           {' '}
-          organic fertilizer and soil conditioner.[3] It is used in farming and small scale sustainable,
+          organic fertilizer and soil conditioner. It is used in farming and small scale sustainable,
           {' '}
           organic farming.
 
@@ -219,6 +243,7 @@ class SnakeGame extends Component {
         <Link to="/games" className="btn btn-primary">
           Go back
         </Link>
+
         <ProjectFooter />
       </div>
     );
