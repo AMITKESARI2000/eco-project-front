@@ -27,3 +27,32 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media only screen and (max-width: 480px) {
+  .container-PredictPol{
+    margin-top: 0em;
+  }
+  .header-PredictPol {
+    font-size: 2rem;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+  }
+  .sideBySide-PredictPol {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .image-PredictPol {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 75%;
+    padding: 0em;
+  }
+  .text-PredictPol {
+    font-size: small;
+    display: block;
+    padding: 1em 2em;
+    text-align: justify;
+  }
+}

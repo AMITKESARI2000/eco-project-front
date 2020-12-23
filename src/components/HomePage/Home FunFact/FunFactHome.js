@@ -7,6 +7,11 @@ const FunFactHome = () => {
     <div className="container-FunFactHome">
       <h2 className="header-FunFactHome">Fun Facts on soil</h2>
       <div className="sideBySide-FunFactHome">
+        <img
+          className="image-FunFactHome"
+          src={image1}
+          alt="First slide"
+        />
         <p className="text-FunFactHome">
           Can you find a button saying
           {' '}
@@ -23,12 +28,6 @@ const FunFactHome = () => {
           {' '}
           and share your ideas among others in the Blog Section.
         </p>
-        <img
-          className="image-FunFactHome"
-          src={image1}
-          alt="First slide"
-          style={{width: '1000px', height: '700px'}}
-        />
       </div>
     </div>
   );

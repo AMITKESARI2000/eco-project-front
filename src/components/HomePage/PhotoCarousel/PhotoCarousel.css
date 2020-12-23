@@ -45,6 +45,8 @@
 /* ==== PHOTO CAROUSEL ==== */
 
 .carousal-PhotoCarousel {
+  height: '800px';
+  width: '1800px';
   margin: auto;
   background-color: white;
   /* background: linear-gradient(to right, #e3004c, #a17310, #47b200); */
