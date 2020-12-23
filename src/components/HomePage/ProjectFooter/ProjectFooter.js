@@ -24,10 +24,18 @@ const ProjectFooter = () => {
                         <div className="all ">
                             <Link to="/">Home</Link>
                             <Link to="/Events">Games</Link>
+                        </div>
+
+                        <div className="all ">
                             <Link to="/Projects">Pollution </Link>
                             <Link to="/Blogs">Predict</Link>
+                        </div>
+                        <div className="all ">
                             <Link to="/Blogs">Blogs</Link>
                             <Link to="/Events/Competitions">Memes</Link>
+                        </div>
+
+                        <div className="all">
                             <Link to="/aboutus">Team</Link>
                             <Link
                                 to="/Events/CalendarEvents"
@@ -35,6 +43,8 @@ const ProjectFooter = () => {
                             >
                                 Calendar
                             </Link>
+                        </div>
+                        <div className="all">
                             <Link to="/">Support</Link>
                         </div>
                     </div>

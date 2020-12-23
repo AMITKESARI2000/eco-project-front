@@ -31,6 +31,10 @@
   top: 5.5em;
   left: 0;
 }
+.logo{
+  height: 85px;
+  width: auto;
+}
 /* ==== Waste Management IIT Tirupati BRAND NAME ==== */
 
 .main-web-name-NavigationBar {
