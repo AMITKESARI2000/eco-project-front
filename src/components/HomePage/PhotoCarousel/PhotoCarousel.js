@@ -21,7 +21,6 @@ const PhotoCarousel = () => {
       <Carousel
         {...state}
         className="carousal-PhotoCarousel"
-        style={{height: '800px', width: '1800px'}}
       >
         <Carousel.Item>
           <img
@@ -72,7 +71,7 @@ const PhotoCarousel = () => {
             <h1>Game Page</h1>
             <p>
               <strong>
-                Learn about your problems in an fun way by playing games.
+                Learn about problems in an fun way by playing games.
               </strong>
               {' '}
             </p>

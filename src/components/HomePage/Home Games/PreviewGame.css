@@ -28,6 +28,35 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media only screen and (max-width: 1200px) {
+  .container-PreviewGame{
+    margin-top: 0em;
+  }
+  .header-PreviewGame {
+    font-size: 3rem;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+  }
+  .sideBySide-PreviewGame {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .image-PreviewGame {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 75%;
+    padding: 0em;
+  }
+  .text-PreviewGame {
+    font-size: larger;
+    display: block;
+    padding: 1em 2em;
+    text-align: justify;
+  }
+}
 @media only screen and (max-width: 480px) {
   .container-PreviewGame{
     margin-top: 0em;

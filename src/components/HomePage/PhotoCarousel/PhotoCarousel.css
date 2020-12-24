@@ -9,6 +9,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 750px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Caption1 {
   background-color: wheat;
@@ -45,6 +49,8 @@
 /* ==== PHOTO CAROUSEL ==== */
 
 .carousal-PhotoCarousel {
+  height: 500px;
+  width: 1600px;
   margin: auto;
   background-color: white;
   /* background: linear-gradient(to right, #e3004c, #a17310, #47b200); */
@@ -60,7 +66,7 @@
 /* ==== IMAGE ==== */
 .imageFeatured-PhotoCarousel {
   /* display: inline-block; */
-  height: 800px;
+  height: 740px;
   width: 100%;
   border-radius: 6px;
   display: flex;
@@ -70,31 +76,43 @@
 }
 
 /* ==== MEDIA QUERIES ==== */
-@media only screen and (max-width: 480px) and (min-width: 360px) {
-  
+@media only screen and (max-width: 480px) and (min-width: 300px) {
+  .container-PhotoCarousel{
+    height: auto;
+    width: 100%;
+  }
+  .carousal-PhotoCarousel{
+    height: auto;
+    width: 100%;
+  }
+  .imageFeatured-PhotoCarousel {
+    /* display: inline-block; */
+    height: auto;
+    width: 100%;
+  }
   .Caption1 {
     font-size: xx-small;
   }
   .Caption1 h1 {
-    font-size: small;
+    font-size: x-small;
   }
   .Caption2 {
     font-size: xx-small;
   }
   .Caption2 h1 {
-    font-size: small;
+    font-size: x-small;
   }
   .Caption3 {
     font-size: xx-small;
   }
   .Caption3 h1 {
-    font-size: small;
+    font-size: x-small;
   }
   .Caption4 {
     font-size: xx-small;
   }
   .Caption4 h1 {
-    font-size: small;
+    font-size: x-small;
   }
 }
 @media only screen and (min-width: 576px) {

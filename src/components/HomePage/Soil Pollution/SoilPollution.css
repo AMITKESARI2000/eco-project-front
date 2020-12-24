@@ -28,8 +28,34 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media only screen and (max-width: 1200px) {
+  .header-SoilPollution {
+    font-size: 3rem;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+  }
+  .sideBySide-SoilPollution {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .image-SoilPollution {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 75%;
+    padding: 0em;
+  }
+  .text-SoilPollution {
+    font-size: larger;
+    display: block;
+    padding: 1em 2em;
+    text-align: justify;
+  }
+}
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 480px) {
   .header-SoilPollution {
     font-size: 2rem;
     margin-left: 2vh;
