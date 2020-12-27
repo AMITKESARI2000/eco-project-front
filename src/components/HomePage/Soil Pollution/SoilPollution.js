@@ -11,7 +11,6 @@ const SoilPollution = () => {
           className="image-SoilPollution"
           src={image1}
           alt="First slide"
-          style={{width: '1100px', height: '700px'}}
         />
         <p className="text-SoilPollution">
 

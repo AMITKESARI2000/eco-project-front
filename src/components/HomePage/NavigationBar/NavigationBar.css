@@ -8,7 +8,7 @@
   /* background-color: #645056; */
   background-image: linear-gradient(315deg, #0c0009, #2b111d,rgb(95, 27, 27) );
   /* background-image: linear-gradient(315deg, #2b111d,rgb(95, 27, 27) ); */
-  
+  flex-wrap: wrap;
   opacity: 0.98;
   font-family: 'Raleway', 'Roboto Slab', Arial, Helvetica, sans-serif;
   position: sticky;
@@ -30,6 +30,10 @@
   background-color: #000000;
   top: 5.5em;
   left: 0;
+}
+.logo{
+  height: 85px;
+  width: auto;
 }
 /* ==== Waste Management IIT Tirupati BRAND NAME ==== */
 
@@ -162,6 +166,48 @@ a.nav-link-Navigation.active {
   text-decoration: none;
   color: #f0f0f0;
 }
+@media only screen and (max-width: 1200px) {
+  .nav-container-NavigationBar,
+  .navbar {
+    padding: 0.5em;
+  }
+  .nav-container-NavigationBar:after {
+    height: 0.5em;
+    top: 5.5em;
+  }
+  .logo{
+    height: 50px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .navbar-toggler{
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    font-weight: 100;
+  }
+  /* ==== Waste Management IIT Tirupati BRAND NAME ==== */
+  
+  .main-web-name-NavigationBar {
+    margin-bottom: 0.1em;
+    height: 1.5em;
+    padding: 0 0.5em;
+    font-size: 100%;
+    color: #eeeeee;
+  }
+  
+  /* ==== NAVIGATION LINKS ==== */
+  
+  /* NavLink Styling */
+  a.nav-link-NavigationBar,
+  .nav-dropdown-Navigation {
+    font-size: 75%;
+    top: 1em;
+    margin: 0 0.1em;
+    padding: 0.1em;
+    /* color: rgba(255, 255, 255, 0.5); */
+  }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -171,12 +217,93 @@ a.nav-link-Navigation.active {
 }
 
 @media only screen and (max-width: 700px) {
+  .nav-container-NavigationBar,
+  .navbar {
+    padding: 0.5em;
+  }
+  .nav-container-NavigationBar:after {
+    height: 0.5em;
+    top: 5.5em;
+  }
+  .logo{
+    height: 50px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .navbar-toggler{
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    font-weight: 100;
+  }
+  /* ==== Waste Management IIT Tirupati BRAND NAME ==== */
+  
+  .main-web-name-NavigationBar {
+    margin-bottom: 0.1em;
+    height: 1.5em;
+    padding: 0 0.5em;
+    font-size: 100%;
+    color: #eeeeee;
+  }
+  
+  /* ==== NAVIGATION LINKS ==== */
+  
+  /* NavLink Styling */
+  a.nav-link-NavigationBar,
+  .nav-dropdown-Navigation {
+    font-size: 75%;
+    top: 1em;
+    margin: 0 0.1em;
+    padding: 0.1em;
+    /* color: rgba(255, 255, 255, 0.5); */
+  }
 }
 
-@media only screen and (max-width: 358px) {
+
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {
+  .nav-container-NavigationBar,
+.navbar {
+  padding: 0.5em;
+}
+.nav-container-NavigationBar:after {
+  height: 0.5em;
+  top: 5.5em;
+}
+.logo{
+  height: 50px;
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.navbar-toggler{
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  font-weight: 100;
+}
+/* ==== Waste Management IIT Tirupati BRAND NAME ==== */
+
+.main-web-name-NavigationBar {
+  margin-bottom: 0.1em;
+  height: 1.5em;
+  padding: 0 0.5em;
+  font-size: 100%;
+  color: #eeeeee;
 }
 
-@media only screen and (max-width: 480px) and (min-width: 360px) {
+/* ==== NAVIGATION LINKS ==== */
+
+/* NavLink Styling */
+a.nav-link-NavigationBar,
+.nav-dropdown-Navigation {
+  font-size: 75%;
+  top: 1em;
+  margin: 0 0.1em;
+  padding: 0.1em;
+  /* color: rgba(255, 255, 255, 0.5); */
+}
 }
 @media (min-width: 992px) {
 }

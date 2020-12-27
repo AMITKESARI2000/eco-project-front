@@ -18,7 +18,7 @@
   align-items: center;
 }
 .image-BlogHome {
-  width: 1000rem;
+  width: 600px;
   padding: 1em;
 }
 .text-BlogHome {
@@ -26,4 +26,91 @@
   font-size: x-large;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+  .container-BlogHome{
+    margin-top: 0em;
+  }
+  .header-BlogHome {
+    font-size: 4rem;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+  }
+  .sideBySide-BlogHome {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .image-BlogHome {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 75%;
+    padding: 0em;
+  }
+  .text-BlogHome {
+    font-size: x-large;
+    display: block;
+    padding: 1em 2em;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 480px) {
+  .container-BlogHome{
+    margin-top: 0em;
+  }
+  .header-BlogHome {
+    font-size: 3rem;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+  }
+  .sideBySide-BlogHome {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .image-BlogHome {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 75%;
+    padding: 0em;
+  }
+  .text-BlogHome {
+    font-size: larger;
+    display: block;
+    padding: 1em 2em;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container-BlogHome{
+    margin-top: 0em;
+  }
+  .header-BlogHome {
+    font-size: 2rem;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+  }
+  .sideBySide-BlogHome {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .image-BlogHome {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 75%;
+    padding: 0em;
+  }
+  .text-BlogHome {
+    font-size: small;
+    display: block;
+    padding: 1em 2em;
+    text-align: justify;
+  }
 }

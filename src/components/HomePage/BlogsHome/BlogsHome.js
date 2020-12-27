@@ -7,6 +7,11 @@ const BlogHome = () => {
     <div className="container-BlogHome">
       <h2 className="header-BlogHome">Helpful Blogs</h2>
       <div className="sideBySide-BlogHome">
+        <img
+          className="image-BlogHome"
+          src={image1}
+          alt="First slide"
+        />
         <p className="text-BlogHome">
           Are you a studious person? Or you love to read and write blogs?
           Or you want to know others thinking about this problem?
@@ -18,12 +23,6 @@ const BlogHome = () => {
           {' '}
           your own blog.
         </p>
-        <img
-          className="image-BlogHome"
-          src={image1}
-          alt="First slide"
-          style={{width: '1000px', height: '700px'}}
-        />
       </div>
     </div>
   );

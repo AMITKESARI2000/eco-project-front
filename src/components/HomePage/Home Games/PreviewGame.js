@@ -11,7 +11,6 @@ const PreviewGame = () => {
           className="image-PreviewGame"
           src={image1}
           alt="First slide"
-          style={{width: '1000px', height: '700px'}}
         />
         <p className="text-PreviewGame">
           We think

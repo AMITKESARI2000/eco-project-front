@@ -7,6 +7,11 @@ const PredictPol = () => {
     <div className="container-PredictPol">
       <h2 className="header-PredictPol">Pollution Predict</h2>
       <div className="sideBySide-PredictPol">
+        <img
+          className="image-PredictPol"
+          src={image1}
+          alt="First slide"
+        />
         <p className="text-PredictPol">
           This will tell whether the soil is deficient in any
           {' '}
@@ -31,12 +36,6 @@ const PredictPol = () => {
           {' '}
           to make the soil healthy for the plants.
         </p>
-        <img
-          className="image-PredictPol"
-          src={image1}
-          alt="First slide"
-          style={{width: '1000px', height: '700px'}}
-        />
       </div>
     </div>
   );

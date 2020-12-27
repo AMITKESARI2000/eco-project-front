@@ -19,7 +19,7 @@
 }
 
 .ProjectFooter .quickLinks {
-  font-size: larger;
+  font-size:medium;
   position: relative;
   top: 5px;
 }
@@ -38,7 +38,7 @@
   position: relative;
   top: 10%;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 15px;
   cursor: pointer;
   margin: 3px;
 }
@@ -51,7 +51,7 @@
   display: block;
   top: 10%;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   margin: 3px;
   color: #3b3838;
@@ -73,23 +73,23 @@
 }
 
 .ProjectFooter .lower-two {
-  font-size: 16px;
+  font-size: 10px;
   text-align: center;
 }
 
 .ProjectFooter .connect {
-  font-size: 12px;
+  font-size: 9px;
   text-align: center;
   justify-content: center;
 }
 
 .ProjectFooter .icn {
-  font-size: 24px;
+  font-size: 18px;
   cursor: pointer;
 }
 
 .ProjectFooter .youtube {
-  font-size: 27px;
+  font-size: 18px;
   position: relative;
   top: -2px;
 }
@@ -100,7 +100,7 @@
 }
 
 .ProjectFooter .lower-three {
-  font-size: 12px;
+  font-size: 10px;
   text-align: left;
 }
 
@@ -108,7 +108,6 @@
   position: relative;
   top: 10px;
 }
-
 @media (max-width: 890px) and (min-width: 768px) {
   .ProjectFooter .all a {
     font-size: 11px;

@@ -21,7 +21,7 @@
     "react-player": "^2.6.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^4.0.1"
   },
   "homepage": "https://amitkesari2000.github.io/eco-project-front/",
   "scripts": {
