@@ -43,12 +43,13 @@ const NamePlateCard = ({memeCard: namePlate}) => {
           <img
             src={require (`${namePlate.image}`)}
             style={{
-              width: '24rem',
+              width: '25rem',
               height: '14rem',
               borderRadius: '1rem',
               right: '3%',
               position: 'absolute',
-            }}
+            }
+          }
           />
         </Card.Body>
       </Card>

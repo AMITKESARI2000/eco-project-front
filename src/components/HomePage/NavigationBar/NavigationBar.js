@@ -9,7 +9,7 @@ const NavigationBar = () => {
     <div className="nav-container-NavigationBar  underline-NavigationBar">
       <Navbar collapseOnSelect expand="lg" sticky="bottom" variant="dark">
         <Navbar.Brand className="main-web-name-NavigationBar">
-          <Logo width="140" height="90" style={{backgroundColor: 'white'}} />
+          <Logo  width = "140" height = "90" style={{backgroundColor: 'white'}} />
           <NavLink to="/home" style={{marginLeft: '20px'}}>
             AGRICULTURAL SOIL POLLUTION
           </NavLink>

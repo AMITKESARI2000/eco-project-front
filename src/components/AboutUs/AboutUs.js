@@ -122,7 +122,7 @@ const AboutUS = () => {
           // backgroundColor: 'chocolate',
           border: '0.3rem dotted chocolate',
           opacity: '0.9',
-          fontSize: '1.7rem',
+          fontSize: '1.5rem',
           margin: '1%',
         }}
       >
