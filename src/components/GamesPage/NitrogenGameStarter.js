@@ -13,7 +13,7 @@ class NitrogenGameStarter extends Component {
         }}
       >
 
-        <Card style={{width: '50rem'}}>
+        <Card style={{width: '100%'}}>
           <Card.Img variant="top" src={nitrogen} />
           <Card.Body>
             <Card.Title>Nitrogen</Card.Title>

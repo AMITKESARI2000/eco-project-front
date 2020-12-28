@@ -28,13 +28,12 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-<<<<<<< HEAD
 @media only screen and(max-width:1366px)
 {
   .container-SoilPollution {
     margin-top: 3em;
     position: relative;
-    width: 100%;
+    width: 120%;
   }
   .header-SoilPollution {
     font-size: 5rem;
@@ -61,7 +60,6 @@
       'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 }
-=======
 @media only screen and (max-width: 1200px) {
   .header-SoilPollution {
     font-size: 3rem;
@@ -115,4 +113,3 @@
     text-align: justify;
   }
 }
->>>>>>> c66652edf8697c61b2074ee6057847bc3832f531

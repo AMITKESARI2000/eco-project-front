@@ -13,7 +13,7 @@ class PotassimuGameStarter extends Component {
         }}
       >
 
-        <Card style={{width: '50rem'}}>
+        <Card style={{width: '100%'}}>
           <Card.Img variant="top" src={phos} />
           <Card.Body>
             <Card.Title>Potassium</Card.Title>

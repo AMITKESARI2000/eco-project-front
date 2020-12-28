@@ -13,7 +13,7 @@ class SnakeGameStarter extends Component {
         }}
       >
 
-        <Card style={{width: '50rem'}}>
+        <Card style={{width: '100%'}}>
           <Card.Img variant="top" src={Worm} />
           <Card.Body>
             <Card.Title>Worm-The-Saviour</Card.Title>

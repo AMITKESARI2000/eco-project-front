@@ -51,7 +51,7 @@ export default class CreateUser extends Component {
                             margin: '0%',
                         }}
                     >
-                        <img src={creatUserImg} alt="creatUserImg"></img>
+                        <img src={creatUserImg} alt="creatUserImg" style={{ width: '50vw' }}></img>
                     </Col>
                     <Col md={4}>
                         {' '}

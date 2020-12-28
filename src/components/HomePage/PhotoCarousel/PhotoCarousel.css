@@ -76,7 +76,6 @@
 }
 
 /* ==== MEDIA QUERIES ==== */
-<<<<<<< HEAD
 
 @media only screen and (min-width: 1366px) {
   .container-PhotoCarousel {
@@ -145,7 +144,8 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-=======
+  }
+}
 @media only screen and (max-width: 480px) and (min-width: 300px) {
   .container-PhotoCarousel{
     height: auto;
@@ -183,7 +183,6 @@
   }
   .Caption4 h1 {
     font-size: x-small;
->>>>>>> c66652edf8697c61b2074ee6057847bc3832f531
   }
 }
 @media only screen and (min-width: 576px) {

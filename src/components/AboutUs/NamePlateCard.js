@@ -27,11 +27,11 @@ const NamePlateCard = ({memeCard: namePlate}) => {
         <Card.Body
           style={{
             color: 'aliceblue',
-            fontSize: '1.3rem',
-            lineHeight: '0.1em',
+            fontSize: '90%',
+            lineHeight: '80%',
           }}
         >
-          <Card.Title style={{fontSize: '1.9rem'}}>
+          <Card.Title style={{fontSize: '180%'}}>
             {namePlate.name}
           </Card.Title>
           <Card.Text>{namePlate.task}</Card.Text>
@@ -43,8 +43,8 @@ const NamePlateCard = ({memeCard: namePlate}) => {
           <img
             src={require (`${namePlate.image}`)}
             style={{
-              width: '25rem',
-              height: '14rem',
+              width: '93%',
+              height: '60%',
               borderRadius: '1rem',
               right: '3%',
               position: 'absolute',
