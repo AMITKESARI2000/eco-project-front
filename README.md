@@ -1,8 +1,14 @@
 # Soil Fertiliser 
 
-This is a project developed by students to help farmers.
+This is a project developed by students of IIT Tirupati to help farmers.
 
-It will display soil information of various states and districts.
+Data is collected from Government Open Websites. 
+
+It will display soil information of various states and districts of India.
+
+It was made as a part of Semester Ecology Project.
+
+Open for Contribution!!!
 
 To start the project
 - clone it
