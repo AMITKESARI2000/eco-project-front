@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  font-family: 'McLaren', cursive;
+  font-family: 'McLaren';
   background-image: linear-gradient(315deg, #ffffff 0%, #cea177 74%);
   /* background: linear-gradient(
     99deg,
@@ -15,7 +15,7 @@ body {
 }
 
 img {
-  background-color: white;
+  background-color: #000000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   border-radius: 25px;
