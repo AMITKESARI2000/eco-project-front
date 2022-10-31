@@ -6,12 +6,13 @@ class FunFacts extends Component {
   state = {
     facts: {
       FactsOnSoil: [
-        'There are more microorganisms in a handful of soil than there are people on earth.',
+        'There are more micro-organisms in a handful of soil than there are people on earth.',
         'It takes 500 years to produce just under an inch of topsoil, this is the most productive layer of soil.',
         'Soil is a living system.',
         'It provides all the nutrients required for successful plant growth.',
         'Soil consists of 45% minerals, 25% water, 25% air & 5% organic matter for good garden soil. Uncultivated soil tends to be 3% organic matter.',
         'As already mentioned 50% is air and water, the other 50% is broken rock and decaying plants and animals.',
+        'Improving productivity',
         'Approximately 10% of the world’s carbon dioxide emissions are stored in soil.',
         'It greatly reduces flood risk by storing up to 9200 tonnes of water per acre. In total that’s about 0.01% of the Earth’s total water.',
         'Soil acts as a filter for underground water, filtering out pollutants.',
@@ -29,6 +30,10 @@ class FunFacts extends Component {
       BenefitsOfPesticides: [
         'Pesticides help farmers to produce more with less land',
         'Pesticides ensure bountiful harvests.',
+        'Improving productivity',
+        'Protection of crop losses/yield reduction',
+        'Vector disease control',
+        'Quality of food',
         'Pesticides help keep food affordable.',
         'Pesticides help reduce waterborne and insect transmitted diseases.',
         'Pesticides help conserve the environment.',
