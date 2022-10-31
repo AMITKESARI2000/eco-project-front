@@ -26,7 +26,7 @@ const AboutUS = () => {
     {
       image: './Anand.jpeg',
       name: 'Anu Anand Annu ',
-      task: 'Content Creation , Data Collection ',
+      task: 'Content Creation , FrontEnd Design ',
     },
     {
       image: './Sowmya.jpeg',
